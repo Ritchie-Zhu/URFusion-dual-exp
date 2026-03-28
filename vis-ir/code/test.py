@@ -23,6 +23,13 @@ def parse_args():
     parser.add_argument('--fusion_ckpt', type=str, default='content-fusion', help='path to *_best_model.pth')
     parser.add_argument('--A2V_ckpt', type=str, default='A2V', help='path to *_best_model.pth')
     parser.add_argument('--outputDir', type=str, default='../results/', help='path to save the results')
+    parser.add_argument(
+        '--vis_degrade',
+        type=str,
+        default='none',
+        choices=('none', 'haze', 'heavy_haze'),
+        help='Optional synthetic degradation on visible input only (tensor haze), for weather-stress testing.',
+    )
     args = parser.parse_args()
     return args
 
@@ -77,6 +84,12 @@ with torch.no_grad():
         begin=time.time()
         names = sample['name']
         source1 = sample['img1'].to(device)
+        if args.vis_degrade == 'haze':
+            t, A = 0.55, 0.88
+            source1 = torch.clamp(source1 * t + A * (1.0 - t), 0.0, 1.0)
+        elif args.vis_degrade == 'heavy_haze':
+            t, A = 0.35, 0.92
+            source1 = torch.clamp(source1 * t + A * (1.0 - t), 0.0, 1.0)
         source2 = sample['img2'].to(device)
         source2 = source2.repeat(1, 3, 1, 1)
         fused_img, _ = model_F(torch.cat((source1, source2), 1), a1, b1, a2, b2, a3, b3, r1, r2, modulation=True)

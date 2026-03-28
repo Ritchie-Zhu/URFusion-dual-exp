@@ -60,6 +60,44 @@ def low_saturation(image, saturation_scale=random.uniform(0.6, 0.9)):
     hsv_image = cv2.merge([h, s, v])
     return cv2.cvtColor(hsv_image, cv2.COLOR_HSV2BGR)
 
+
+def apply_haze_rgb(image):
+    """Synthetic haze on RGB uint8 (physical-style: I = J*t + A*(1-t)). IR unchanged in pipeline."""
+    img = image.astype(np.float32) / 255.0
+    t = random.uniform(0.35, 0.88)
+    A = random.uniform(0.55, 0.98)
+    hazy = img * t + A * (1.0 - t)
+    return np.uint8(np.clip(hazy * 255.0, 0, 255))
+
+
+def apply_dense_fog_rgb(image):
+    """Stronger haze + mild blur to mimic low-visibility weather."""
+    h = apply_haze_rgb(image)
+    sigma = random.uniform(1.0, 2.8)
+    return cv2.GaussianBlur(h, (0, 0), sigmaX=sigma, sigmaY=sigma)
+
+
+def apply_rain_motion_blur_rgb(image):
+    """Mild directional blur + darken — crude rain / wet-glass prior without external assets."""
+    k = random.choice([3, 5, 7])
+    kernel = np.zeros((k, k), np.float32)
+    kernel[k // 2, :] = 1.0
+    kernel /= kernel.sum()
+    out = cv2.filter2D(image, -1, kernel)
+    scale = random.uniform(0.82, 0.96)
+    return np.uint8(np.clip(out.astype(np.float32) * scale, 0, 255))
+
+
+def apply_random_weather_degrade_vis_rgb(image):
+    """Pick one weather-style degradation for visible branch (uint8 RGB)."""
+    choice = random.choice(("haze", "fog", "rain"))
+    if choice == "haze":
+        return apply_haze_rgb(image)
+    if choice == "fog":
+        return apply_dense_fog_rgb(image)
+    return apply_rain_motion_blur_rgb(image)
+
+
 class SICE_IR(Dataset):
     def __init__(self, img_dir, transform=None):
         self.base_dir = img_dir
@@ -189,7 +227,7 @@ class SICE_VIS(Dataset):
 
 
 class SICE_F_stru(Dataset):
-    def __init__(self, img_dir, transform=None):
+    def __init__(self, img_dir, transform=None, weather_aug_p=0.0):
         self.base_dir = img_dir
         self.source1_dir = img_dir +'/VIS'
         self.source2_dir = img_dir + '/IR'
@@ -201,6 +239,7 @@ class SICE_F_stru(Dataset):
         self.source2 = [im_name for im_name in os.listdir(self.source2_dir)
                         if im_name.split('.')[-1].lower() in ('jpg', 'png', 'bmp')]
         self.transform = transform
+        self.weather_aug_p = float(weather_aug_p)
 
     def __len__(self):
         return len(self.source1)
@@ -222,6 +261,9 @@ class SICE_F_stru(Dataset):
         dist1 = random.randint(1, 7)
         dist_func1 = distortions.get(dist1)
         img1 = dist_func1(img1)
+
+        if self.weather_aug_p > 0 and random.random() < self.weather_aug_p:
+            img1 = apply_random_weather_degrade_vis_rgb(img1)
 
         dist2 = random.randint(1, 5)
         dist_func2 = distortions.get(dist2)

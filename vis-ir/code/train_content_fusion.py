@@ -34,6 +34,13 @@ def parse_args():
 	parser.add_argument('--numEpoch', type=int, default=80)
 	parser.add_argument('--patchsize', type=int, default=160)
 	parser.add_argument('--batchsize', type=int, default=12)
+	parser.add_argument(
+		'--weather_aug_p',
+		type=float,
+		default=0.0,
+		help='Per-sample prob to apply synthetic weather (haze/fog/rain-blur) on VIS only during fusion training. '
+			 '0 keeps original behavior; try 0.3–0.5 for weather-robust fusion.',
+	)
 	args = parser.parse_args()
 	return args
 
@@ -157,7 +164,7 @@ train_dir = os.path.join(basedir, 'train')
 trans_to_tensor = transforms.ToTensor()
 trans_crop = transforms.RandomCrop(args.patchsize, padding = None, pad_if_needed = False, fill = 0, padding_mode ='constant')
 trans_compose = transforms.Compose([trans_to_tensor, trans_crop])
-train_dataset = SICE_F_stru(train_dir, transform=trans_compose)
+train_dataset = SICE_F_stru(train_dir, transform=trans_compose, weather_aug_p=args.weather_aug_p)
 trainloader = DataLoader(train_dataset, batch_size=args.batchsize, shuffle=True, pin_memory=True)
 
 
