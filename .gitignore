@@ -37,6 +37,19 @@ data/
 train-jobs/log/
 train-jobs/ckpt/
 
+# vis-ir / multi-exposure: train-jobs under subprojects (root patterns above only match top-level train-jobs/)
+vis-ir/train-jobs/ckpt/
+vis-ir/train-jobs/log/
+vis-ir/train-jobs/fixed_samples/
+vis-ir/train-jobs/metrics_logs/
+vis-ir/train-jobs/sample_vis/
+vis-ir/train-jobs/plots/
+vis-ir/train-jobs/console_logs/
+vis-ir/train-jobs/eval_*/
+vis-ir/train-jobs/*.csv
+multi-exposure/train-jobs/log/
+multi-exposure/train-jobs/ckpt/
+
 # IDE
 .vscode/
 .idea/
