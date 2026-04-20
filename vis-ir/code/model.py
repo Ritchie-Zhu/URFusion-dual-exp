@@ -473,6 +473,205 @@ class FusionNetWithNoiseTop2MoE(FusionNet):
         return result, middle, aux
 
 
+class MoEFusionBlockNoiseTop3(nn.Module):
+    """
+    Top-3 sparse MoE at out7 (64 ch) with the same router/expert structure as noise_top2.
+    Routing:
+      clean_logits = z[:,:4] + z[:,4:8]
+      raw_noise_std = z[:,4:8]
+      std = softplus(raw_noise_std) + noise_epsilon
+      if training or (not deterministic_inference): route_logits = clean + randn * std
+      else: route_logits = clean
+      topk(route_logits, 3) -> masked softmax -> sparse gates over 3 experts
+    """
+
+    def __init__(self, noise_epsilon=1e-2):
+        super().__init__()
+        self.noise_epsilon = float(noise_epsilon)
+        self.deterministic_inference = False
+        self.router = nn.Sequential(
+            nn.Linear(96, 64),
+            nn.LeakyReLU(inplace=True),
+            nn.Linear(64, 8),
+        )
+        self.experts = nn.ModuleList()
+        for _ in range(4):
+            self.experts.append(
+                nn.Sequential(
+                    nn.Conv2d(64, 64, kernel_size=3, padding=1, bias=True),
+                    nn.ReLU(inplace=True),
+                    nn.Conv2d(64, 64, kernel_size=3, padding=1, bias=True),
+                )
+            )
+
+    def forward(self, x_feat, c):
+        x_g = nn.functional.adaptive_avg_pool2d(x_feat, 1).flatten(1)
+        ri = torch.cat([x_g, c], dim=1)
+        h = self.router[0](ri)
+        h = nn.functional.leaky_relu(h)
+        z = self.router[2](h)
+        clean_logits = z[:, :4] + z[:, 4:8]
+        raw_noise_std = z[:, 4:8]
+        std = nn.functional.softplus(raw_noise_std) + self.noise_epsilon
+        use_noisy_route = self.training or not self.deterministic_inference
+        if use_noisy_route:
+            route_logits = clean_logits + torch.randn_like(clean_logits) * std
+        else:
+            route_logits = clean_logits
+        top_v, top_i = torch.topk(route_logits, 3, dim=1)
+        masked = torch.full_like(clean_logits, float('-inf'))
+        masked.scatter_(1, top_i, top_v)
+        gate = nn.functional.softmax(masked, dim=1)
+        delta = 0
+        for k in range(4):
+            delta = delta + gate[:, k : k + 1, None, None] * self.experts[k](x_feat)
+        out = x_feat + delta
+        aux = {
+            'gate': gate,
+            'avg_gate': gate.mean(dim=0),
+            'clean_logits': clean_logits,
+            'raw_noise_std': raw_noise_std,
+            'routing_mode': 'noisy' if use_noisy_route else 'clean_deterministic',
+        }
+        return out, aux
+
+
+class FusionNetWithNoiseTop3MoE(FusionNet):
+    """FusionNet + MoE after out7; same backbone as noise_top2; MoE uses top_k=3 noisy routing."""
+
+    def __init__(self):
+        super().__init__()
+        self.prior_extractor = ConditionPriorExtractor()
+        self.moe_block = MoEFusionBlockNoiseTop3()
+
+    def forward(self, x, alpha1, beta1, alpha2, beta2, alpha3, beta3, r1, r2, modulation=False):
+        img_vis = x[:, :3, :, :]
+        img_ir = x[:, 3:, :, :]
+        c = self.prior_extractor(img_vis, img_ir)
+
+        x = nn.functional.pad(x, (1, 1, 1, 1), mode='reflect')
+        out1 = nn.functional.leaky_relu(self.conv1(x))
+
+        out2 = nn.functional.pad(out1, (1, 1, 1, 1), mode='reflect')
+        out2 = nn.functional.leaky_relu(self.conv2(out2))
+
+        out3 = nn.functional.pad(out2, (1, 1, 1, 1), mode='reflect')
+        out3 = nn.functional.leaky_relu(self.conv3(out3))
+
+        out13 = torch.cat((out3, out1), 1)
+        avg_out13 = self.avg_pool(out13).squeeze(-1).squeeze(-1)
+        max_out13 = self.max_pool(out13).squeeze(-1).squeeze(-1)
+        avg_attention13 = self.fc(avg_out13)
+        max_attention13 = self.fc(max_out13)
+        attention13 = avg_attention13.unsqueeze(2).unsqueeze(3) + max_attention13.unsqueeze(2).unsqueeze(3)
+        out13_atten = out13 * self.sigmoid(attention13)
+
+        out4 = nn.functional.pad(out13_atten, (1, 1, 1, 1), mode='reflect')
+        out4 = self.conv4(out4)
+        avg_out4 = torch.mean(out4, dim=1, keepdim=True)
+        max_out4, _ = torch.max(out4, dim=1, keepdim=True)
+        input = torch.cat([avg_out4, max_out4], dim=1)
+        input = nn.functional.pad(input, (2, 2, 2, 2), mode='reflect')
+        attention4 = nn.functional.leaky_relu(self.sa_conv1_1(input))
+        attention4 = nn.functional.pad(attention4, (1, 1, 1, 1), mode='reflect')
+        attention4 = self.sa_conv1_2(attention4)
+        out4 = nn.functional.leaky_relu(out4 * self.sigmoid(attention4))
+
+        out4_ds = self.avg_pool_2(out4)
+        out5 = nn.functional.pad(out4_ds, (1, 1, 1, 1), mode='reflect')
+        out5 = nn.functional.leaky_relu(self.conv5(out5))
+
+        out3_ds = self.avg_pool_2(out3)
+        out35 = torch.cat((out5, out3_ds), 1)
+        avg_out35 = torch.mean(out35, dim=1, keepdim=True)
+        max_out35, _ = torch.max(out35, dim=1, keepdim=True)
+        input = torch.cat([avg_out35, max_out35], dim=1)
+        input = nn.functional.pad(input, (2, 2, 2, 2), mode='reflect')
+        attention35 = nn.functional.leaky_relu(self.sa_conv2_1(input))
+        attention35 = nn.functional.pad(attention35, (1, 1, 1, 1), mode='reflect')
+        attention35 = self.sa_conv2_2(attention35)
+        out35 = nn.functional.leaky_relu(out35 * self.sigmoid(attention35))
+        out35_us = nn.functional.interpolate(out35, scale_factor=2, mode='bicubic', align_corners=True)
+
+        out6 = nn.functional.pad(out35_us, (1, 1, 1, 1), mode='reflect')
+        out6 = nn.functional.leaky_relu(self.conv6(out6))
+
+        input = torch.cat((out6, out4), dim=1)
+        input = nn.functional.pad(input, (1, 1, 1, 1), mode='reflect')
+        out7 = self.conv7(input)
+        avg_out7 = torch.mean(out7, dim=1, keepdim=True)
+        max_out7, _ = torch.max(out7, dim=1, keepdim=True)
+        input = torch.cat([avg_out7, max_out7], dim=1)
+        input = nn.functional.pad(input, (2, 2, 2, 2), mode='reflect')
+        attention7 = nn.functional.leaky_relu(self.sa_conv3_1(input))
+        attention7 = nn.functional.pad(attention7, (1, 1, 1, 1), mode='reflect')
+        attention7 = self.sa_conv3_2(attention7)
+        out7 = nn.functional.leaky_relu(out7 * self.sigmoid(attention7))
+
+        out7, aux = self.moe_block(out7, c)
+
+        out8 = nn.functional.pad(out7, (1, 1, 1, 1), mode='reflect')
+        out8 = self.conv8(out8)
+        out8 = nn.functional.leaky_relu(out8)
+
+        out9 = nn.functional.pad(out8, (1, 1, 1, 1), mode='reflect')
+        out9 = self.conv9(out9)
+        out9 = nn.functional.leaky_relu(out9)
+
+        out10 = nn.functional.pad(out9, (1, 1, 1, 1), mode='reflect')
+        out10 = self.conv10(out10)
+        out10 = self.Norm8(out10)
+        out10 = nn.functional.leaky_relu(out10)
+
+        out11 = nn.functional.pad(out10, (1, 1, 1, 1), mode='reflect')
+        out11 = self.conv11(out11)
+        out11 = self.Norm4(out11)
+        out11 = nn.functional.leaky_relu(out11)
+
+        out12 = nn.functional.pad(out11, (1, 1, 1, 1), mode='reflect')
+        out12 = self.conv12(out12)
+        result = self.tanh(out12) / 2 + 0.5
+
+        middle = result
+
+        if modulation:
+            middle = alpha1.unsqueeze(-1).unsqueeze(-1).repeat(1, 3, out10.shape[2], out10.shape[3]) * out12 \
+                     + beta1.unsqueeze(-1).unsqueeze(-1).repeat(1, 3, out10.shape[2], out10.shape[3])
+            middle = self.tanh(middle) / 2 + 0.5
+
+            middle = alpha2.unsqueeze(-1).unsqueeze(-1).repeat(1, 3, out10.shape[2], out10.shape[3]) * middle \
+                     + beta2.unsqueeze(-1).unsqueeze(-1).repeat(1, 3, out10.shape[2], out10.shape[3])
+
+            r1 = r1.unsqueeze(-1).unsqueeze(-1).repeat(1, 1, out10.size(2), out10.size(3))
+            middle_ycbcr = rgb2ycbcr(middle)
+            middle_y = middle_ycbcr[:, 0:1, :, :]
+            middle_y_mean = torch.mean(middle_y, [2, 3]).unsqueeze(-1).unsqueeze(-1).repeat(1, 1, out10.size(2),
+                                                                                            out10.size(3))
+            middle_y_adjust = torch.clamp((middle_y - middle_y_mean) * r1 + middle_y_mean, min=0, max=1)
+            middle_adjust_contrast = ycbcr2rgb(
+                torch.cat((middle_y_adjust, middle_ycbcr[:, 1:2, :, :], middle_ycbcr[:, 2:3, :, :]), 1))
+
+            middle_adjust_contrast = alpha3.unsqueeze(-1).unsqueeze(-1).repeat(1, 3, out10.shape[2],
+                                                                               out10.shape[3]) * middle_adjust_contrast \
+                                     + beta3.unsqueeze(-1).unsqueeze(-1).repeat(1, 3, out10.shape[2], out10.shape[3])
+
+            r2 = r2.unsqueeze(-1).unsqueeze(-1).repeat(1, 1, out10.shape[2], out10.shape[3])
+            middle_gray = rgb2gray(middle_adjust_contrast)
+            middle_r = middle_adjust_contrast[:, 0:1, :, :]
+            middle_g = middle_adjust_contrast[:, 1:2, :, :]
+            middle_b = middle_adjust_contrast[:, 2:3, :, :]
+            mask = 1 - rgb2gray(
+                torch.cat((middle_r - middle_gray, middle_g - middle_gray, middle_b - middle_gray), dim=1))
+            middle_r2 = middle_r * (1 + r2 * mask) - middle_gray * (r2 * mask)
+            middle_g2 = middle_g * (1 + r2 * mask) - middle_gray * (r2 * mask)
+            middle_b2 = middle_b * (1 + r2 * mask) - middle_gray * (r2 * mask)
+
+            result = torch.cat((middle_r2, middle_g2, middle_b2), dim=1)
+            result = torch.clamp(result, min=0, max=1)
+
+        return result, middle, aux
+
+
 class MoEFusionBlockNoiseTop1(nn.Module):
     """
     Same 8-dim router as noise_top2: noisy_logits = clean + randn * (softplus(raw_std)+eps), topk(...,1).

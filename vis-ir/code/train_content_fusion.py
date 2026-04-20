@@ -48,8 +48,8 @@ def parse_args():
 		'--fusion_model',
 		type=str,
 		default='fusionnet',
-		choices=('fusionnet', 'noise_top1', 'noise_top2'),
-		help='fusionnet: baseline FusionNet; noise_top1 / noise_top2: noisy dual-head router + sparse top-k MoE.',
+		choices=('fusionnet', 'noise_top1', 'noise_top2', 'noise_top3'),
+		help='fusionnet: baseline FusionNet; noise_top{1,2,3}: noisy router + sparse top-k MoE.',
 	)
 	parser.add_argument('--lambda_aux', type=float, default=0.01, help='Weight for MoE aux (CV^2 importance + CV^2 load).')
 	parser.add_argument(
@@ -84,7 +84,7 @@ def parse_args():
 		help='Optional: directory of fixed test VIS images for epoch-end PNGs (default: testDir/vis).',
 	)
 	args = parser.parse_args()
-	if args.fusion_model in ('noise_top1', 'noise_top2') and args.experiment == 'content-fusion':
+	if args.fusion_model in ('noise_top1', 'noise_top2', 'noise_top3') and args.experiment == 'content-fusion':
 		args.experiment = args.fusion_model
 	return args
 
@@ -153,6 +153,32 @@ def _noise_moe_csv_fieldnames(top_k):
 			'lambda_aux_applied',
 			'in_aux_warmup',
 		]
+	if top_k == 3:
+		return [
+			'epoch',
+			'loss',
+			'loss_structure',
+			'loss_color',
+			'aux_loss',
+			'importance_loss',
+			'load_loss',
+			'hit_rate_0',
+			'hit_rate_1',
+			'hit_rate_2',
+			'hit_rate_3',
+			'importance_0',
+			'importance_1',
+			'importance_2',
+			'importance_3',
+			'expert_slot_count_0',
+			'expert_slot_count_1',
+			'expert_slot_count_2',
+			'expert_slot_count_3',
+			'excluded_expert_count_0',
+			'excluded_expert_count_1',
+			'excluded_expert_count_2',
+			'excluded_expert_count_3',
+		]
 	return [
 		'epoch',
 		'loss',
@@ -193,6 +219,10 @@ def _save_fixed_noise_moe_samples(
 	if hasattr(model_F, 'moe_block') and hasattr(model_F.moe_block, 'deterministic_inference'):
 		prev_det = model_F.moe_block.deterministic_inference
 		model_F.moe_block.deterministic_inference = True
+		print(
+			f'[fixed_samples] epoch {epoch_display}: MoE router = deterministic (clean_logits top-k)',
+			flush=True,
+		)
 	with torch.no_grad():
 		for name in names:
 			vp = os.path.join(vis_dir, name)
@@ -373,6 +403,22 @@ def train_one_epoch_noise_moe(
 		print(f'epoch_mean_importance = [{imp_list}]')
 		print(f'top1_expert_count = {topk_expert_count}')
 		print(f'time_elapsed = {datetime.now() - begin_time}', flush=True)
+	elif top_k == 3:
+		hit_list = ', '.join(f'{mean_hit[j]:.5f}' for j in range(4))
+		imp_list = ', '.join(f'{mean_imp[j]:.5f}' for j in range(4))
+		excluded = [int(max(total_samples, 0) - topk_expert_count[j]) for j in range(4)]
+		print(f'Epoch {epoch_display} finished')
+		print(f'loss = {avg_loss:.6f}')
+		print(f'loss_structure = {avg_ls:.6f}')
+		print(f'loss_color = {avg_lc:.6f}')
+		print(f'aux_loss = {avg_aux:.6f}')
+		print(f'importance_loss = {avg_imp:.6f}')
+		print(f'load_loss = {avg_ld:.6f}')
+		print(f'epoch_mean_hit_rate = [{hit_list}]')
+		print(f'epoch_mean_importance = [{imp_list}]')
+		print(f'expert_slot_count = {topk_expert_count}')
+		print(f'excluded_expert_count = {excluded}')
+		print(f'time_elapsed = {datetime.now() - begin_time}', flush=True)
 	else:
 		print(
 			f'[noise_moe epoch {epoch_display}/{num_epochs}] batches={n_batches} '
@@ -423,8 +469,12 @@ def train_one_epoch_noise_moe(
 					flush=True,
 				)
 	else:
-		for j in range(4):
-			row[f'top2_expert_activation_count_{j}'] = topk_expert_count[j]
+		if top_k == 3:
+			for j in range(4):
+				row[f'excluded_expert_count_{j}'] = int(max(total_samples, 0) - topk_expert_count[j])
+		elif top_k == 2:
+			for j in range(4):
+				row[f'top2_expert_activation_count_{j}'] = topk_expert_count[j]
 	return row
 
 
@@ -572,6 +622,10 @@ elif args.fusion_model == 'noise_top2':
 	model_F = FusionNetWithNoiseTop2MoE()
 	model_F_vis = FusionNetWithNoiseTop2MoE()
 	top_k = 2
+elif args.fusion_model == 'noise_top3':
+	model_F = FusionNetWithNoiseTop3MoE()
+	model_F_vis = FusionNetWithNoiseTop3MoE()
+	top_k = 3
 else:
 	model_F = FusionNet()
 	model_F_vis = FusionNet()
@@ -614,7 +668,7 @@ print(
 )
 begin_time = datetime.now()
 
-if args.fusion_model in ('noise_top1', 'noise_top2'):
+if args.fusion_model in ('noise_top1', 'noise_top2', 'noise_top3'):
 	vgg16 = models.vgg16(pretrained=True).features
 	vgg16.to(device).eval()
 	if args.fusion_model == 'noise_top1':
