@@ -1,6 +1,9 @@
 """
-Run MSRS-style fusion test for noise_top2 experiment (FusionNetWithNoiseTop2MoE).
-Same data path and A2V/vis.mat usage as test.py.
+Run MSRS-style fusion test for noise_top1 experiment (FusionNetWithNoiseTop1MoE).
+Same data path and A2V/vis.mat usage as test_noise_top2.py.
+
+Offline metrics (EN, SD, AG, SSIM_vis, MI_vis, MI_ir): run evaluate_metrics.py on fused output
+dirs — same protocol as noise_top2.
 """
 import argparse
 import os
@@ -14,7 +17,7 @@ from torch.utils.data import DataLoader
 from torchvision import transforms
 
 from dataset import SICE_TEST
-from model import FusionNetWithNoiseTop2MoE, A2V_Encoder
+from model import FusionNetWithNoiseTop1MoE, A2V_Encoder
 from utils import *
 
 
@@ -26,11 +29,17 @@ def parse_args():
     parser.add_argument(
         '--fusion_ckpt',
         type=str,
-        default='noise_top2',
+        default='noise_top1',
         help='Checkpoint prefix under ../train-jobs/ckpt/<prefix>_ckpt.pth',
     )
     parser.add_argument('--A2V_ckpt', type=str, default='A2V-msrs')
-    parser.add_argument('--outputDir', type=str, default='../results/noise_top2_test_fused/')
+    parser.add_argument('--outputDir', type=str, default='../results/noise_top1_test_fused/')
+    parser.add_argument(
+        '--noise_epsilon',
+        type=float,
+        default=1e-2,
+        help='Must match training MoE block noise_epsilon for routing noise scale.',
+    )
     parser.add_argument(
         '--vis_degrade',
         type=str,
@@ -55,7 +64,8 @@ else:
     device = torch.device('cpu')
     torch.manual_seed(1234)
 
-model_F = FusionNetWithNoiseTop2MoE()
+model_F = FusionNetWithNoiseTop1MoE()
+model_F.moe_block.noise_epsilon = float(args.noise_epsilon)
 model_F.moe_block.deterministic_inference = not args.stochastic_router
 model_A = A2V_Encoder()
 model_F.to(device)
