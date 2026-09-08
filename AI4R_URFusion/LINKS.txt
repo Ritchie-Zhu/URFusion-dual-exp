@@ -4,7 +4,8 @@
 https://github.com/hanna-xu/URFusion
 
 本工作仓（人工复现 + 后续实验，当前 origin / 分支 dev）:
-https://github.com/Ritchie-Zhu/URFusion.git
+https://github.com/Ritchie-Zhu/URFusion-dual-exp
+（旧名 Ritchie-Zhu/URFusion 会跳转到此）
 
 论文 PDF:
 - 官方: https://github.com/hanna-xu/URFusion/blob/main/paper.pdf

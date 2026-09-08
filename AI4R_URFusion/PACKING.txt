@@ -3,7 +3,7 @@
 仓库链接只负责让它看代码和实验目录，不必在 README 里介绍 URFusion 论文。
 下面这个压缩包才是「材料 2–5」。不要把 datasets、*.pth、融合 RGB 大图打进去。
 
-建议文件名: URFusion-visir-exp_AI4R.zip
+建议文件名: URFusion-dual-exp_AI4R.zip
 
 URFusion-visir-exp_AI4R/
   00_DIRECTION.txt              <- 意向合作方向（现 AI4R_URFusion/DIRECTION.txt）
