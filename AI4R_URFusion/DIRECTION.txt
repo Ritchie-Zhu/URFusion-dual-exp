@@ -1,0 +1,7 @@
+意向合作方向
+
+基于 URFusion（IEEE TIP 2025）开源 vis-ir 实现，在已锁定的去泄漏灰度融合协议上，研发新的可见光-红外融合网络。
+
+已完成：官方方法的人工复现与协议改造（灰度 Y + VIS 色度、C 仅训练监督、training_noleak）；双分支有效（A1）；同构 MoE（Full）输给单 mixer（A2）。另有完整对照：S1、moe_update（SpatialResMoE v1/v2 饱和、v3 训满）、moe_2（leak-free 互斥）、moe_3（ConflictAdd，门控打满后停训）。路径见 experiments_inventory.txt，均未超过 A2/S1，禁止当主方法或原样重训。
+
+目标不是把「双分支 + 单个 FusionExpertBlock」（内部代号 A2）写成终稿。A2 指标强但贡献偏薄。希望 AI4R 在不重复已失败 MoE 设计的前提下，提出并实现可投稿的新模型：主表 6 列超过 A2 与 S1，或在 6 列不掉的同时打开退化鲁棒 / 检测保持等新轴。

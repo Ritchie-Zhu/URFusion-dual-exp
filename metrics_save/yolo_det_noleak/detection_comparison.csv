@@ -1,0 +1,2 @@
+input,n_images,mAP50,mAP50-95,precision,recall,f1,AP50-95_person,AP50-95_car,AP50-95_bus,AP50-95_lamp,AP50-95_motorcycle,AP50-95_truck,eval_time_s
+Fusion_noleak_1,2000,0.803094,0.514827,0.872592,0.731939,0.7961,0.445347,0.626294,0.665793,0.420738,0.331671,0.599117,10.53

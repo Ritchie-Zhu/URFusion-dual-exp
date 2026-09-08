@@ -1,0 +1,2 @@
+input,n_images,mAP50,mAP50-95,precision,recall,f1,AP50-95_person,AP50-95_car,AP50-95_bus,AP50-95_lamp,AP50-95_motorcycle,AP50-95_truck,eval_time_s
+SpatialResMoE_3,2000,0.798915,0.513485,0.861853,0.73056,0.790794,0.441238,0.62351,0.66675,0.421473,0.327675,0.600262,11.42

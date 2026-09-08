@@ -53,3 +53,35 @@ multi-exposure/train-jobs/ckpt/
 # IDE
 .vscode/
 .idea/
+
+# Local datasets and third-party comparison clones (do not upload)
+datasets/
+DDFM/
+EMMA/
+EgeFusion/
+GIFNet/
+LRRNet/
+MUFusion/
+MetaFusion/
+SAGE/
+SegMiF/
+Text-IF/
+U2Fusion/
+untitled.txt
+
+# Nested official snapshot except paper.pdf (added explicitly if needed)
+URFusion/vis-ir/
+URFusion/multi-exposure/
+
+# Gray / MoE experiment bulky outputs
+**/train-jobs/ckpt/
+**/train-jobs/fixed_examples/
+**/train-jobs/fixed_samples/
+**/eval_staging/
+metrics_save/**/*.png
+metrics_save/**/*.jpg
+metrics_save/**/*.jpeg
+
+# Keep experiment console logs despite generic *.log
+!**/console_logs/*.log
+!**/train-jobs/console_logs/*.log

@@ -1,0 +1,59 @@
+[START] Vis_Content_noleak | data=/root/autodl-tmp/URFusion-main/datasets/training_noleak/train
+  latest_ckpt=/root/autodl-tmp/URFusion-main/vis-ir-gray/train-jobs/ckpt/Vis_Content_noleak/Vis_Content_noleak_ckpt.pth
+  epoch_ckpt_dir=/root/autodl-tmp/URFusion-main/vis-ir-gray/train-jobs/ckpt/Vis_Content_noleak/epoch_{NNN}/ckpt.pth (every 10 epochs)
+[C_vis_gray] epoch 1/50 loss=0.017799 loss_feature=0.017576 loss_contrastive=1.565285 loss_sim=0.000413 elapsed=0:08:30.305596
+[C_vis_gray] epoch 2/50 loss=0.003616 loss_feature=0.002825 loss_contrastive=1.559311 loss_sim=0.001552 elapsed=0:17:01.195468
+[C_vis_gray] epoch 3/50 loss=0.003008 loss_feature=0.002236 loss_contrastive=1.558742 loss_sim=0.001512 elapsed=0:25:25.680923
+[C_vis_gray] epoch 4/50 loss=0.002892 loss_feature=0.002102 loss_contrastive=1.558421 loss_sim=0.001549 elapsed=0:33:55.526260
+[C_vis_gray] epoch 5/50 loss=0.002686 loss_feature=0.001929 loss_contrastive=1.558319 loss_sim=0.001483 elapsed=0:42:25.450699
+[C_vis_gray] epoch 6/50 loss=0.002600 loss_feature=0.001848 loss_contrastive=1.558045 loss_sim=0.001473 elapsed=0:50:52.395792
+[C_vis_gray] epoch 7/50 loss=0.002445 loss_feature=0.001716 loss_contrastive=1.558031 loss_sim=0.001426 elapsed=0:59:24.164829
+[C_vis_gray] epoch 8/50 loss=0.002377 loss_feature=0.001654 loss_contrastive=1.557697 loss_sim=0.001415 elapsed=1:07:51.097849
+[C_vis_gray] epoch 9/50 loss=0.002225 loss_feature=0.001526 loss_contrastive=1.557499 loss_sim=0.001367 elapsed=1:16:21.217444
+[C_vis_gray] epoch 10/50 loss=0.002150 loss_feature=0.001453 loss_contrastive=1.557146 loss_sim=0.001363 elapsed=1:24:48.967532
+  saved epoch snapshot: ../train-jobs/ckpt/Vis_Content_noleak/epoch_010/ckpt.pth
+[C_vis_gray] epoch 11/50 loss=0.002089 loss_feature=0.001409 loss_contrastive=1.557105 loss_sim=0.001329 elapsed=1:33:13.676625
+[C_vis_gray] epoch 12/50 loss=0.002084 loss_feature=0.001393 loss_contrastive=1.557038 loss_sim=0.001350 elapsed=1:41:46.384666
+[C_vis_gray] epoch 13/50 loss=0.002020 loss_feature=0.001339 loss_contrastive=1.557036 loss_sim=0.001330 elapsed=1:50:13.964106
+[C_vis_gray] epoch 14/50 loss=0.002098 loss_feature=0.001395 loss_contrastive=1.557160 loss_sim=0.001374 elapsed=1:58:47.930365
+[C_vis_gray] epoch 15/50 loss=0.002035 loss_feature=0.001351 loss_contrastive=1.556956 loss_sim=0.001336 elapsed=2:07:18.772055
+[C_vis_gray] epoch 16/50 loss=0.001975 loss_feature=0.001301 loss_contrastive=1.557010 loss_sim=0.001316 elapsed=2:15:50.767069
+[C_vis_gray] epoch 17/50 loss=0.002000 loss_feature=0.001312 loss_contrastive=1.556926 loss_sim=0.001346 elapsed=2:24:27.495730
+[C_vis_gray] epoch 18/50 loss=0.001972 loss_feature=0.001295 loss_contrastive=1.557019 loss_sim=0.001322 elapsed=2:32:55.897773
+[C_vis_gray] epoch 19/50 loss=0.001951 loss_feature=0.001274 loss_contrastive=1.556854 loss_sim=0.001323 elapsed=2:41:23.369699
+[C_vis_gray] epoch 20/50 loss=0.001999 loss_feature=0.001319 loss_contrastive=1.556989 loss_sim=0.001329 elapsed=2:49:49.372648
+  saved epoch snapshot: ../train-jobs/ckpt/Vis_Content_noleak/epoch_020/ckpt.pth
+[C_vis_gray] epoch 21/50 loss=0.001956 loss_feature=0.001275 loss_contrastive=1.556815 loss_sim=0.001330 elapsed=2:58:14.280193
+[C_vis_gray] epoch 22/50 loss=0.001964 loss_feature=0.001286 loss_contrastive=1.556770 loss_sim=0.001325 elapsed=3:06:42.568602
+[C_vis_gray] epoch 23/50 loss=0.001942 loss_feature=0.001269 loss_contrastive=1.556804 loss_sim=0.001314 elapsed=3:15:17.027454
+[C_vis_gray] epoch 24/50 loss=0.001935 loss_feature=0.001260 loss_contrastive=1.556712 loss_sim=0.001320 elapsed=3:23:47.737011
+[C_vis_gray] epoch 25/50 loss=0.001889 loss_feature=0.001226 loss_contrastive=1.556672 loss_sim=0.001295 elapsed=3:32:16.107744
+[C_vis_gray] epoch 26/50 loss=0.001901 loss_feature=0.001241 loss_contrastive=1.556858 loss_sim=0.001288 elapsed=3:40:44.401204
+[C_vis_gray] epoch 27/50 loss=0.001959 loss_feature=0.001282 loss_contrastive=1.556530 loss_sim=0.001322 elapsed=3:49:20.610521
+[C_vis_gray] epoch 28/50 loss=0.001937 loss_feature=0.001264 loss_contrastive=1.556794 loss_sim=0.001315 elapsed=3:57:44.210371
+[C_vis_gray] epoch 29/50 loss=0.001907 loss_feature=0.001249 loss_contrastive=1.556621 loss_sim=0.001286 elapsed=4:06:11.219269
+[C_vis_gray] epoch 30/50 loss=0.001865 loss_feature=0.001210 loss_contrastive=1.556645 loss_sim=0.001279 elapsed=4:14:33.013301
+  saved epoch snapshot: ../train-jobs/ckpt/Vis_Content_noleak/epoch_030/ckpt.pth
+[C_vis_gray] epoch 31/50 loss=0.001861 loss_feature=0.001214 loss_contrastive=1.556816 loss_sim=0.001263 elapsed=4:23:01.143109
+[C_vis_gray] epoch 32/50 loss=0.001890 loss_feature=0.001233 loss_contrastive=1.556601 loss_sim=0.001282 elapsed=4:31:37.300988
+[C_vis_gray] epoch 33/50 loss=0.001886 loss_feature=0.001223 loss_contrastive=1.556525 loss_sim=0.001295 elapsed=4:40:20.197093
+[C_vis_gray] epoch 34/50 loss=0.001896 loss_feature=0.001234 loss_contrastive=1.556507 loss_sim=0.001292 elapsed=4:49:04.587618
+[C_vis_gray] epoch 35/50 loss=0.001874 loss_feature=0.001224 loss_contrastive=1.556877 loss_sim=0.001267 elapsed=4:57:42.313035
+[C_vis_gray] epoch 36/50 loss=0.001886 loss_feature=0.001228 loss_contrastive=1.556684 loss_sim=0.001285 elapsed=5:06:13.970923
+[C_vis_gray] epoch 37/50 loss=0.001818 loss_feature=0.001178 loss_contrastive=1.556510 loss_sim=0.001249 elapsed=5:14:48.009336
+[C_vis_gray] epoch 38/50 loss=0.001907 loss_feature=0.001240 loss_contrastive=1.556716 loss_sim=0.001304 elapsed=5:23:22.673676
+[C_vis_gray] epoch 39/50 loss=0.001846 loss_feature=0.001192 loss_contrastive=1.556515 loss_sim=0.001278 elapsed=5:31:53.931435
+[C_vis_gray] epoch 40/50 loss=0.001883 loss_feature=0.001228 loss_contrastive=1.556465 loss_sim=0.001280 elapsed=5:40:22.430299
+  saved epoch snapshot: ../train-jobs/ckpt/Vis_Content_noleak/epoch_040/ckpt.pth
+[C_vis_gray] epoch 41/50 loss=0.001811 loss_feature=0.001169 loss_contrastive=1.556681 loss_sim=0.001254 elapsed=5:48:46.331893
+[C_vis_gray] epoch 42/50 loss=0.001850 loss_feature=0.001202 loss_contrastive=1.556527 loss_sim=0.001264 elapsed=5:57:09.797441
+[C_vis_gray] epoch 43/50 loss=0.001848 loss_feature=0.001198 loss_contrastive=1.556682 loss_sim=0.001269 elapsed=6:05:29.868561
+[C_vis_gray] epoch 44/50 loss=0.001870 loss_feature=0.001214 loss_contrastive=1.556462 loss_sim=0.001281 elapsed=6:13:40.888526
+[C_vis_gray] epoch 45/50 loss=0.001868 loss_feature=0.001212 loss_contrastive=1.556817 loss_sim=0.001282 elapsed=6:21:52.888890
+[C_vis_gray] epoch 46/50 loss=0.001828 loss_feature=0.001180 loss_contrastive=1.556622 loss_sim=0.001264 elapsed=6:30:20.978819
+[C_vis_gray] epoch 47/50 loss=0.001895 loss_feature=0.001234 loss_contrastive=1.556753 loss_sim=0.001291 elapsed=6:39:03.325906
+[C_vis_gray] epoch 48/50 loss=0.001842 loss_feature=0.001197 loss_contrastive=1.556345 loss_sim=0.001259 elapsed=6:47:38.409223
+[C_vis_gray] epoch 49/50 loss=0.001845 loss_feature=0.001198 loss_contrastive=1.556485 loss_sim=0.001263 elapsed=6:55:46.237946
+[C_vis_gray] epoch 50/50 loss=0.001820 loss_feature=0.001177 loss_contrastive=1.556401 loss_sim=0.001257 elapsed=7:03:56.630993
+  saved epoch snapshot: ../train-jobs/ckpt/Vis_Content_noleak/epoch_050/ckpt.pth
+[DONE] Vis_Content_noleak

@@ -1,0 +1,37 @@
+M3FD n=300  Abl_SR_wo_Res vs SpatialResMoE_3 (Full)
+--- 6-col (higher better) ---
+      metric          S1        Full       delta
+         NMI      0.6285      0.6168     +0.0117
+          Qy      0.9562      0.9561     +0.0001
+          MI      4.3163      4.2353     +0.0810
+         VIF      0.8857      0.8636     +0.0221
+        Qabf      0.6956      0.6880     +0.0077
+        VIFF      0.6400      0.6219     +0.0181
+--- 25-col ---
+      metric          S1        Full       delta  note
+          CE      0.7106      0.7062     +0.0044  lower better  Full
+         NMI      0.6285      0.6168     +0.0117  higher better  S1
+       QNCIE      0.8751      0.8745     +0.0006  higher better  S1
+          TE      6.9112      6.9156     -0.0045  higher better  Full
+          EI     54.1770     53.1264     +1.0506  higher better  S1
+          Qy      0.9562      0.9561     +0.0001  higher better  S1
+         Qcb      0.5043      0.4972     +0.0070  higher better  S1
+          EN      6.8382      6.8337     +0.0045  higher better  S1
+          MI      4.3163      4.2353     +0.0810  higher better  S1
+          SF     14.7180     14.4434     +0.2746  higher better  S1
+          AG      4.9803      4.8810     +0.0994  higher better  S1
+          SD     35.9607     35.8680     +0.0926  higher better  S1
+          CC      0.4828      0.4853     -0.0025  higher better  Full
+         SCD      1.6020      1.6126     -0.0107  higher better  Full
+         VIF      0.8857      0.8636     +0.0221  higher better  S1
+         MSE      0.0603      0.0590     +0.0013  lower better  Full
+        PSNR     13.0164     13.1068     -0.0904  higher better  Full
+        Qabf      0.6956      0.6880     +0.0077  higher better  S1
+        Nabf      0.0263      0.0166     +0.0097  lower better  Full
+        SSIM      0.4614      0.4607     +0.0007  higher better  S1
+     MS_SSIM      0.4876      0.4883     -0.0007  higher better  Full
+        VIFF      0.6400      0.6219     +0.0181  higher better  S1
+        NIQE      4.3621      4.3841     -0.0219  lower better  S1
+     BRISQUE     27.8468     27.4424     +0.4044  lower better  Full
+       MUSIQ     56.8244     56.7833     +0.0412  higher better  S1
+S1 better on 16/25 cells

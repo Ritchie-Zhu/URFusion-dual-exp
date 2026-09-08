@@ -1,0 +1,2117 @@
+[2026-07-16 08:25:56] ========== URFusion official @ YOLO test 2000 START ==========
+[2026-07-16 08:25:56] ckpt: /root/autodl-tmp/URFusion-main/URFusion/vis-ir/train-jobs/ckpt/content-fusion_ckpt.pth
+[2026-07-16 08:25:56] vis.mat: /root/autodl-tmp/URFusion-main/URFusion/vis-ir/train-jobs/vis.mat
+[2026-07-16 08:25:56] A2V: /root/autodl-tmp/URFusion-main/URFusion/vis-ir/train-jobs/ckpt/A2V_ckpt.pth
+[2026-07-16 08:25:56] weights: /root/autodl-tmp/URFusion-main/datasets/yolo/runs/yolo11s_iv_det/weights/best.pt
+[2026-07-16 08:25:56] ===== rebuild test_iv_2000 =====
+Built 2000 pairs -> /root/autodl-tmp/URFusion-main/datasets/yolo/test_iv_2000
+  vis: 2000
+  ir:  2000
+[2026-07-16 08:25:56] test pairs: vis=2000 ir=2000
+[2026-07-16 08:25:56] ===== URFusion inference (official test.py) =====
+fusion epoch:  80
+A2V epoch:  30
+/root/autodl-tmp/URFusion-main/datasets/yolo/test_iv_2000/vis
+/root/autodl-tmp/URFusion-main/datasets/yolo/test_iv_2000/ir
+02689.png
+01872.png
+01584.png
+220256.jpg
+03318.png
+210154.jpg
+160151.jpg
+02049.png
+020043.jpg
+01515.png
+03878.png
+01512.png
+130136.jpg
+070382.jpg
+100978.jpg
+03620.png
+160457.jpg
+130464.jpg
+00987.png
+01920.png
+060369.jpg
+03464.png
+010500.jpg
+01966.png
+070062.jpg
+020152.jpg
+091123.jpg
+030236.jpg
+210357.jpg
+150409.jpg
+190731.jpg
+170115.jpg
+00133.png
+00114.png
+170398.jpg
+03428.png
+240403.jpg
+02214.png
+04152.png
+230271.jpg
+020493.jpg
+240065.jpg
+130107.jpg
+130430.jpg
+210359.jpg
+040452.jpg
+050080.jpg
+080784.jpg
+01510.png
+130486.jpg
+020317.jpg
+070161.jpg
+00146.png
+090781.jpg
+010414.jpg
+00440.png
+120362.jpg
+02337.png
+140485.jpg
+070153.jpg
+100534.jpg
+170483.jpg
+100237.jpg
+190173.jpg
+210380.jpg
+190101.jpg
+250217.jpg
+190583.jpg
+03465.png
+03629.png
+010027.jpg
+01753.png
+040156.jpg
+02596.png
+03838.png
+070366.jpg
+010573.jpg
+04052.png
+00907.png
+02494.png
+210388.jpg
+01478.png
+210416.jpg
+081352.jpg
+180348.jpg
+00099.png
+120017.jpg
+02808.png
+090417.jpg
+02815.png
+01198.png
+070406.jpg
+03034.png
+090392.jpg
+01204.png
+190274.jpg
+03603.png
+00138.png
+050379.jpg
+260397.jpg
+00889.png
+120349.jpg
+170408.jpg
+070202.jpg
+02825.png
+140159.jpg
+140350.jpg
+03195.png
+01704.png
+240042.jpg
+040332.jpg
+060010.jpg
+100728.jpg
+150471.jpg
+03023.png
+01255.png
+090545.jpg
+240368.jpg
+100064.jpg
+00700.png
+03376.png
+02589.png
+02423.png
+00740.png
+091078.jpg
+220151.jpg
+03718.png
+100806.jpg
+200089.jpg
+081249.jpg
+00713.png
+02634.png
+130415.jpg
+240283.jpg
+00941.png
+260384.jpg
+03445.png
+010254.jpg
+130471.jpg
+03240.png
+01889.png
+150601.jpg
+081143.jpg
+160376.jpg
+03584.png
+02760.png
+01010.png
+01544.png
+101224.jpg
+101159.jpg
+150319.jpg
+170199.jpg
+03231.png
+210378.jpg
+090807.jpg
+110126.jpg
+090076.jpg
+220001.jpg
+230172.jpg
+080116.jpg
+01897.png
+02851.png
+060282.jpg
+01390.png
+101238.jpg
+130245.jpg
+260423.jpg
+040150.jpg
+200272.jpg
+250339.jpg
+190590.jpg
+01807.png
+200189.jpg
+00630.png
+070120.jpg
+030419.jpg
+010585.jpg
+240137.jpg
+02264.png
+02500.png
+110171.jpg
+02312.png
+101048.jpg
+160075.jpg
+00588.png
+130123.jpg
+150180.jpg
+01529.png
+02603.png
+00764.png
+02299.png
+170334.jpg
+03425.png
+020429.jpg
+100165.jpg
+030144.jpg
+03012.png
+00429.png
+00517.png
+180192.jpg
+260149.jpg
+050363.jpg
+03666.png
+090510.jpg
+01449.png
+01179.png
+050189.jpg
+120100.jpg
+03524.png
+00495.png
+140064.jpg
+230189.jpg
+110122.jpg
+101188.jpg
+110388.jpg
+200017.jpg
+01851.png
+04178.png
+100039.jpg
+090277.jpg
+02219.png
+01870.png
+150337.jpg
+00027.png
+220358.jpg
+110338.jpg
+00643.png
+190660.jpg
+030226.jpg
+210264.jpg
+240067.jpg
+090948.jpg
+130157.jpg
+00519.png
+081436.jpg
+110385.jpg
+081099.jpg
+03556.png
+190320.jpg
+130149.jpg
+00412.png
+130443.jpg
+090567.jpg
+230207.jpg
+260454.jpg
+01857.png
+250240.jpg
+03283.png
+03883.png
+00652.png
+00922.png
+04093.png
+081271.jpg
+090287.jpg
+130148.jpg
+02693.png
+110459.jpg
+03996.png
+081470.jpg
+081188.jpg
+020297.jpg
+010367.jpg
+080451.jpg
+140207.jpg
+090981.jpg
+080833.jpg
+00876.png
+090182.jpg
+03880.png
+150056.jpg
+100156.jpg
+081287.jpg
+01602.png
+00009.png
+00762.png
+160439.jpg
+00297.png
+01800.png
+070395.jpg
+03194.png
+030269.jpg
+050246.jpg
+02983.png
+030063.jpg
+200249.jpg
+00574.png
+090638.jpg
+04037.png
+060160.jpg
+010113.jpg
+03743.png
+01814.png
+02325.png
+03456.png
+040246.jpg
+130329.jpg
+020029.jpg
+080412.jpg
+01102.png
+030429.jpg
+230347.jpg
+130144.jpg
+100681.jpg
+120235.jpg
+260506.jpg
+190661.jpg
+00710.png
+100136.jpg
+03947.png
+01314.png
+00795.png
+120221.jpg
+210030.jpg
+00031.png
+01660.png
+02288.png
+010317.jpg
+040331.jpg
+04141.png
+04176.png
+02794.png
+04016.png
+01381.png
+120191.jpg
+220150.jpg
+140131.jpg
+030246.jpg
+04168.png
+080983.jpg
+250300.jpg
+060432.jpg
+01787.png
+210282.jpg
+01028.png
+00894.png
+02023.png
+020037.jpg
+00890.png
+02655.png
+260261.jpg
+080313.jpg
+180088.jpg
+03664.png
+210190.jpg
+080969.jpg
+130114.jpg
+260137.jpg
+02480.png
+130196.jpg
+190820.jpg
+130402.jpg
+01678.png
+060273.jpg
+070095.jpg
+230066.jpg
+01162.png
+240356.jpg
+020141.jpg
+130480.jpg
+180361.jpg
+01312.png
+240103.jpg
+01867.png
+060168.jpg
+101127.jpg
+01659.png
+00353.png
+070088.jpg
+140119.jpg
+190418.jpg
+081192.jpg
+160079.jpg
+03995.png
+02572.png
+081048.jpg
+03893.png
+160031.jpg
+070147.jpg
+01164.png
+190690.jpg
+02935.png
+02066.png
+150193.jpg
+03080.png
+020319.jpg
+090518.jpg
+090112.jpg
+180037.jpg
+00352.png
+03177.png
+00391.png
+080279.jpg
+060014.jpg
+130300.jpg
+110192.jpg
+060232.jpg
+02114.png
+03025.png
+030122.jpg
+080071.jpg
+030181.jpg
+140196.jpg
+100745.jpg
+210206.jpg
+00724.png
+01182.png
+200018.jpg
+100112.jpg
+030002.jpg
+260424.jpg
+150554.jpg
+03035.png
+130307.jpg
+03024.png
+140078.jpg
+260324.jpg
+101208.jpg
+100973.jpg
+040261.jpg
+190745.jpg
+240085.jpg
+040029.jpg
+010006.jpg
+150526.jpg
+100149.jpg
+091112.jpg
+040187.jpg
+00676.png
+03999.png
+110301.jpg
+02943.png
+260327.jpg
+190700.jpg
+01153.png
+190402.jpg
+02110.png
+081137.jpg
+00915.png
+02632.png
+01334.png
+060319.jpg
+060504.jpg
+030240.jpg
+00993.png
+100951.jpg
+00026.png
+01433.png
+220016.jpg
+02046.png
+010265.jpg
+120370.jpg
+090955.jpg
+02516.png
+150448.jpg
+00940.png
+00547.png
+190288.jpg
+170397.jpg
+100222.jpg
+110159.jpg
+03459.png
+081388.jpg
+01839.png
+170140.jpg
+070119.jpg
+260450.jpg
+220263.jpg
+091163.jpg
+03630.png
+110430.jpg
+01076.png
+00918.png
+00002.png
+240398.jpg
+020121.jpg
+070275.jpg
+01085.png
+150116.jpg
+02513.png
+01611.png
+01792.png
+02504.png
+081018.jpg
+01811.png
+190044.jpg
+02293.png
+01099.png
+01806.png
+260012.jpg
+070070.jpg
+120115.jpg
+04127.png
+00917.png
+180032.jpg
+00260.png
+090913.jpg
+02256.png
+04035.png
+050131.jpg
+00463.png
+080083.jpg
+00339.png
+081477.jpg
+020076.jpg
+00878.png
+190197.jpg
+02518.png
+02942.png
+220308.jpg
+100251.jpg
+130034.jpg
+02225.png
+130251.jpg
+250052.jpg
+010420.jpg
+02275.png
+03791.png
+02145.png
+060325.jpg
+180073.jpg
+190728.jpg
+020153.jpg
+02141.png
+020340.jpg
+250261.jpg
+130029.jpg
+220337.jpg
+110166.jpg
+030113.jpg
+00411.png
+190765.jpg
+02772.png
+01161.png
+120352.jpg
+100485.jpg
+01495.png
+240227.jpg
+01027.png
+04061.png
+03315.png
+080375.jpg
+01625.png
+00537.png
+03343.png
+140070.jpg
+110263.jpg
+210070.jpg
+02332.png
+03595.png
+00974.png
+210092.jpg
+00963.png
+010345.jpg
+150557.jpg
+02787.png
+01247.png
+070445.jpg
+101201.jpg
+02845.png
+04024.png
+040248.jpg
+03154.png
+080942.jpg
+090536.jpg
+00361.png
+080010.jpg
+01574.png
+03491.png
+080724.jpg
+00486.png
+080055.jpg
+060375.jpg
+02855.png
+210332.jpg
+100195.jpg
+110420.jpg
+090446.jpg
+110472.jpg
+140132.jpg
+03911.png
+03917.png
+03997.png
+150277.jpg
+02608.png
+02959.png
+00860.png
+170012.jpg
+02799.png
+03028.png
+180388.jpg
+240161.jpg
+00950.png
+00239.png
+020268.jpg
+02027.png
+090183.jpg
+01687.png
+230283.jpg
+101020.jpg
+03038.png
+090349.jpg
+01112.png
+03884.png
+091138.jpg
+080556.jpg
+100122.jpg
+101177.jpg
+170459.jpg
+030274.jpg
+050183.jpg
+100263.jpg
+03968.png
+02931.png
+02383.png
+010001.jpg
+03826.png
+210402.jpg
+050313.jpg
+090310.jpg
+03673.png
+02981.png
+02832.png
+02698.png
+240418.jpg
+04088.png
+00422.png
+00063.png
+160217.jpg
+02386.png
+160549.jpg
+00161.png
+040002.jpg
+02009.png
+02339.png
+190441.jpg
+080624.jpg
+170377.jpg
+02431.png
+050056.jpg
+01067.png
+00648.png
+03076.png
+03188.png
+02542.png
+120184.jpg
+01566.png
+100507.jpg
+240384.jpg
+01692.png
+02005.png
+03637.png
+01558.png
+02450.png
+04022.png
+040314.jpg
+04154.png
+110162.jpg
+03815.png
+00774.png
+01607.png
+070053.jpg
+260391.jpg
+060422.jpg
+150501.jpg
+01372.png
+010566.jpg
+180281.jpg
+081217.jpg
+100294.jpg
+090146.jpg
+01540.png
+00635.png
+050371.jpg
+03783.png
+170077.jpg
+010066.jpg
+100983.jpg
+200302.jpg
+00614.png
+01074.png
+010023.jpg
+080015.jpg
+00972.png
+02321.png
+210281.jpg
+130127.jpg
+230001.jpg
+040377.jpg
+03094.png
+150010.jpg
+03819.png
+010263.jpg
+03787.png
+030162.jpg
+090439.jpg
+100787.jpg
+220262.jpg
+230278.jpg
+200222.jpg
+030237.jpg
+230298.jpg
+101121.jpg
+240029.jpg
+180162.jpg
+140413.jpg
+091017.jpg
+170095.jpg
+200056.jpg
+110135.jpg
+02567.png
+03555.png
+220231.jpg
+080122.jpg
+220294.jpg
+170299.jpg
+04051.png
+150561.jpg
+00747.png
+090115.jpg
+02526.png
+030197.jpg
+01125.png
+090628.jpg
+00557.png
+090745.jpg
+00828.png
+010301.jpg
+080457.jpg
+070258.jpg
+170003.jpg
+250147.jpg
+010491.jpg
+210114.jpg
+081515.jpg
+101209.jpg
+230237.jpg
+130208.jpg
+01842.png
+03057.png
+02867.png
+160067.jpg
+04056.png
+050400.jpg
+090954.jpg
+190122.jpg
+210138.jpg
+090164.jpg
+240038.jpg
+070008.jpg
+01858.png
+220300.jpg
+03254.png
+02985.png
+091066.jpg
+00755.png
+01971.png
+210381.jpg
+00499.png
+120116.jpg
+230185.jpg
+030173.jpg
+02239.png
+030464.jpg
+02128.png
+260193.jpg
+160040.jpg
+100792.jpg
+02408.png
+03071.png
+060386.jpg
+02564.png
+010439.jpg
+01552.png
+02149.png
+220249.jpg
+03969.png
+03382.png
+03973.png
+02848.png
+081221.jpg
+03308.png
+03286.png
+190417.jpg
+00029.png
+030323.jpg
+03612.png
+081069.jpg
+01901.png
+020197.jpg
+250020.jpg
+010348.jpg
+03831.png
+120323.jpg
+210323.jpg
+02939.png
+02910.png
+01248.png
+02847.png
+00719.png
+02792.png
+010395.jpg
+03463.png
+04026.png
+04142.png
+090967.jpg
+01568.png
+03789.png
+190468.jpg
+260490.jpg
+230247.jpg
+02157.png
+00803.png
+091026.jpg
+160281.jpg
+120415.jpg
+020495.jpg
+00241.png
+01340.png
+070193.jpg
+01176.png
+040434.jpg
+01355.png
+180199.jpg
+101250.jpg
+020264.jpg
+210304.jpg
+080791.jpg
+030267.jpg
+02833.png
+02237.png
+130021.jpg
+00545.png
+200304.jpg
+01956.png
+01774.png
+060257.jpg
+02919.png
+04021.png
+030308.jpg
+04196.png
+03487.png
+240470.jpg
+090450.jpg
+03385.png
+00708.png
+02402.png
+120250.jpg
+100923.jpg
+040200.jpg
+240465.jpg
+110441.jpg
+00887.png
+03263.png
+200140.jpg
+260402.jpg
+01593.png
+020215.jpg
+190605.jpg
+01886.png
+03339.png
+01392.png
+02267.png
+140170.jpg
+230261.jpg
+03798.png
+00760.png
+080407.jpg
+03287.png
+030230.jpg
+240150.jpg
+250092.jpg
+090070.jpg
+081133.jpg
+150143.jpg
+00344.png
+00560.png
+230150.jpg
+01610.png
+050016.jpg
+00107.png
+190585.jpg
+090684.jpg
+01499.png
+060337.jpg
+120080.jpg
+080970.jpg
+020192.jpg
+02097.png
+04131.png
+230385.jpg
+030148.jpg
+02980.png
+180091.jpg
+080245.jpg
+050285.jpg
+01445.png
+091032.jpg
+100552.jpg
+040427.jpg
+220286.jpg
+101107.jpg
+080870.jpg
+03654.png
+080829.jpg
+100068.jpg
+03111.png
+120330.jpg
+150529.jpg
+00212.png
+040269.jpg
+210033.jpg
+081313.jpg
+120022.jpg
+190207.jpg
+100090.jpg
+240464.jpg
+00319.png
+090959.jpg
+02217.png
+00673.png
+101180.jpg
+091048.jpg
+03803.png
+00375.png
+010032.jpg
+060441.jpg
+03964.png
+080114.jpg
+00532.png
+02521.png
+040403.jpg
+03208.png
+050032.jpg
+140123.jpg
+00187.png
+02268.png
+00087.png
+210341.jpg
+090088.jpg
+01728.png
+240306.jpg
+081041.jpg
+040265.jpg
+040451.jpg
+190321.jpg
+02898.png
+120278.jpg
+02401.png
+02283.png
+090879.jpg
+180280.jpg
+090580.jpg
+030071.jpg
+090815.jpg
+01145.png
+130295.jpg
+160571.jpg
+090342.jpg
+02136.png
+260027.jpg
+070355.jpg
+101140.jpg
+03685.png
+160497.jpg
+03508.png
+160394.jpg
+02137.png
+250320.jpg
+080538.jpg
+01476.png
+020373.jpg
+140451.jpg
+080323.jpg
+090324.jpg
+020311.jpg
+060104.jpg
+200071.jpg
+230316.jpg
+120377.jpg
+02533.png
+03224.png
+090822.jpg
+03539.png
+090295.jpg
+00856.png
+02988.png
+080017.jpg
+02682.png
+03482.png
+00675.png
+01559.png
+02741.png
+02430.png
+01413.png
+00615.png
+190737.jpg
+080834.jpg
+170146.jpg
+230027.jpg
+02642.png
+200318.jpg
+250369.jpg
+100197.jpg
+230417.jpg
+081307.jpg
+080771.jpg
+120311.jpg
+230414.jpg
+040262.jpg
+01598.png
+03378.png
+00530.png
+180330.jpg
+03942.png
+140486.jpg
+080236.jpg
+190618.jpg
+090029.jpg
+080305.jpg
+090980.jpg
+00733.png
+030138.jpg
+00812.png
+120449.jpg
+01582.png
+00285.png
+180157.jpg
+080941.jpg
+150498.jpg
+01223.png
+030190.jpg
+240110.jpg
+060199.jpg
+03616.png
+020428.jpg
+02089.png
+03434.png
+02362.png
+140331.jpg
+150389.jpg
+00566.png
+100999.jpg
+03662.png
+030054.jpg
+010465.jpg
+02839.png
+03540.png
+02363.png
+250003.jpg
+010486.jpg
+01256.png
+091171.jpg
+060022.jpg
+03982.png
+02433.png
+03854.png
+110071.jpg
+030417.jpg
+02098.png
+02701.png
+03853.png
+250085.jpg
+070042.jpg
+03314.png
+080703.jpg
+090323.jpg
+02033.png
+130426.jpg
+080391.jpg
+00192.png
+02812.png
+03762.png
+03096.png
+170254.jpg
+020346.jpg
+02651.png
+120230.jpg
+01718.png
+230228.jpg
+060347.jpg
+01833.png
+081046.jpg
+100709.jpg
+100421.jpg
+230281.jpg
+01328.png
+02785.png
+200106.jpg
+090512.jpg
+070123.jpg
+01383.png
+230097.jpg
+160221.jpg
+200263.jpg
+250350.jpg
+02610.png
+210428.jpg
+070319.jpg
+020468.jpg
+090768.jpg
+03103.png
+190313.jpg
+190524.jpg
+03439.png
+140284.jpg
+00802.png
+240013.jpg
+040250.jpg
+03201.png
+020054.jpg
+120419.jpg
+01221.png
+190443.jpg
+080395.jpg
+110236.jpg
+03409.png
+130323.jpg
+02824.png
+130176.jpg
+190804.jpg
+100710.jpg
+030161.jpg
+01832.png
+081073.jpg
+100963.jpg
+00175.png
+080148.jpg
+140034.jpg
+240188.jpg
+00033.png
+080022.jpg
+02147.png
+200005.jpg
+01462.png
+160166.jpg
+190756.jpg
+070212.jpg
+130488.jpg
+120238.jpg
+040355.jpg
+00815.png
+00446.png
+240286.jpg
+02718.png
+240089.jpg
+091181.jpg
+010114.jpg
+04174.png
+02484.png
+01981.png
+120137.jpg
+160047.jpg
+01936.png
+220033.jpg
+140011.jpg
+04132.png
+02497.png
+030359.jpg
+040008.jpg
+080053.jpg
+090902.jpg
+01990.png
+070243.jpg
+150061.jpg
+03661.png
+160214.jpg
+050420.jpg
+070309.jpg
+090056.jpg
+00910.png
+00608.png
+03990.png
+080774.jpg
+00633.png
+050311.jpg
+091036.jpg
+100743.jpg
+030368.jpg
+240173.jpg
+090654.jpg
+00880.png
+03526.png
+03419.png
+04109.png
+200051.jpg
+03467.png
+02419.png
+090030.jpg
+02208.png
+01997.png
+240437.jpg
+01979.png
+00368.png
+010360.jpg
+00435.png
+150203.jpg
+110068.jpg
+190254.jpg
+03249.png
+160493.jpg
+120367.jpg
+150590.jpg
+100141.jpg
+02791.png
+101236.jpg
+04192.png
+030229.jpg
+01311.png
+01937.png
+02756.png
+110050.jpg
+01654.png
+220298.jpg
+230081.jpg
+120357.jpg
+02228.png
+170404.jpg
+170278.jpg
+03327.png
+00259.png
+130257.jpg
+180337.jpg
+040030.jpg
+101046.jpg
+250285.jpg
+010288.jpg
+190231.jpg
+02717.png
+01195.png
+00583.png
+200203.jpg
+200080.jpg
+00819.png
+260164.jpg
+00968.png
+03587.png
+02571.png
+01084.png
+120213.jpg
+03903.png
+150504.jpg
+260517.jpg
+03001.png
+02357.png
+00962.png
+00144.png
+02129.png
+02250.png
+080782.jpg
+190730.jpg
+090646.jpg
+070341.jpg
+190629.jpg
+02743.png
+04133.png
+02078.png
+100684.jpg
+110073.jpg
+01745.png
+120284.jpg
+090774.jpg
+170109.jpg
+03348.png
+02167.png
+01393.png
+250389.jpg
+110113.jpg
+03412.png
+01259.png
+04042.png
+04155.png
+01498.png
+01615.png
+01361.png
+00119.png
+040267.jpg
+170426.jpg
+030217.jpg
+081183.jpg
+240017.jpg
+100759.jpg
+240343.jpg
+01327.png
+00345.png
+081008.jpg
+00402.png
+00125.png
+090931.jpg
+02183.png
+00838.png
+03447.png
+080396.jpg
+03687.png
+03271.png
+130264.jpg
+01701.png
+130230.jpg
+02153.png
+010331.jpg
+04159.png
+02490.png
+130115.jpg
+01489.png
+100363.jpg
+220307.jpg
+01343.png
+020214.jpg
+100801.jpg
+100204.jpg
+170306.jpg
+060105.jpg
+02017.png
+110076.jpg
+101171.jpg
+220353.jpg
+180049.jpg
+260259.jpg
+01002.png
+190410.jpg
+250315.jpg
+100478.jpg
+190048.jpg
+190539.jpg
+150148.jpg
+130175.jpg
+040440.jpg
+02359.png
+02667.png
+03166.png
+00726.png
+00550.png
+02056.png
+02646.png
+03238.png
+02331.png
+02106.png
+240421.jpg
+150486.jpg
+190472.jpg
+00246.png
+260452.jpg
+080372.jpg
+02712.png
+01335.png
+070118.jpg
+03993.png
+260174.jpg
+01968.png
+03683.png
+010417.jpg
+170454.jpg
+180342.jpg
+00379.png
+01426.png
+040349.jpg
+081009.jpg
+01242.png
+140213.jpg
+090871.jpg
+220196.jpg
+070328.jpg
+200022.jpg
+03751.png
+210435.jpg
+190692.jpg
+00369.png
+01491.png
+080780.jpg
+00686.png
+03164.png
+00655.png
+03823.png
+02766.png
+260301.jpg
+180275.jpg
+100481.jpg
+070249.jpg
+100492.jpg
+020175.jpg
+02537.png
+170330.jpg
+190749.jpg
+180286.jpg
+170142.jpg
+110229.jpg
+090103.jpg
+260485.jpg
+060458.jpg
+160092.jpg
+070189.jpg
+260106.jpg
+02018.png
+00527.png
+01144.png
+02892.png
+240497.jpg
+02302.png
+040388.jpg
+040070.jpg
+230438.jpg
+04111.png
+01451.png
+240129.jpg
+150122.jpg
+01494.png
+01743.png
+030195.jpg
+00474.png
+180113.jpg
+00720.png
+080246.jpg
+02577.png
+00568.png
+091113.jpg
+140222.jpg
+140342.jpg
+091016.jpg
+03468.png
+080230.jpg
+140218.jpg
+170151.jpg
+03577.png
+260150.jpg
+03918.png
+03749.png
+04001.png
+180289.jpg
+081463.jpg
+091011.jpg
+04045.png
+02556.png
+03842.png
+100650.jpg
+200009.jpg
+080139.jpg
+00539.png
+180307.jpg
+230297.jpg
+150296.jpg
+030394.jpg
+01066.png
+00586.png
+110007.jpg
+150465.jpg
+04080.png
+01332.png
+01603.png
+170183.jpg
+030001.jpg
+00706.png
+03861.png
+010559.jpg
+00779.png
+03176.png
+100240.jpg
+01303.png
+230168.jpg
+01088.png
+00156.png
+260445.jpg
+190007.jpg
+01430.png
+03179.png
+02071.png
+03974.png
+060454.jpg
+050220.jpg
+260254.jpg
+080065.jpg
+090650.jpg
+02552.png
+260104.jpg
+240080.jpg
+100464.jpg
+050306.jpg
+02453.png
+090492.jpg
+100767.jpg
+040429.jpg
+150178.jpg
+100221.jpg
+010366.jpg
+080356.jpg
+090796.jpg
+020235.jpg
+100668.jpg
+020254.jpg
+091134.jpg
+240259.jpg
+070029.jpg
+01395.png
+170147.jpg
+04017.png
+03141.png
+180058.jpg
+03089.png
+260112.jpg
+02125.png
+140406.jpg
+01086.png
+01983.png
+180078.jpg
+04023.png
+01322.png
+130340.jpg
+00418.png
+160344.jpg
+100718.jpg
+03772.png
+090370.jpg
+02553.png
+02124.png
+180001.jpg
+020438.jpg
+01500.png
+02578.png
+03443.png
+260379.jpg
+140542.jpg
+120444.jpg
+100800.jpg
+03262.png
+03152.png
+210060.jpg
+220034.jpg
+020248.jpg
+130372.jpg
+03150.png
+01420.png
+090297.jpg
+02235.png
+03754.png
+080614.jpg
+100268.jpg
+00104.png
+100469.jpg
+02786.png
+03226.png
+03307.png
+00966.png
+00154.png
+090275.jpg
+01103.png
+02811.png
+030327.jpg
+02614.png
+260333.jpg
+180045.jpg
+170337.jpg
+02937.png
+180009.jpg
+03739.png
+01850.png
+091081.jpg
+100804.jpg
+220058.jpg
+02148.png
+01299.png
+260400.jpg
+04186.png
+080768.jpg
+03400.png
+00257.png
+00298.png
+00491.png
+180207.jpg
+050401.jpg
+190361.jpg
+020362.jpg
+02169.png
+090026.jpg
+190628.jpg
+240235.jpg
+03119.png
+160072.jpg
+03387.png
+00066.png
+050277.jpg
+060073.jpg
+03934.png
+03923.png
+00796.png
+03663.png
+040046.jpg
+03550.png
+200016.jpg
+081015.jpg
+050096.jpg
+210053.jpg
+030152.jpg
+010594.jpg
+210399.jpg
+170234.jpg
+190508.jpg
+220110.jpg
+230343.jpg
+080057.jpg
+03554.png
+03533.png
+03579.png
+00730.png
+130460.jpg
+04103.png
+04050.png
+220088.jpg
+03522.png
+070019.jpg
+160174.jpg
+04146.png
+03270.png
+01658.png
+130438.jpg
+00666.png
+060311.jpg
+00701.png
+01629.png
+00064.png
+03183.png
+02498.png
+00832.png
+03489.png
+060303.jpg
+150338.jpg
+190775.jpg
+130434.jpg
+03389.png
+100338.jpg
+03700.png
+190770.jpg
+140120.jpg
+03345.png
+140072.jpg
+03922.png
+080752.jpg
+04101.png
+02780.png
+060156.jpg
+01614.png
+080135.jpg
+200241.jpg
+03233.png
+00975.png
+00105.png
+080502.jpg
+110219.jpg
+260186.jpg
+03794.png
+230079.jpg
+02390.png
+01487.png
+170038.jpg
+01402.png
+01560.png
+180234.jpg
+030110.jpg
+00746.png
+03273.png
+060250.jpg
+02221.png
+03760.png
+01534.png
+03814.png
+010178.jpg
+02592.png
+03715.png
+01338.png
+050059.jpg
+02152.png
+00433.png
+250287.jpg
+010368.jpg
+100583.jpg
+220251.jpg
+010508.jpg
+120161.jpg
+010471.jpg
+04027.png
+01761.png
+01875.png
+160003.jpg
+210237.jpg
+240195.jpg
+160048.jpg
+090157.jpg
+110199.jpg
+160270.jpg
+190743.jpg
+070373.jpg
+120010.jpg
+110454.jpg
+02882.png
+04012.png
+081500.jpg
+00853.png
+080905.jpg
+04181.png
+240477.jpg
+01366.png
+020289.jpg
+080266.jpg
+03692.png
+02036.png
+100410.jpg
+030112.jpg
+00305.png
+00025.png
+120319.jpg
+081274.jpg
+090127.jpg
+200004.jpg
+02635.png
+02618.png
+010092.jpg
+01915.png
+170148.jpg
+00283.png
+03825.png
+090317.jpg
+100763.jpg
+00398.png
+010524.jpg
+190196.jpg
+100972.jpg
+101319.jpg
+200190.jpg
+160207.jpg
+03486.png
+020480.jpg
+240424.jpg
+03548.png
+090405.jpg
+260213.jpg
+03245.png
+260133.jpg
+01649.png
+100715.jpg
+100818.jpg
+02573.png
+150563.jpg
+02886.png
+240447.jpg
+240494.jpg
+00739.png
+140556.jpg
+02179.png
+230328.jpg
+160106.jpg
+081193.jpg
+250110.jpg
+100527.jpg
+03510.png
+03600.png
+050263.jpg
+140037.jpg
+040018.jpg
+081398.jpg
+230104.jpg
+080960.jpg
+03018.png
+240397.jpg
+101124.jpg
+100997.jpg
+010190.jpg
+060174.jpg
+090428.jpg
+010567.jpg
+00687.png
+030089.jpg
+00217.png
+02643.png
+130203.jpg
+070304.jpg
+100157.jpg
+03534.png
+010562.jpg
+00356.png
+03092.png
+03677.png
+02724.png
+00590.png
+03131.png
+120036.jpg
+020009.jpg
+010125.jpg
+090764.jpg
+00122.png
+050174.jpg
+03532.png
+090150.jpg
+150441.jpg
+01569.png
+210338.jpg
+101062.jpg
+02207.png
+02284.png
+02361.png
+010468.jpg
+01949.png
+03165.png
+03416.png
+190672.jpg
+080161.jpg
+050054.jpg
+01599.png
+090106.jpg
+080740.jpg
+100689.jpg
+03705.png
+030463.jpg
+190145.jpg
+00250.png
+030263.jpg
+070104.jpg
+03483.png
+00326.png
+01406.png
+03485.png
+020464.jpg
+00022.png
+02536.png
+230372.jpg
+080032.jpg
+010415.jpg
+04000.png
+00638.png
+00060.png
+040431.jpg
+110058.jpg
+260003.jpg
+190015.jpg
+03299.png
+010156.jpg
+140021.jpg
+00065.png
+04049.png
+260131.jpg
+01405.png
+00728.png
+02409.png
+02478.png
+091218.jpg
+03497.png
+01525.png
+070423.jpg
+210217.jpg
+090572.jpg
+02645.png
+03985.png
+03914.png
+040264.jpg
+02074.png
+02803.png
+050044.jpg
+170158.jpg
+00511.png
+01647.png
+00238.png
+140397.jpg
+03891.png
+01202.png
+02181.png
+210115.jpg
+090899.jpg
+060028.jpg
+140420.jpg
+02684.png
+01403.png
+00531.png
+230102.jpg
+00600.png
+260332.jpg
+03511.png
+02594.png
+070012.jpg
+091005.jpg
+02345.png
+100808.jpg
+01359.png
+091239.jpg
+090797.jpg
+120214.jpg
+00909.png
+260007.jpg
+03827.png
+03000.png
+100233.jpg
+100443.jpg
+070167.jpg
+040168.jpg
+040251.jpg
+03671.png
+140376.jpg
+02560.png
+130409.jpg
+01931.png
+240226.jpg
+240160.jpg
+01645.png
+250138.jpg
+040413.jpg
+090896.jpg
+040296.jpg
+090661.jpg
+03223.png
+01580.png
+03966.png
+01345.png
+220378.jpg
+01071.png
+02122.png
+080839.jpg
+080315.jpg
+180098.jpg
+230039.jpg
+03332.png
+02554.png
+100660.jpg
+130179.jpg
+03665.png
+250043.jpg
+160489.jpg
+03059.png
+190177.jpg
+100864.jpg
+03896.png
+00439.png
+170463.jpg
+160260.jpg
+140527.jpg
+250275.jpg
+04106.png
+170293.jpg
+00703.png
+091214.jpg
+02539.png
+091121.jpg
+03298.png
+020497.jpg
+060297.jpg
+02827.png
+080739.jpg
+250410.jpg
+02188.png
+02353.png
+050300.jpg
+030179.jpg
+150440.jpg
+140522.jpg
+01732.png
+01957.png
+00555.png
+160371.jpg
+220245.jpg
+00003.png
+02138.png
+00613.png
+240182.jpg
+080841.jpg
+01653.png
+050009.jpg
+00835.png
+02945.png
+080170.jpg
+110283.jpg
+080876.jpg
+080033.jpg
+020409.jpg
+02946.png
+130445.jpg
+02793.png
+010022.jpg
+260228.jpg
+080460.jpg
+210283.jpg
+030413.jpg
+02144.png
+190785.jpg
+070300.jpg
+03614.png
+140193.jpg
+00270.png
+02092.png
+170058.jpg
+01632.png
+190421.jpg
+03393.png
+220076.jpg
+00744.png
+100625.jpg
+010051.jpg
+150322.jpg
+010396.jpg
+01342.png
+02515.png
+150188.jpg
+090307.jpg
+02413.png
+240407.jpg
+160232.jpg
+03931.png
+average time:  0.00491412091255188
+[2026-07-16 08:35:23] URFusion fused: 2000/2000 -> /root/autodl-tmp/URFusion-main/datasets/yolo/fusion_results/URFusion/RGB_fused
+[2026-07-16 08:35:23] ===== rebuild eval_staging (all methods, fair) =====
+test rows: 2000
+Visible: 2000 pairs
+Fusion_training_1: 2000 pairs
+MUFusion: 2000 pairs
+U2Fusion: 2000 pairs
+URFusion: 2000 pairs
+MetaFusion: 2000 pairs
+GIFNet: 2000 pairs
+LRRNet: 2000 pairs
+SAGE: 2000 pairs
+staging root: /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging
+[2026-07-16 08:35:27] ===== YOLO detection eval (Visible + 8 methods, same protocol) =====
+[EVAL] Visible ...
+Ultralytics 8.4.90 🚀 Python-3.10.20 torch-2.7.1+cu118 CUDA:0 (NVIDIA GeForce RTX 4090 D, 24210MiB)
+YOLO11s summary (fused): 101 layers, 9,415,122 parameters, 0 gradients, 21.3 GFLOPs
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 3918.2±1902.6 MB/s, size: 378.6 KB)
+[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 104 images, 0 backgrounds, 0 corrupt: 5% ╸─────────── 104/2000 301.4it/s 0.1s<6.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 211 images, 0 backgrounds, 0 corrupt: 10% ━─────────── 211/2000 531.5it/s 0.2s<3.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 327 images, 0 backgrounds, 0 corrupt: 16% ━╸────────── 327/2000 716.2it/s 0.3s<2.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 435 images, 0 backgrounds, 0 corrupt: 21% ━━╸───────── 435/2000 818.9it/s 0.4s<1.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 537 images, 0 backgrounds, 0 corrupt: 26% ━━━───────── 537/2000 872.6it/s 0.5s<1.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 638 images, 0 backgrounds, 0 corrupt: 31% ━━━╸──────── 638/2000 912.3it/s 0.6s<1.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 732 images, 0 backgrounds, 0 corrupt: 36% ━━━━──────── 732/2000 919.3it/s 0.7s<1.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 827 images, 0 backgrounds, 0 corrupt: 41% ━━━━╸─────── 827/2000 919.0it/s 0.8s<1.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 928 images, 0 backgrounds, 0 corrupt: 46% ━━━━━╸────── 928/2000 938.8it/s 0.9s<1.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1020 images, 0 backgrounds, 0 corrupt: 51% ━━━━━━────── 1020/2000 925.8it/s 1.0s<1.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1121 images, 0 backgrounds, 0 corrupt: 56% ━━━━━━╸───── 1121/2000 948.2it/s 1.1s<0.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1169 images, 0 backgrounds, 0 corrupt: 58% ━━━━━━━───── 1169/2000 784.8it/s 1.2s<1.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1190 images, 0 backgrounds, 0 corrupt: 59% ━━━━━━━───── 1190/2000 605.7it/s 1.4s<1.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1208 images, 0 backgrounds, 0 corrupt: 60% ━━━━━━━───── 1208/2000 471.6it/s 1.5s<1.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1231 images, 0 backgrounds, 0 corrupt: 61% ━━━━━━━───── 1231/2000 389.1it/s 1.6s<2.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1252 images, 0 backgrounds, 0 corrupt: 62% ━━━━━━━╸──── 1252/2000 335.3it/s 1.7s<2.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1272 images, 0 backgrounds, 0 corrupt: 63% ━━━━━━━╸──── 1272/2000 290.7it/s 1.8s<2.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1291 images, 0 backgrounds, 0 corrupt: 64% ━━━━━━━╸──── 1291/2000 249.9it/s 1.9s<2.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1307 images, 0 backgrounds, 0 corrupt: 65% ━━━━━━━╸──── 1307/2000 215.6it/s 2.0s<3.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1324 images, 0 backgrounds, 0 corrupt: 66% ━━━━━━━╸──── 1324/2000 200.6it/s 2.1s<3.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1347 images, 0 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1347/2000 201.7it/s 2.2s<3.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1371 images, 0 backgrounds, 0 corrupt: 68% ━━━━━━━━──── 1371/2000 206.4it/s 2.4s<3.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1398 images, 0 backgrounds, 0 corrupt: 69% ━━━━━━━━──── 1398/2000 213.2it/s 2.5s<2.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1413 images, 0 backgrounds, 0 corrupt: 70% ━━━━━━━━──── 1413/2000 190.4it/s 2.6s<3.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1428 images, 0 backgrounds, 0 corrupt: 71% ━━━━━━━━╸─── 1428/2000 178.3it/s 2.7s<3.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1454 images, 0 backgrounds, 0 corrupt: 72% ━━━━━━━━╸─── 1454/2000 197.8it/s 2.8s<2.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1471 images, 0 backgrounds, 0 corrupt: 73% ━━━━━━━━╸─── 1471/2000 187.4it/s 2.9s<2.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1486 images, 0 backgrounds, 0 corrupt: 74% ━━━━━━━━╸─── 1486/2000 173.2it/s 3.0s<3.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1513 images, 0 backgrounds, 0 corrupt: 75% ━━━━━━━━━─── 1513/2000 201.9it/s 3.1s<2.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1532 images, 0 backgrounds, 0 corrupt: 76% ━━━━━━━━━─── 1532/2000 197.7it/s 3.2s<2.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1546 images, 0 backgrounds, 0 corrupt: 77% ━━━━━━━━━─── 1546/2000 178.9it/s 3.3s<2.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1565 images, 0 backgrounds, 0 corrupt: 78% ━━━━━━━━━─── 1565/2000 181.0it/s 3.4s<2.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1580 images, 0 backgrounds, 0 corrupt: 79% ━━━━━━━━━─── 1580/2000 171.4it/s 3.5s<2.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1595 images, 0 backgrounds, 0 corrupt: 79% ━━━━━━━━━╸── 1595/2000 163.9it/s 3.6s<2.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1616 images, 0 backgrounds, 0 corrupt: 80% ━━━━━━━━━╸── 1616/2000 174.0it/s 3.7s<2.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1636 images, 0 backgrounds, 0 corrupt: 81% ━━━━━━━━━╸── 1636/2000 178.7it/s 3.8s<2.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1657 images, 0 backgrounds, 0 corrupt: 82% ━━━━━━━━━╸── 1657/2000 185.1it/s 3.9s<1.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1688 images, 0 backgrounds, 0 corrupt: 84% ━━━━━━━━━━── 1688/2000 219.9it/s 4.0s<1.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1703 images, 0 backgrounds, 0 corrupt: 85% ━━━━━━━━━━── 1703/2000 194.7it/s 4.1s<1.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1718 images, 0 backgrounds, 0 corrupt: 85% ━━━━━━━━━━── 1718/2000 175.7it/s 4.3s<1.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1740 images, 0 backgrounds, 0 corrupt: 87% ━━━━━━━━━━── 1740/2000 186.0it/s 4.4s<1.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1756 images, 0 backgrounds, 0 corrupt: 87% ━━━━━━━━━━╸─ 1756/2000 166.3it/s 4.5s<1.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1778 images, 0 backgrounds, 0 corrupt: 88% ━━━━━━━━━━╸─ 1778/2000 178.5it/s 4.6s<1.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1796 images, 0 backgrounds, 0 corrupt: 89% ━━━━━━━━━━╸─ 1796/2000 178.6it/s 4.7s<1.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1809 images, 0 backgrounds, 0 corrupt: 90% ━━━━━━━━━━╸─ 1809/2000 163.6it/s 4.8s<1.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1823 images, 0 backgrounds, 0 corrupt: 91% ━━━━━━━━━━╸─ 1823/2000 156.3it/s 4.9s<1.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1840 images, 0 backgrounds, 0 corrupt: 92% ━━━━━━━━━━━─ 1840/2000 157.6it/s 5.0s<1.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1859 images, 0 backgrounds, 0 corrupt: 92% ━━━━━━━━━━━─ 1859/2000 161.7it/s 5.1s<0.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1875 images, 0 backgrounds, 0 corrupt: 93% ━━━━━━━━━━━─ 1875/2000 161.1it/s 5.2s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1891 images, 0 backgrounds, 0 corrupt: 94% ━━━━━━━━━━━─ 1891/2000 159.5it/s 5.3s<0.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1906 images, 0 backgrounds, 0 corrupt: 95% ━━━━━━━━━━━─ 1906/2000 156.4it/s 5.4s<0.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1923 images, 0 backgrounds, 0 corrupt: 96% ━━━━━━━━━━━╸ 1923/2000 159.4it/s 5.5s<0.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1944 images, 0 backgrounds, 0 corrupt: 97% ━━━━━━━━━━━╸ 1944/2000 170.8it/s 5.6s<0.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1964 images, 0 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1964/2000 178.9it/s 5.7s<0.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 1984 images, 0 backgrounds, 0 corrupt: 99% ━━━━━━━━━━━╸ 1984/2000 182.3it/s 5.8s<0.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test... 2000 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2000/2000 338.1it/s 5.9s
+[34m[1mval: [0mNew cache created: /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Visible/labels/test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 0% ──────────── 1/125 2.4it/s 0.1s<51.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 2% ──────────── 3/125 5.9it/s 0.3s<20.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 4% ╸─────────── 6/125 11.6it/s 0.4s<10.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 7% ╸─────────── 9/125 15.8it/s 0.5s<7.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 9% ━─────────── 12/125 18.3it/s 0.6s<6.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 12% ━─────────── 15/125 20.8it/s 0.7s<5.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 14% ━╸────────── 18/125 21.9it/s 0.9s<4.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 16% ━━────────── 21/125 22.8it/s 1.0s<4.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 19% ━━────────── 24/125 23.6it/s 1.1s<4.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 21% ━━╸───────── 27/125 24.5it/s 1.2s<4.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 24% ━━╸───────── 30/125 24.4it/s 1.3s<3.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 26% ━━━───────── 33/125 24.4it/s 1.5s<3.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 28% ━━━───────── 36/125 24.4it/s 1.6s<3.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 31% ━━━╸──────── 39/125 25.1it/s 1.7s<3.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 42/125 25.0it/s 1.8s<3.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 36% ━━━━──────── 45/125 24.9it/s 1.9s<3.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 38% ━━━━╸─────── 48/125 25.2it/s 2.1s<3.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 51/125 24.8it/s 2.2s<3.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 42% ━━━━━─────── 53/125 22.5it/s 2.3s<3.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% ━━━━━─────── 56/125 23.8it/s 2.4s<2.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 47% ━━━━━╸────── 59/125 24.1it/s 2.5s<2.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 49% ━━━━━╸────── 62/125 24.6it/s 2.6s<2.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 52% ━━━━━━────── 65/125 24.7it/s 2.8s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 54% ━━━━━━╸───── 68/125 24.6it/s 2.9s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 56% ━━━━━━╸───── 71/125 25.1it/s 3.0s<2.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 59% ━━━━━━━───── 74/125 24.9it/s 3.1s<2.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 61% ━━━━━━━───── 77/125 25.1it/s 3.2s<1.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 64% ━━━━━━━╸──── 80/125 25.7it/s 3.4s<1.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━╸──── 83/125 25.1it/s 3.5s<1.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% ━━━━━━━━──── 86/125 25.0it/s 3.6s<1.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 71% ━━━━━━━━╸─── 89/125 24.7it/s 3.7s<1.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 73% ━━━━━━━━╸─── 92/125 24.5it/s 3.9s<1.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 76% ━━━━━━━━━─── 95/125 25.1it/s 4.0s<1.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 78% ━━━━━━━━━─── 98/125 24.8it/s 4.1s<1.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 101/125 24.9it/s 4.2s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 83% ━━━━━━━━━╸── 104/125 25.4it/s 4.3s<0.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 85% ━━━━━━━━━━── 107/125 25.0it/s 4.4s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 88% ━━━━━━━━━━╸─ 110/125 25.0it/s 4.6s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 90% ━━━━━━━━━━╸─ 113/125 25.1it/s 4.7s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 92% ━━━━━━━━━━━─ 116/125 24.8it/s 4.8s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 95% ━━━━━━━━━━━─ 119/125 25.2it/s 4.9s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 97% ━━━━━━━━━━━╸ 122/125 25.0it/s 5.0s<0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 125/125 24.2it/s 5.2s
+                   all       2000      10100      0.868       0.79      0.849      0.551
+Speed: 0.3ms preprocess, 1.0ms inference, 0.0ms loss, 0.3ms postprocess per image
+  mAP50=0.849162  mAP50-95=0.551148  P=0.867875  R=0.79043
+[EVAL] Fusion_training_1 ...
+Ultralytics 8.4.90 🚀 Python-3.10.20 torch-2.7.1+cu118 CUDA:0 (NVIDIA GeForce RTX 4090 D, 24210MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 489.9±163.5 MB/s, size: 807.2 KB)
+[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 139 images, 0 backgrounds, 0 corrupt: 6% ╸─────────── 139/2000 408.9it/s 0.1s<4.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 289 images, 0 backgrounds, 0 corrupt: 14% ━╸────────── 289/2000 710.2it/s 0.2s<2.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 429 images, 0 backgrounds, 0 corrupt: 21% ━━╸───────── 429/2000 915.1it/s 0.3s<1.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 566 images, 0 backgrounds, 0 corrupt: 28% ━━━───────── 566/2000 1.0Kit/s 0.4s<1.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 698 images, 0 backgrounds, 0 corrupt: 34% ━━━━──────── 698/2000 1.1Kit/s 0.5s<1.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 819 images, 0 backgrounds, 0 corrupt: 40% ━━━━╸─────── 819/2000 1.1Kit/s 0.6s<1.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 934 images, 0 backgrounds, 0 corrupt: 46% ━━━━━╸────── 934/2000 1.1Kit/s 0.7s<0.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 1059 images, 0 backgrounds, 0 corrupt: 52% ━━━━━━────── 1059/2000 1.2Kit/s 0.8s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 1161 images, 0 backgrounds, 0 corrupt: 58% ━━━━━━╸───── 1161/2000 1.1Kit/s 0.9s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 1243 images, 0 backgrounds, 0 corrupt: 62% ━━━━━━━───── 1243/2000 981.8it/s 1.0s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 1359 images, 0 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1359/2000 1.0Kit/s 1.1s<0.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 1458 images, 0 backgrounds, 0 corrupt: 72% ━━━━━━━━╸─── 1458/2000 1.0Kit/s 1.2s<0.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 1561 images, 0 backgrounds, 0 corrupt: 78% ━━━━━━━━━─── 1561/2000 1.0Kit/s 1.3s<0.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 1640 images, 0 backgrounds, 0 corrupt: 82% ━━━━━━━━━╸── 1640/2000 936.4it/s 1.4s<0.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 1741 images, 0 backgrounds, 0 corrupt: 87% ━━━━━━━━━━── 1741/2000 955.7it/s 1.5s<0.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 1807 images, 0 backgrounds, 0 corrupt: 90% ━━━━━━━━━━╸─ 1807/2000 865.5it/s 1.7s<0.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 1918 images, 0 backgrounds, 0 corrupt: 95% ━━━━━━━━━━━╸ 1918/2000 931.5it/s 1.8s<0.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test... 2000 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2000/2000 1.1Kit/s 1.8s
+[34m[1mval: [0mNew cache created: /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/Fusion_training_1/labels/test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 0% ──────────── 1/125 1.4it/s 0.2s<1:27[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 3% ──────────── 4/125 5.7it/s 0.4s<21.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 5% ╸─────────── 7/125 11.9it/s 0.5s<10.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 8% ╸─────────── 10/125 15.7it/s 0.6s<7.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 9% ━─────────── 12/125 16.6it/s 0.7s<6.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 12% ━─────────── 15/125 19.4it/s 0.9s<5.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 14% ━╸────────── 18/125 20.9it/s 1.0s<5.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 16% ━╸────────── 20/125 20.0it/s 1.1s<5.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 18% ━━────────── 23/125 21.9it/s 1.2s<4.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 26/125 23.0it/s 1.3s<4.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 22% ━━╸───────── 28/125 21.7it/s 1.4s<4.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 24% ━━╸───────── 31/125 22.5it/s 1.6s<4.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 27% ━━━───────── 34/125 23.2it/s 1.7s<3.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 29% ━━━╸──────── 37/125 23.3it/s 1.8s<3.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 32% ━━━╸──────── 40/125 24.0it/s 1.9s<3.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 34% ━━━━──────── 43/125 24.4it/s 2.0s<3.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 36% ━━━━──────── 46/125 23.9it/s 2.2s<3.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 39% ━━━━╸─────── 49/125 23.9it/s 2.3s<3.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 41% ━━━━╸─────── 52/125 23.0it/s 2.4s<3.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% ━━━━━─────── 55/125 24.0it/s 2.6s<2.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 46% ━━━━━╸────── 58/125 24.8it/s 2.7s<2.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 48% ━━━━━╸────── 61/125 24.6it/s 2.8s<2.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 51% ━━━━━━────── 64/125 25.1it/s 2.9s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 53% ━━━━━━────── 67/125 25.5it/s 3.0s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 56% ━━━━━━╸───── 70/125 25.3it/s 3.1s<2.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 58% ━━━━━━━───── 73/125 25.6it/s 3.3s<2.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 76/125 25.3it/s 3.4s<1.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 63% ━━━━━━━╸──── 79/125 25.0it/s 3.5s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 65% ━━━━━━━╸──── 82/125 25.4it/s 3.6s<1.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% ━━━━━━━━──── 85/125 25.4it/s 3.7s<1.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 70% ━━━━━━━━──── 88/125 25.5it/s 3.8s<1.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 72% ━━━━━━━━╸─── 91/125 25.6it/s 4.0s<1.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 94/125 25.2it/s 4.1s<1.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 77% ━━━━━━━━━─── 97/125 25.2it/s 4.2s<1.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 100/125 25.2it/s 4.3s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 82% ━━━━━━━━━╸── 103/125 25.3it/s 4.4s<0.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 84% ━━━━━━━━━━── 106/125 25.2it/s 4.6s<0.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 87% ━━━━━━━━━━── 109/125 25.1it/s 4.7s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 89% ━━━━━━━━━━╸─ 112/125 25.2it/s 4.8s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 92% ━━━━━━━━━━━─ 115/125 25.3it/s 4.9s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 94% ━━━━━━━━━━━─ 118/125 25.3it/s 5.0s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 96% ━━━━━━━━━━━╸ 121/125 25.3it/s 5.2s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 99% ━━━━━━━━━━━╸ 124/125 25.3it/s 5.3s<0.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 125/125 23.5it/s 5.3s
+                   all       2000      10100      0.869      0.733      0.803      0.515
+Speed: 0.3ms preprocess, 0.9ms inference, 0.0ms loss, 0.3ms postprocess per image
+  mAP50=0.802513  mAP50-95=0.515492  P=0.868516  R=0.732952
+[EVAL] MUFusion ...
+Ultralytics 8.4.90 🚀 Python-3.10.20 torch-2.7.1+cu118 CUDA:0 (NVIDIA GeForce RTX 4090 D, 24210MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 588.0±123.8 MB/s, size: 566.4 KB)
+[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 114 images, 0 backgrounds, 0 corrupt: 5% ╸─────────── 114/2000 335.4it/s 0.1s<5.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 235 images, 0 backgrounds, 0 corrupt: 11% ━─────────── 235/2000 581.3it/s 0.2s<3.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 358 images, 0 backgrounds, 0 corrupt: 17% ━━────────── 358/2000 763.1it/s 0.3s<2.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 471 images, 0 backgrounds, 0 corrupt: 23% ━━╸───────── 471/2000 871.4it/s 0.4s<1.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 592 images, 0 backgrounds, 0 corrupt: 29% ━━━╸──────── 592/2000 970.7it/s 0.5s<1.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 713 images, 0 backgrounds, 0 corrupt: 35% ━━━━──────── 713/2000 1.0Kit/s 0.6s<1.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 836 images, 0 backgrounds, 0 corrupt: 41% ━━━━━─────── 836/2000 1.1Kit/s 0.7s<1.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 961 images, 0 backgrounds, 0 corrupt: 48% ━━━━━╸────── 961/2000 1.1Kit/s 0.8s<0.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1085 images, 0 backgrounds, 0 corrupt: 54% ━━━━━━╸───── 1085/2000 1.2Kit/s 0.9s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1162 images, 0 backgrounds, 0 corrupt: 58% ━━━━━━╸───── 1162/2000 1.0Kit/s 1.0s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1186 images, 0 backgrounds, 0 corrupt: 59% ━━━━━━━───── 1186/2000 776.6it/s 1.1s<1.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1198 images, 0 backgrounds, 0 corrupt: 59% ━━━━━━━───── 1198/2000 578.0it/s 1.2s<1.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1229 images, 0 backgrounds, 0 corrupt: 61% ━━━━━━━───── 1229/2000 474.5it/s 1.4s<1.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1256 images, 0 backgrounds, 0 corrupt: 62% ━━━━━━━╸──── 1256/2000 405.9it/s 1.5s<1.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1278 images, 0 backgrounds, 0 corrupt: 63% ━━━━━━━╸──── 1278/2000 348.4it/s 1.6s<2.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1294 images, 0 backgrounds, 0 corrupt: 64% ━━━━━━━╸──── 1294/2000 287.1it/s 1.7s<2.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1309 images, 0 backgrounds, 0 corrupt: 65% ━━━━━━━╸──── 1309/2000 243.1it/s 1.8s<2.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1327 images, 0 backgrounds, 0 corrupt: 66% ━━━━━━━╸──── 1327/2000 223.3it/s 1.9s<3.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1346 images, 0 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1346/2000 212.5it/s 2.0s<3.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1368 images, 0 backgrounds, 0 corrupt: 68% ━━━━━━━━──── 1368/2000 214.0it/s 2.1s<3.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1388 images, 0 backgrounds, 0 corrupt: 69% ━━━━━━━━──── 1388/2000 205.6it/s 2.2s<3.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1411 images, 0 backgrounds, 0 corrupt: 70% ━━━━━━━━──── 1411/2000 191.2it/s 2.4s<3.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1427 images, 0 backgrounds, 0 corrupt: 71% ━━━━━━━━╸─── 1427/2000 169.9it/s 2.5s<3.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1460 images, 0 backgrounds, 0 corrupt: 73% ━━━━━━━━╸─── 1460/2000 214.0it/s 2.6s<2.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1481 images, 0 backgrounds, 0 corrupt: 74% ━━━━━━━━╸─── 1481/2000 212.2it/s 2.7s<2.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1502 images, 0 backgrounds, 0 corrupt: 75% ━━━━━━━━━─── 1502/2000 208.0it/s 2.8s<2.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1534 images, 0 backgrounds, 0 corrupt: 76% ━━━━━━━━━─── 1534/2000 238.9it/s 2.9s<2.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1555 images, 0 backgrounds, 0 corrupt: 77% ━━━━━━━━━─── 1555/2000 227.0it/s 3.0s<2.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1576 images, 0 backgrounds, 0 corrupt: 78% ━━━━━━━━━─── 1576/2000 217.8it/s 3.1s<1.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1598 images, 0 backgrounds, 0 corrupt: 79% ━━━━━━━━━╸── 1598/2000 215.8it/s 3.2s<1.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1620 images, 0 backgrounds, 0 corrupt: 81% ━━━━━━━━━╸── 1620/2000 216.3it/s 3.3s<1.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1642 images, 0 backgrounds, 0 corrupt: 82% ━━━━━━━━━╸── 1642/2000 213.2it/s 3.4s<1.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1667 images, 0 backgrounds, 0 corrupt: 83% ━━━━━━━━━━── 1667/2000 221.3it/s 3.5s<1.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1696 images, 0 backgrounds, 0 corrupt: 84% ━━━━━━━━━━── 1696/2000 237.4it/s 3.6s<1.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1715 images, 0 backgrounds, 0 corrupt: 85% ━━━━━━━━━━── 1715/2000 216.2it/s 3.8s<1.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1738 images, 0 backgrounds, 0 corrupt: 86% ━━━━━━━━━━── 1738/2000 203.6it/s 3.9s<1.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1761 images, 0 backgrounds, 0 corrupt: 88% ━━━━━━━━━━╸─ 1761/2000 205.9it/s 4.0s<1.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1781 images, 0 backgrounds, 0 corrupt: 89% ━━━━━━━━━━╸─ 1781/2000 197.5it/s 4.1s<1.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1796 images, 0 backgrounds, 0 corrupt: 89% ━━━━━━━━━━╸─ 1796/2000 176.7it/s 4.2s<1.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1814 images, 0 backgrounds, 0 corrupt: 90% ━━━━━━━━━━╸─ 1814/2000 176.7it/s 4.3s<1.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1830 images, 0 backgrounds, 0 corrupt: 91% ━━━━━━━━━━╸─ 1830/2000 163.8it/s 4.5s<1.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1846 images, 0 backgrounds, 0 corrupt: 92% ━━━━━━━━━━━─ 1846/2000 161.7it/s 4.6s<1.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1862 images, 0 backgrounds, 0 corrupt: 93% ━━━━━━━━━━━─ 1862/2000 160.2it/s 4.7s<0.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1878 images, 0 backgrounds, 0 corrupt: 93% ━━━━━━━━━━━─ 1878/2000 156.9it/s 4.8s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1896 images, 0 backgrounds, 0 corrupt: 94% ━━━━━━━━━━━─ 1896/2000 159.0it/s 4.9s<0.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1912 images, 0 backgrounds, 0 corrupt: 95% ━━━━━━━━━━━─ 1912/2000 156.2it/s 5.0s<0.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1929 images, 0 backgrounds, 0 corrupt: 96% ━━━━━━━━━━━╸ 1929/2000 156.6it/s 5.1s<0.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1949 images, 0 backgrounds, 0 corrupt: 97% ━━━━━━━━━━━╸ 1949/2000 169.5it/s 5.2s<0.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1967 images, 0 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1967/2000 170.2it/s 5.3s<0.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 1986 images, 0 backgrounds, 0 corrupt: 99% ━━━━━━━━━━━╸ 1986/2000 169.6it/s 5.4s<0.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test... 2000 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2000/2000 366.6it/s 5.5s
+[34m[1mval: [0mNew cache created: /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MUFusion/labels/test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 0% ──────────── 1/125 1.9it/s 0.2s<1:05[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 3% ──────────── 4/125 7.2it/s 0.3s<16.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 5% ╸─────────── 7/125 13.1it/s 0.4s<9.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 8% ╸─────────── 10/125 17.0it/s 0.5s<6.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 10% ━─────────── 13/125 19.4it/s 0.7s<5.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 12% ━╸────────── 16/125 21.6it/s 0.8s<5.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 15% ━╸────────── 19/125 22.7it/s 0.9s<4.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 17% ━━────────── 22/125 23.6it/s 1.0s<4.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 25/125 24.6it/s 1.1s<4.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 22% ━━╸───────── 28/125 24.8it/s 1.2s<3.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 24% ━━╸───────── 31/125 25.0it/s 1.4s<3.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 27% ━━━───────── 34/125 25.1it/s 1.5s<3.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 29% ━━━╸──────── 37/125 25.2it/s 1.6s<3.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 32% ━━━╸──────── 40/125 25.7it/s 1.7s<3.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 34% ━━━━──────── 43/125 25.7it/s 1.8s<3.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 36% ━━━━──────── 46/125 25.4it/s 1.9s<3.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 39% ━━━━╸─────── 49/125 25.2it/s 2.1s<3.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 41% ━━━━╸─────── 52/125 24.7it/s 2.2s<3.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% ━━━━━─────── 55/125 25.3it/s 2.3s<2.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 46% ━━━━━╸────── 58/125 25.9it/s 2.4s<2.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 48% ━━━━━╸────── 61/125 25.5it/s 2.5s<2.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 51% ━━━━━━────── 64/125 25.9it/s 2.6s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 53% ━━━━━━────── 67/125 26.0it/s 2.8s<2.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 56% ━━━━━━╸───── 70/125 25.5it/s 2.9s<2.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 58% ━━━━━━━───── 73/125 25.9it/s 3.0s<2.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 76/125 25.4it/s 3.1s<1.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 63% ━━━━━━━╸──── 79/125 25.9it/s 3.2s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 65% ━━━━━━━╸──── 82/125 26.3it/s 3.3s<1.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% ━━━━━━━━──── 85/125 25.5it/s 3.5s<1.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 70% ━━━━━━━━──── 88/125 25.7it/s 3.6s<1.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 72% ━━━━━━━━╸─── 91/125 25.4it/s 3.7s<1.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 94/125 25.1it/s 3.8s<1.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 77% ━━━━━━━━━─── 97/125 25.4it/s 3.9s<1.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 100/125 24.7it/s 4.1s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 82% ━━━━━━━━━╸── 103/125 24.7it/s 4.2s<0.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 84% ━━━━━━━━━━── 106/125 25.0it/s 4.3s<0.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 87% ━━━━━━━━━━── 109/125 24.6it/s 4.4s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 89% ━━━━━━━━━━╸─ 112/125 25.3it/s 4.5s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 92% ━━━━━━━━━━━─ 115/125 25.3it/s 4.7s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 94% ━━━━━━━━━━━─ 118/125 25.4it/s 4.8s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 96% ━━━━━━━━━━━╸ 121/125 25.5it/s 4.9s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 99% ━━━━━━━━━━━╸ 124/125 25.2it/s 5.0s<0.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 125/125 24.7it/s 5.1s
+                   all       2000      10100      0.826      0.624      0.682      0.423
+Speed: 0.3ms preprocess, 0.9ms inference, 0.0ms loss, 0.3ms postprocess per image
+  mAP50=0.682491  mAP50-95=0.422979  P=0.825533  R=0.624009
+[EVAL] U2Fusion ...
+Ultralytics 8.4.90 🚀 Python-3.10.20 torch-2.7.1+cu118 CUDA:0 (NVIDIA GeForce RTX 4090 D, 24210MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 442.0±106.6 MB/s, size: 655.3 KB)
+[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 117 images, 0 backgrounds, 0 corrupt: 5% ╸─────────── 117/2000 337.3it/s 0.1s<5.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 224 images, 0 backgrounds, 0 corrupt: 11% ━─────────── 224/2000 554.6it/s 0.2s<3.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 347 images, 0 backgrounds, 0 corrupt: 17% ━━────────── 347/2000 747.1it/s 0.3s<2.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 473 images, 0 backgrounds, 0 corrupt: 23% ━━╸───────── 473/2000 886.1it/s 0.4s<1.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 594 images, 0 backgrounds, 0 corrupt: 29% ━━━╸──────── 594/2000 972.9it/s 0.5s<1.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 715 images, 0 backgrounds, 0 corrupt: 35% ━━━━──────── 715/2000 1.0Kit/s 0.6s<1.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 841 images, 0 backgrounds, 0 corrupt: 42% ━━━━━─────── 841/2000 1.1Kit/s 0.7s<1.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 965 images, 0 backgrounds, 0 corrupt: 48% ━━━━━╸────── 965/2000 1.1Kit/s 0.8s<0.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 1062 images, 0 backgrounds, 0 corrupt: 53% ━━━━━━────── 1062/2000 1.1Kit/s 0.9s<0.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 1159 images, 0 backgrounds, 0 corrupt: 57% ━━━━━━╸───── 1159/2000 1.0Kit/s 1.0s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 1249 images, 0 backgrounds, 0 corrupt: 62% ━━━━━━━───── 1249/2000 997.4it/s 1.1s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 1329 images, 0 backgrounds, 0 corrupt: 66% ━━━━━━━╸──── 1329/2000 934.5it/s 1.2s<0.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 1439 images, 0 backgrounds, 0 corrupt: 71% ━━━━━━━━╸─── 1439/2000 980.9it/s 1.3s<0.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 1525 images, 0 backgrounds, 0 corrupt: 76% ━━━━━━━━━─── 1525/2000 917.0it/s 1.4s<0.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 1634 images, 0 backgrounds, 0 corrupt: 81% ━━━━━━━━━╸── 1634/2000 880.4it/s 1.6s<0.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 1807 images, 0 backgrounds, 0 corrupt: 90% ━━━━━━━━━━╸─ 1807/2000 1.1Kit/s 1.7s<0.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 1904 images, 0 backgrounds, 0 corrupt: 95% ━━━━━━━━━━━─ 1904/2000 1.0Kit/s 1.8s<0.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test... 2000 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2000/2000 1.1Kit/s 1.9s
+[34m[1mval: [0mNew cache created: /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/U2Fusion/labels/test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 0% ──────────── 1/125 1.4it/s 0.2s<1:27[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 3% ──────────── 4/125 6.0it/s 0.4s<20.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 5% ╸─────────── 7/125 12.0it/s 0.5s<9.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 8% ╸─────────── 10/125 16.1it/s 0.6s<7.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 10% ━─────────── 13/125 17.9it/s 0.8s<6.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 12% ━╸────────── 16/125 20.1it/s 0.9s<5.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 15% ━╸────────── 19/125 21.5it/s 1.0s<4.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 16% ━━────────── 21/125 20.8it/s 1.1s<5.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 19% ━━────────── 24/125 22.7it/s 1.2s<4.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 21% ━━╸───────── 27/125 23.8it/s 1.3s<4.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 23% ━━╸───────── 29/125 22.1it/s 1.4s<4.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% ━━━───────── 32/125 23.0it/s 1.6s<4.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 28% ━━━───────── 35/125 23.6it/s 1.7s<3.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 30% ━━━╸──────── 38/125 23.7it/s 1.8s<3.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 32% ━━━╸──────── 41/125 24.4it/s 1.9s<3.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 35% ━━━━──────── 44/125 24.2it/s 2.0s<3.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 37% ━━━━╸─────── 47/125 24.8it/s 2.2s<3.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 50/125 24.3it/s 2.3s<3.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 42% ━━━━━─────── 53/125 23.7it/s 2.4s<3.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% ━━━━━─────── 56/125 24.3it/s 2.5s<2.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 47% ━━━━━╸────── 59/125 24.9it/s 2.7s<2.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 49% ━━━━━╸────── 62/125 24.8it/s 2.8s<2.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 52% ━━━━━━────── 65/125 24.9it/s 2.9s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 54% ━━━━━━╸───── 68/125 24.9it/s 3.0s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 56% ━━━━━━╸───── 71/125 25.2it/s 3.1s<2.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 59% ━━━━━━━───── 74/125 25.6it/s 3.2s<2.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 61% ━━━━━━━───── 77/125 25.6it/s 3.4s<1.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 64% ━━━━━━━╸──── 80/125 26.1it/s 3.5s<1.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━╸──── 83/125 26.1it/s 3.6s<1.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% ━━━━━━━━──── 86/125 25.9it/s 3.7s<1.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 71% ━━━━━━━━╸─── 89/125 26.0it/s 3.8s<1.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 73% ━━━━━━━━╸─── 92/125 25.6it/s 3.9s<1.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 76% ━━━━━━━━━─── 95/125 25.4it/s 4.1s<1.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 78% ━━━━━━━━━─── 98/125 25.4it/s 4.2s<1.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 101/125 25.2it/s 4.3s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 83% ━━━━━━━━━╸── 104/125 25.2it/s 4.4s<0.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 85% ━━━━━━━━━━── 107/125 25.3it/s 4.5s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 88% ━━━━━━━━━━╸─ 110/125 25.2it/s 4.7s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 90% ━━━━━━━━━━╸─ 113/125 25.4it/s 4.8s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 92% ━━━━━━━━━━━─ 116/125 25.5it/s 4.9s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 95% ━━━━━━━━━━━─ 119/125 25.5it/s 5.0s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 97% ━━━━━━━━━━━╸ 122/125 25.6it/s 5.1s<0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 125/125 23.8it/s 5.2s
+                   all       2000      10100       0.84      0.712      0.777      0.498
+Speed: 0.3ms preprocess, 0.9ms inference, 0.0ms loss, 0.3ms postprocess per image
+  mAP50=0.777155  mAP50-95=0.498084  P=0.840459  R=0.71241
+[EVAL] URFusion ...
+Ultralytics 8.4.90 🚀 Python-3.10.20 torch-2.7.1+cu118 CUDA:0 (NVIDIA GeForce RTX 4090 D, 24210MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 4647.1±961.2 MB/s, size: 279.3 KB)
+[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 135 images, 0 backgrounds, 0 corrupt: 6% ╸─────────── 135/2000 398.3it/s 0.1s<4.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 273 images, 0 backgrounds, 0 corrupt: 13% ━╸────────── 273/2000 685.8it/s 0.2s<2.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 410 images, 0 backgrounds, 0 corrupt: 20% ━━────────── 410/2000 890.8it/s 0.3s<1.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 535 images, 0 backgrounds, 0 corrupt: 26% ━━━───────── 535/2000 987.4it/s 0.4s<1.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 657 images, 0 backgrounds, 0 corrupt: 32% ━━━╸──────── 657/2000 1.1Kit/s 0.5s<1.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 786 images, 0 backgrounds, 0 corrupt: 39% ━━━━╸─────── 786/2000 1.1Kit/s 0.6s<1.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 920 images, 0 backgrounds, 0 corrupt: 46% ━━━━━╸────── 920/2000 1.2Kit/s 0.7s<0.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 1046 images, 0 backgrounds, 0 corrupt: 52% ━━━━━━────── 1046/2000 1.2Kit/s 0.8s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 1167 images, 0 backgrounds, 0 corrupt: 58% ━━━━━━━───── 1167/2000 1.2Kit/s 0.9s<0.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 1240 images, 0 backgrounds, 0 corrupt: 62% ━━━━━━━───── 1240/2000 1.0Kit/s 1.0s<0.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 1320 images, 0 backgrounds, 0 corrupt: 66% ━━━━━━━╸──── 1320/2000 966.7it/s 1.1s<0.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 1400 images, 0 backgrounds, 0 corrupt: 70% ━━━━━━━━──── 1400/2000 914.4it/s 1.2s<0.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 1475 images, 0 backgrounds, 0 corrupt: 73% ━━━━━━━━╸─── 1475/2000 858.3it/s 1.3s<0.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 1555 images, 0 backgrounds, 0 corrupt: 77% ━━━━━━━━━─── 1555/2000 837.1it/s 1.4s<0.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 1629 images, 0 backgrounds, 0 corrupt: 81% ━━━━━━━━━╸── 1629/2000 803.8it/s 1.5s<0.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 1704 images, 0 backgrounds, 0 corrupt: 85% ━━━━━━━━━━── 1704/2000 786.5it/s 1.6s<0.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 1774 images, 0 backgrounds, 0 corrupt: 88% ━━━━━━━━━━╸─ 1774/2000 760.0it/s 1.7s<0.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 1839 images, 0 backgrounds, 0 corrupt: 91% ━━━━━━━━━━━─ 1839/2000 724.8it/s 1.8s<0.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 1906 images, 0 backgrounds, 0 corrupt: 95% ━━━━━━━━━━━─ 1906/2000 703.4it/s 1.9s<0.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 1976 images, 0 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1976/2000 698.8it/s 2.0s<0.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 1993 images, 0 backgrounds, 0 corrupt: 99% ━━━━━━━━━━━╸ 1993/2000 522.6it/s 2.2s<0.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test... 2000 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2000/2000 913.3it/s 2.2s
+[34m[1mval: [0mNew cache created: /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/URFusion/labels/test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 0% ──────────── 1/125 1.4it/s 0.2s<1:28[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 3% ──────────── 4/125 5.7it/s 0.4s<21.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 5% ╸─────────── 7/125 11.9it/s 0.5s<9.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 8% ╸─────────── 10/125 15.8it/s 0.6s<7.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 9% ━─────────── 12/125 16.3it/s 0.8s<6.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 12% ━─────────── 15/125 19.3it/s 0.9s<5.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 14% ━╸────────── 18/125 21.1it/s 1.0s<5.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 16% ━╸────────── 20/125 19.3it/s 1.1s<5.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 18% ━━────────── 23/125 21.7it/s 1.2s<4.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 26/125 23.0it/s 1.3s<4.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 22% ━━╸───────── 28/125 21.0it/s 1.5s<4.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 24% ━━╸───────── 31/125 22.4it/s 1.6s<4.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 27% ━━━───────── 34/125 23.2it/s 1.7s<3.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 28% ━━━───────── 36/125 21.6it/s 1.8s<4.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 31% ━━━╸──────── 39/125 23.0it/s 1.9s<3.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 42/125 23.7it/s 2.0s<3.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 35% ━━━━──────── 44/125 21.9it/s 2.2s<3.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 37% ━━━━╸─────── 47/125 23.2it/s 2.3s<3.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 50/125 23.3it/s 2.4s<3.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 41% ━━━━╸─────── 52/125 21.7it/s 2.5s<3.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% ━━━━━─────── 55/125 23.2it/s 2.6s<3.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 46% ━━━━━╸────── 58/125 24.2it/s 2.7s<2.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 48% ━━━━━╸────── 61/125 24.5it/s 2.9s<2.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 51% ━━━━━━────── 64/125 25.1it/s 3.0s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 53% ━━━━━━────── 67/125 25.4it/s 3.1s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 56% ━━━━━━╸───── 70/125 25.0it/s 3.2s<2.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 58% ━━━━━━━───── 73/125 25.3it/s 3.3s<2.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 76/125 25.4it/s 3.4s<1.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 63% ━━━━━━━╸──── 79/125 25.9it/s 3.6s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 65% ━━━━━━━╸──── 82/125 26.2it/s 3.7s<1.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% ━━━━━━━━──── 85/125 26.0it/s 3.8s<1.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 70% ━━━━━━━━──── 88/125 26.1it/s 3.9s<1.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 72% ━━━━━━━━╸─── 91/125 26.0it/s 4.0s<1.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 94/125 25.7it/s 4.1s<1.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 77% ━━━━━━━━━─── 97/125 25.6it/s 4.2s<1.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 100/125 25.5it/s 4.4s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 82% ━━━━━━━━━╸── 103/125 25.5it/s 4.5s<0.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 84% ━━━━━━━━━━── 106/125 25.5it/s 4.6s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 87% ━━━━━━━━━━── 109/125 25.3it/s 4.7s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 89% ━━━━━━━━━━╸─ 112/125 25.5it/s 4.8s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 92% ━━━━━━━━━━━─ 115/125 25.8it/s 5.0s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 94% ━━━━━━━━━━━─ 118/125 25.8it/s 5.1s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 96% ━━━━━━━━━━━╸ 121/125 25.7it/s 5.2s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 99% ━━━━━━━━━━━╸ 124/125 25.7it/s 5.3s<0.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 125/125 23.4it/s 5.3s
+                   all       2000      10100      0.853      0.631      0.728      0.458
+Speed: 0.3ms preprocess, 0.9ms inference, 0.0ms loss, 0.3ms postprocess per image
+  mAP50=0.727922  mAP50-95=0.457931  P=0.853387  R=0.631115
+[EVAL] MetaFusion ...
+Ultralytics 8.4.90 🚀 Python-3.10.20 torch-2.7.1+cu118 CUDA:0 (NVIDIA GeForce RTX 4090 D, 24210MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 466.5±49.4 MB/s, size: 544.8 KB)
+[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 148 images, 0 backgrounds, 0 corrupt: 7% ╸─────────── 148/2000 440.2it/s 0.1s<4.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 289 images, 0 backgrounds, 0 corrupt: 14% ━╸────────── 289/2000 723.8it/s 0.2s<2.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 432 images, 0 backgrounds, 0 corrupt: 21% ━━╸───────── 432/2000 927.3it/s 0.3s<1.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 576 images, 0 backgrounds, 0 corrupt: 28% ━━━───────── 576/2000 1.1Kit/s 0.4s<1.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 719 images, 0 backgrounds, 0 corrupt: 35% ━━━━──────── 719/2000 1.2Kit/s 0.5s<1.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 866 images, 0 backgrounds, 0 corrupt: 43% ━━━━━─────── 866/2000 1.3Kit/s 0.6s<0.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1011 images, 0 backgrounds, 0 corrupt: 50% ━━━━━━────── 1011/2000 1.3Kit/s 0.7s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1145 images, 0 backgrounds, 0 corrupt: 57% ━━━━━━╸───── 1145/2000 1.3Kit/s 0.8s<0.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1174 images, 0 backgrounds, 0 corrupt: 58% ━━━━━━━───── 1174/2000 1.0Kit/s 0.9s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1186 images, 0 backgrounds, 0 corrupt: 59% ━━━━━━━───── 1186/2000 736.2it/s 1.0s<1.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1202 images, 0 backgrounds, 0 corrupt: 60% ━━━━━━━───── 1202/2000 562.3it/s 1.1s<1.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1220 images, 0 backgrounds, 0 corrupt: 61% ━━━━━━━───── 1220/2000 447.1it/s 1.2s<1.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1236 images, 0 backgrounds, 0 corrupt: 61% ━━━━━━━───── 1236/2000 358.5it/s 1.3s<2.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1255 images, 0 backgrounds, 0 corrupt: 62% ━━━━━━━╸──── 1255/2000 302.4it/s 1.4s<2.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1272 images, 0 backgrounds, 0 corrupt: 63% ━━━━━━━╸──── 1272/2000 259.4it/s 1.6s<2.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1288 images, 0 backgrounds, 0 corrupt: 64% ━━━━━━━╸──── 1288/2000 226.1it/s 1.7s<3.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1302 images, 0 backgrounds, 0 corrupt: 65% ━━━━━━━╸──── 1302/2000 198.0it/s 1.8s<3.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1319 images, 0 backgrounds, 0 corrupt: 65% ━━━━━━━╸──── 1319/2000 184.7it/s 1.9s<3.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1334 images, 0 backgrounds, 0 corrupt: 66% ━━━━━━━━──── 1334/2000 162.3it/s 2.0s<4.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1356 images, 0 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1356/2000 178.9it/s 2.1s<3.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1366 images, 0 backgrounds, 0 corrupt: 68% ━━━━━━━━──── 1366/2000 151.8it/s 2.2s<4.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1385 images, 0 backgrounds, 0 corrupt: 69% ━━━━━━━━──── 1385/2000 161.5it/s 2.3s<3.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1406 images, 0 backgrounds, 0 corrupt: 70% ━━━━━━━━──── 1406/2000 165.4it/s 2.4s<3.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1419 images, 0 backgrounds, 0 corrupt: 70% ━━━━━━━━╸─── 1419/2000 150.4it/s 2.6s<3.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1430 images, 0 backgrounds, 0 corrupt: 71% ━━━━━━━━╸─── 1430/2000 131.0it/s 2.7s<4.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1451 images, 0 backgrounds, 0 corrupt: 72% ━━━━━━━━╸─── 1451/2000 147.6it/s 2.8s<3.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1465 images, 0 backgrounds, 0 corrupt: 73% ━━━━━━━━╸─── 1465/2000 142.3it/s 2.9s<3.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1480 images, 0 backgrounds, 0 corrupt: 74% ━━━━━━━━╸─── 1480/2000 137.9it/s 3.0s<3.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1502 images, 0 backgrounds, 0 corrupt: 75% ━━━━━━━━━─── 1502/2000 155.7it/s 3.1s<3.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1520 images, 0 backgrounds, 0 corrupt: 76% ━━━━━━━━━─── 1520/2000 161.9it/s 3.2s<3.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1533 images, 0 backgrounds, 0 corrupt: 76% ━━━━━━━━━─── 1533/2000 149.0it/s 3.4s<3.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1547 images, 0 backgrounds, 0 corrupt: 77% ━━━━━━━━━─── 1547/2000 135.7it/s 3.5s<3.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1568 images, 0 backgrounds, 0 corrupt: 78% ━━━━━━━━━─── 1568/2000 156.0it/s 3.6s<2.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1578 images, 0 backgrounds, 0 corrupt: 78% ━━━━━━━━━─── 1578/2000 137.0it/s 3.7s<3.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1594 images, 0 backgrounds, 0 corrupt: 79% ━━━━━━━━━╸── 1594/2000 142.3it/s 3.8s<2.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1614 images, 0 backgrounds, 0 corrupt: 80% ━━━━━━━━━╸── 1614/2000 155.1it/s 3.9s<2.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1628 images, 0 backgrounds, 0 corrupt: 81% ━━━━━━━━━╸── 1628/2000 150.0it/s 4.0s<2.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1642 images, 0 backgrounds, 0 corrupt: 82% ━━━━━━━━━╸── 1642/2000 143.7it/s 4.1s<2.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1651 images, 0 backgrounds, 0 corrupt: 82% ━━━━━━━━━╸── 1651/2000 127.3it/s 4.2s<2.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1680 images, 0 backgrounds, 0 corrupt: 84% ━━━━━━━━━━── 1680/2000 170.2it/s 4.3s<1.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1694 images, 0 backgrounds, 0 corrupt: 84% ━━━━━━━━━━── 1694/2000 155.9it/s 4.4s<2.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1706 images, 0 backgrounds, 0 corrupt: 85% ━━━━━━━━━━── 1706/2000 144.6it/s 4.5s<2.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1716 images, 0 backgrounds, 0 corrupt: 85% ━━━━━━━━━━── 1716/2000 130.3it/s 4.6s<2.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1736 images, 0 backgrounds, 0 corrupt: 86% ━━━━━━━━━━── 1736/2000 150.9it/s 4.7s<1.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1748 images, 0 backgrounds, 0 corrupt: 87% ━━━━━━━━━━── 1748/2000 140.0it/s 4.8s<1.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1763 images, 0 backgrounds, 0 corrupt: 88% ━━━━━━━━━━╸─ 1763/2000 142.5it/s 5.0s<1.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1778 images, 0 backgrounds, 0 corrupt: 88% ━━━━━━━━━━╸─ 1778/2000 142.0it/s 5.1s<1.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1793 images, 0 backgrounds, 0 corrupt: 89% ━━━━━━━━━━╸─ 1793/2000 143.8it/s 5.2s<1.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1806 images, 0 backgrounds, 0 corrupt: 90% ━━━━━━━━━━╸─ 1806/2000 135.5it/s 5.3s<1.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1820 images, 0 backgrounds, 0 corrupt: 91% ━━━━━━━━━━╸─ 1820/2000 134.6it/s 5.4s<1.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1834 images, 0 backgrounds, 0 corrupt: 91% ━━━━━━━━━━━─ 1834/2000 135.0it/s 5.5s<1.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1845 images, 0 backgrounds, 0 corrupt: 92% ━━━━━━━━━━━─ 1845/2000 126.9it/s 5.6s<1.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1859 images, 0 backgrounds, 0 corrupt: 92% ━━━━━━━━━━━─ 1859/2000 124.0it/s 5.7s<1.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1876 images, 0 backgrounds, 0 corrupt: 93% ━━━━━━━━━━━─ 1876/2000 124.2it/s 5.8s<1.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1894 images, 0 backgrounds, 0 corrupt: 94% ━━━━━━━━━━━─ 1894/2000 135.7it/s 5.9s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1902 images, 0 backgrounds, 0 corrupt: 95% ━━━━━━━━━━━─ 1902/2000 116.6it/s 6.1s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1926 images, 0 backgrounds, 0 corrupt: 96% ━━━━━━━━━━━╸ 1926/2000 147.2it/s 6.2s<0.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1945 images, 0 backgrounds, 0 corrupt: 97% ━━━━━━━━━━━╸ 1945/2000 156.5it/s 6.3s<0.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1958 images, 0 backgrounds, 0 corrupt: 97% ━━━━━━━━━━━╸ 1958/2000 148.4it/s 6.4s<0.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1972 images, 0 backgrounds, 0 corrupt: 98% ━━━━━━━━━━━╸ 1972/2000 140.6it/s 6.5s<0.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 1988 images, 0 backgrounds, 0 corrupt: 99% ━━━━━━━━━━━╸ 1988/2000 146.2it/s 6.6s<0.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test... 2000 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2000/2000 300.2it/s 6.7s
+[34m[1mval: [0mNew cache created: /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/MetaFusion/labels/test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 0% ──────────── 1/125 1.6it/s 0.2s<1:17[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 3% ──────────── 4/125 6.9it/s 0.3s<17.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 5% ╸─────────── 7/125 12.7it/s 0.5s<9.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 8% ╸─────────── 10/125 16.5it/s 0.6s<7.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 10% ━─────────── 13/125 18.9it/s 0.7s<5.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 12% ━╸────────── 16/125 21.1it/s 0.8s<5.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 15% ━╸────────── 19/125 22.3it/s 0.9s<4.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 17% ━━────────── 22/125 23.2it/s 1.1s<4.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 25/125 24.3it/s 1.2s<4.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 22% ━━╸───────── 28/125 24.5it/s 1.3s<4.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 24% ━━╸───────── 31/125 24.7it/s 1.4s<3.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 27% ━━━───────── 34/125 24.8it/s 1.5s<3.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 29% ━━━╸──────── 37/125 25.0it/s 1.6s<3.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 32% ━━━╸──────── 40/125 25.3it/s 1.8s<3.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 34% ━━━━──────── 43/125 25.3it/s 1.9s<3.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 36% ━━━━──────── 46/125 25.1it/s 2.0s<3.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 39% ━━━━╸─────── 49/125 25.1it/s 2.1s<3.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 41% ━━━━╸─────── 52/125 24.7it/s 2.2s<3.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% ━━━━━─────── 55/125 25.2it/s 2.4s<2.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 46% ━━━━━╸────── 58/125 25.6it/s 2.5s<2.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 48% ━━━━━╸────── 61/125 25.1it/s 2.6s<2.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 51% ━━━━━━────── 64/125 25.5it/s 2.7s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 53% ━━━━━━────── 67/125 25.7it/s 2.8s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 56% ━━━━━━╸───── 70/125 25.2it/s 2.9s<2.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 58% ━━━━━━━───── 73/125 25.5it/s 3.1s<2.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 76/125 25.3it/s 3.2s<1.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 63% ━━━━━━━╸──── 79/125 25.7it/s 3.3s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 65% ━━━━━━━╸──── 82/125 26.0it/s 3.4s<1.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% ━━━━━━━━──── 85/125 25.6it/s 3.5s<1.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 70% ━━━━━━━━──── 88/125 24.6it/s 3.7s<1.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 72% ━━━━━━━━╸─── 91/125 24.5it/s 3.8s<1.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 94/125 24.7it/s 3.9s<1.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 77% ━━━━━━━━━─── 97/125 24.9it/s 4.0s<1.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 100/125 25.1it/s 4.1s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 82% ━━━━━━━━━╸── 103/125 25.1it/s 4.3s<0.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 84% ━━━━━━━━━━── 106/125 25.3it/s 4.4s<0.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 87% ━━━━━━━━━━── 109/125 25.2it/s 4.5s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 89% ━━━━━━━━━━╸─ 112/125 25.3it/s 4.6s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 92% ━━━━━━━━━━━─ 115/125 25.2it/s 4.7s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 94% ━━━━━━━━━━━─ 118/125 25.3it/s 4.9s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 96% ━━━━━━━━━━━╸ 121/125 25.2it/s 5.0s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 99% ━━━━━━━━━━━╸ 124/125 25.0it/s 5.1s<0.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 125/125 24.4it/s 5.1s
+                   all       2000      10100      0.834      0.703      0.765      0.493
+Speed: 0.3ms preprocess, 0.9ms inference, 0.0ms loss, 0.3ms postprocess per image
+  mAP50=0.765416  mAP50-95=0.493262  P=0.833788  R=0.702752
+[EVAL] GIFNet ...
+Ultralytics 8.4.90 🚀 Python-3.10.20 torch-2.7.1+cu118 CUDA:0 (NVIDIA GeForce RTX 4090 D, 24210MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 516.8±123.6 MB/s, size: 568.4 KB)
+[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 134 images, 0 backgrounds, 0 corrupt: 6% ╸─────────── 134/2000 401.6it/s 0.1s<4.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 270 images, 0 backgrounds, 0 corrupt: 13% ━╸────────── 270/2000 677.0it/s 0.2s<2.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 414 images, 0 backgrounds, 0 corrupt: 20% ━━────────── 414/2000 903.5it/s 0.3s<1.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 542 images, 0 backgrounds, 0 corrupt: 27% ━━━───────── 542/2000 1.0Kit/s 0.4s<1.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 679 images, 0 backgrounds, 0 corrupt: 33% ━━━━──────── 679/2000 1.1Kit/s 0.5s<1.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 817 images, 0 backgrounds, 0 corrupt: 40% ━━━━╸─────── 817/2000 1.2Kit/s 0.6s<1.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 932 images, 0 backgrounds, 0 corrupt: 46% ━━━━━╸────── 932/2000 1.2Kit/s 0.7s<0.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 1023 images, 0 backgrounds, 0 corrupt: 51% ━━━━━━────── 1023/2000 1.1Kit/s 0.8s<0.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 1113 images, 0 backgrounds, 0 corrupt: 55% ━━━━━━╸───── 1113/2000 1.0Kit/s 0.9s<0.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 1201 images, 0 backgrounds, 0 corrupt: 60% ━━━━━━━───── 1201/2000 977.4it/s 1.0s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 1291 images, 0 backgrounds, 0 corrupt: 64% ━━━━━━━╸──── 1291/2000 947.9it/s 1.1s<0.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 1417 images, 0 backgrounds, 0 corrupt: 70% ━━━━━━━━╸─── 1417/2000 1.0Kit/s 1.2s<0.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 1465 images, 0 backgrounds, 0 corrupt: 73% ━━━━━━━━╸─── 1465/2000 867.8it/s 1.3s<0.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 1557 images, 0 backgrounds, 0 corrupt: 77% ━━━━━━━━━─── 1557/2000 882.4it/s 1.4s<0.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 1620 images, 0 backgrounds, 0 corrupt: 81% ━━━━━━━━━╸── 1620/2000 801.7it/s 1.5s<0.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 1729 images, 0 backgrounds, 0 corrupt: 86% ━━━━━━━━━━── 1729/2000 875.4it/s 1.6s<0.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 1830 images, 0 backgrounds, 0 corrupt: 91% ━━━━━━━━━━╸─ 1830/2000 862.2it/s 1.7s<0.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 1904 images, 0 backgrounds, 0 corrupt: 95% ━━━━━━━━━━━─ 1904/2000 812.3it/s 1.9s<0.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test... 2000 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2000/2000 1.0Kit/s 1.9s
+[34m[1mval: [0mNew cache created: /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/GIFNet/labels/test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 0% ──────────── 1/125 1.6it/s 0.2s<1:18[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 2% ──────────── 3/125 7.0it/s 0.3s<17.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 3% ──────────── 4/125 7.7it/s 0.4s<15.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 5% ╸─────────── 7/125 13.3it/s 0.5s<8.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 8% ╸─────────── 10/125 16.9it/s 0.6s<6.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 10% ━─────────── 13/125 18.3it/s 0.8s<6.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 12% ━╸────────── 16/125 20.8it/s 0.9s<5.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 15% ━╸────────── 19/125 22.0it/s 1.0s<4.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 16% ━━────────── 21/125 21.2it/s 1.1s<4.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 19% ━━────────── 24/125 23.0it/s 1.2s<4.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 21% ━━╸───────── 27/125 23.9it/s 1.3s<4.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 23% ━━╸───────── 29/125 21.9it/s 1.5s<4.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 25% ━━━───────── 32/125 22.9it/s 1.6s<4.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 28% ━━━───────── 35/125 23.6it/s 1.7s<3.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 30% ━━━╸──────── 38/125 23.1it/s 1.8s<3.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 32% ━━━╸──────── 41/125 23.7it/s 1.9s<3.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 35% ━━━━──────── 44/125 23.2it/s 2.1s<3.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 37% ━━━━╸─────── 47/125 24.1it/s 2.2s<3.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 50/125 23.7it/s 2.3s<3.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 41% ━━━━╸─────── 52/125 22.1it/s 2.4s<3.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% ━━━━━─────── 55/125 23.4it/s 2.5s<3.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 46% ━━━━━╸────── 58/125 24.4it/s 2.7s<2.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 48% ━━━━━╸────── 61/125 24.4it/s 2.8s<2.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 51% ━━━━━━────── 64/125 25.1it/s 2.9s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 53% ━━━━━━────── 67/125 25.5it/s 3.0s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 56% ━━━━━━╸───── 70/125 25.3it/s 3.1s<2.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 58% ━━━━━━━───── 73/125 25.6it/s 3.2s<2.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 76/125 25.7it/s 3.4s<1.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 63% ━━━━━━━╸──── 79/125 26.1it/s 3.5s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 65% ━━━━━━━╸──── 82/125 26.3it/s 3.6s<1.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% ━━━━━━━━──── 85/125 26.0it/s 3.7s<1.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 70% ━━━━━━━━──── 88/125 26.1it/s 3.8s<1.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 72% ━━━━━━━━╸─── 91/125 26.0it/s 3.9s<1.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 94/125 25.7it/s 4.1s<1.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 77% ━━━━━━━━━─── 97/125 25.6it/s 4.2s<1.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 100/125 25.5it/s 4.3s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 82% ━━━━━━━━━╸── 103/125 25.6it/s 4.4s<0.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 84% ━━━━━━━━━━── 106/125 25.5it/s 4.5s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 87% ━━━━━━━━━━── 109/125 25.4it/s 4.6s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 89% ━━━━━━━━━━╸─ 112/125 25.4it/s 4.8s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 92% ━━━━━━━━━━━─ 115/125 25.5it/s 4.9s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 94% ━━━━━━━━━━━─ 118/125 25.5it/s 5.0s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 96% ━━━━━━━━━━━╸ 121/125 25.5it/s 5.1s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 99% ━━━━━━━━━━━╸ 124/125 25.5it/s 5.2s<0.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 125/125 23.7it/s 5.3s
+                   all       2000      10100      0.857      0.725        0.8      0.507
+Speed: 0.3ms preprocess, 0.9ms inference, 0.0ms loss, 0.3ms postprocess per image
+  mAP50=0.80018  mAP50-95=0.507471  P=0.856807  R=0.725435
+[EVAL] LRRNet ...
+Ultralytics 8.4.90 🚀 Python-3.10.20 torch-2.7.1+cu118 CUDA:0 (NVIDIA GeForce RTX 4090 D, 24210MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 490.5±200.9 MB/s, size: 559.8 KB)
+[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 124 images, 0 backgrounds, 0 corrupt: 6% ╸─────────── 124/2000 369.7it/s 0.1s<5.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 275 images, 0 backgrounds, 0 corrupt: 13% ━╸────────── 275/2000 707.1it/s 0.2s<2.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 414 images, 0 backgrounds, 0 corrupt: 20% ━━────────── 414/2000 907.4it/s 0.3s<1.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 552 images, 0 backgrounds, 0 corrupt: 27% ━━━───────── 552/2000 1.0Kit/s 0.4s<1.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 693 images, 0 backgrounds, 0 corrupt: 34% ━━━━──────── 693/2000 1.1Kit/s 0.5s<1.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 812 images, 0 backgrounds, 0 corrupt: 40% ━━━━╸─────── 812/2000 1.2Kit/s 0.6s<1.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 920 images, 0 backgrounds, 0 corrupt: 46% ━━━━━╸────── 920/2000 1.1Kit/s 0.7s<1.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 1028 images, 0 backgrounds, 0 corrupt: 51% ━━━━━━────── 1028/2000 1.1Kit/s 0.8s<0.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 1135 images, 0 backgrounds, 0 corrupt: 56% ━━━━━━╸───── 1135/2000 1.1Kit/s 0.9s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 1207 images, 0 backgrounds, 0 corrupt: 60% ━━━━━━━───── 1207/2000 969.5it/s 1.0s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 1296 images, 0 backgrounds, 0 corrupt: 64% ━━━━━━━╸──── 1296/2000 935.7it/s 1.1s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 1368 images, 0 backgrounds, 0 corrupt: 68% ━━━━━━━━──── 1368/2000 868.0it/s 1.2s<0.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 1462 images, 0 backgrounds, 0 corrupt: 73% ━━━━━━━━╸─── 1462/2000 859.4it/s 1.3s<0.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 1570 images, 0 backgrounds, 0 corrupt: 78% ━━━━━━━━━─── 1570/2000 925.6it/s 1.4s<0.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 1642 images, 0 backgrounds, 0 corrupt: 82% ━━━━━━━━━╸── 1642/2000 776.8it/s 1.6s<0.5s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 1832 images, 0 backgrounds, 0 corrupt: 91% ━━━━━━━━━━╸─ 1832/2000 1.1Kit/s 1.7s<0.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 1888 images, 0 backgrounds, 0 corrupt: 94% ━━━━━━━━━━━─ 1888/2000 930.1it/s 1.8s<0.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test... 2000 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2000/2000 1.1Kit/s 1.9s
+[34m[1mval: [0mNew cache created: /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/LRRNet/labels/test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 0% ──────────── 1/125 1.5it/s 0.2s<1:25[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 3% ──────────── 4/125 5.8it/s 0.4s<20.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 5% ╸─────────── 7/125 12.1it/s 0.5s<9.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 8% ╸─────────── 10/125 16.1it/s 0.6s<7.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 10% ━─────────── 13/125 18.0it/s 0.8s<6.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 12% ━╸────────── 16/125 20.4it/s 0.9s<5.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 15% ━╸────────── 19/125 21.7it/s 1.0s<4.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 16% ━━────────── 21/125 20.7it/s 1.1s<5.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 19% ━━────────── 24/125 22.5it/s 1.2s<4.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 21% ━━╸───────── 27/125 23.5it/s 1.3s<4.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 24% ━━╸───────── 30/125 23.0it/s 1.5s<4.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 26% ━━━───────── 33/125 23.4it/s 1.6s<3.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 28% ━━━───────── 36/125 23.1it/s 1.7s<3.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 31% ━━━╸──────── 39/125 24.1it/s 1.8s<3.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 42/125 24.3it/s 2.0s<3.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 36% ━━━━──────── 45/125 24.4it/s 2.1s<3.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 38% ━━━━╸─────── 48/125 24.7it/s 2.2s<3.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 51/125 24.6it/s 2.3s<3.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 42% ━━━━━─────── 53/125 22.9it/s 2.4s<3.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% ━━━━━─────── 56/125 23.9it/s 2.5s<2.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 47% ━━━━━╸────── 59/125 24.8it/s 2.7s<2.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 49% ━━━━━╸────── 62/125 24.9it/s 2.8s<2.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 52% ━━━━━━────── 65/125 25.3it/s 2.9s<2.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 54% ━━━━━━╸───── 68/125 25.1it/s 3.0s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 56% ━━━━━━╸───── 71/125 25.4it/s 3.1s<2.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 59% ━━━━━━━───── 74/125 25.7it/s 3.2s<2.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 61% ━━━━━━━───── 77/125 25.4it/s 3.4s<1.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 64% ━━━━━━━╸──── 80/125 25.8it/s 3.5s<1.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 66% ━━━━━━━╸──── 83/125 26.0it/s 3.6s<1.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% ━━━━━━━━──── 86/125 25.6it/s 3.7s<1.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 71% ━━━━━━━━╸─── 89/125 25.7it/s 3.8s<1.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 73% ━━━━━━━━╸─── 92/125 25.5it/s 3.9s<1.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 76% ━━━━━━━━━─── 95/125 25.1it/s 4.1s<1.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 78% ━━━━━━━━━─── 98/125 25.5it/s 4.2s<1.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 101/125 25.4it/s 4.3s<0.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 83% ━━━━━━━━━╸── 104/125 25.4it/s 4.4s<0.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 85% ━━━━━━━━━━── 107/125 25.3it/s 4.5s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 88% ━━━━━━━━━━╸─ 110/125 25.0it/s 4.7s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 90% ━━━━━━━━━━╸─ 113/125 25.0it/s 4.8s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 92% ━━━━━━━━━━━─ 116/125 25.1it/s 4.9s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 95% ━━━━━━━━━━━─ 119/125 25.1it/s 5.0s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 97% ━━━━━━━━━━━╸ 122/125 25.1it/s 5.1s<0.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 125/125 23.8it/s 5.3s
+                   all       2000      10100      0.874      0.735      0.815      0.527
+Speed: 0.3ms preprocess, 0.9ms inference, 0.0ms loss, 0.3ms postprocess per image
+  mAP50=0.815043  mAP50-95=0.527017  P=0.873849  R=0.735467
+[EVAL] SAGE ...
+Ultralytics 8.4.90 🚀 Python-3.10.20 torch-2.7.1+cu118 CUDA:0 (NVIDIA GeForce RTX 4090 D, 24210MiB)
+[34m[1mval: [0mFast image access ✅ (ping: 0.0±0.0 ms, read: 341.2±87.5 MB/s, size: 202.1 KB)
+[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 121 images, 0 backgrounds, 0 corrupt: 6% ╸─────────── 121/2000 362.5it/s 0.1s<5.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 233 images, 0 backgrounds, 0 corrupt: 11% ━─────────── 233/2000 584.5it/s 0.2s<3.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 356 images, 0 backgrounds, 0 corrupt: 17% ━━────────── 356/2000 776.0it/s 0.3s<2.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 475 images, 0 backgrounds, 0 corrupt: 23% ━━╸───────── 475/2000 899.7it/s 0.4s<1.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 591 images, 0 backgrounds, 0 corrupt: 29% ━━━╸──────── 591/2000 974.8it/s 0.5s<1.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 692 images, 0 backgrounds, 0 corrupt: 34% ━━━━──────── 692/2000 982.7it/s 0.6s<1.3s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 809 images, 0 backgrounds, 0 corrupt: 40% ━━━━╸─────── 809/2000 1.0Kit/s 0.7s<1.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 937 images, 0 backgrounds, 0 corrupt: 46% ━━━━━╸────── 937/2000 1.1Kit/s 0.8s<1.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 1040 images, 0 backgrounds, 0 corrupt: 52% ━━━━━━────── 1040/2000 1.1Kit/s 0.9s<0.9s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 1142 images, 0 backgrounds, 0 corrupt: 57% ━━━━━━╸───── 1142/2000 1.1Kit/s 1.0s<0.8s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 1237 images, 0 backgrounds, 0 corrupt: 61% ━━━━━━━───── 1237/2000 1.0Kit/s 1.1s<0.7s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 1340 images, 0 backgrounds, 0 corrupt: 67% ━━━━━━━━──── 1340/2000 1.0Kit/s 1.2s<0.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 1427 images, 0 backgrounds, 0 corrupt: 71% ━━━━━━━━╸─── 1427/2000 960.1it/s 1.3s<0.6s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 1556 images, 0 backgrounds, 0 corrupt: 77% ━━━━━━━━━─── 1556/2000 1.1Kit/s 1.4s<0.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 1644 images, 0 backgrounds, 0 corrupt: 82% ━━━━━━━━━╸── 1644/2000 931.1it/s 1.6s<0.4s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 1789 images, 0 backgrounds, 0 corrupt: 89% ━━━━━━━━━━╸─ 1789/2000 1.1Kit/s 1.7s<0.2s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 1889 images, 0 backgrounds, 0 corrupt: 94% ━━━━━━━━━━━─ 1889/2000 1.1Kit/s 1.8s<0.1s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 1993 images, 0 backgrounds, 0 corrupt: 99% ━━━━━━━━━━━╸ 1993/2000 1.0Kit/s 1.9s<0.0s[K[34m[1mval: [0mScanning /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test... 2000 images, 0 backgrounds, 0 corrupt: 100% ━━━━━━━━━━━━ 2000/2000 1.1Kit/s 1.9s
+[34m[1mval: [0mNew cache created: /root/autodl-tmp/URFusion-main/datasets/yolo/eval_staging/SAGE/labels/test.cache
+[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 0% ──────────── 1/125 1.5it/s 0.2s<1:24[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 3% ──────────── 4/125 5.2it/s 0.4s<23.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 5% ╸─────────── 7/125 11.4it/s 0.5s<10.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 8% ╸─────────── 10/125 15.6it/s 0.7s<7.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 9% ━─────────── 12/125 15.5it/s 0.8s<7.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 12% ━─────────── 15/125 18.7it/s 0.9s<5.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 14% ━╸────────── 18/125 20.4it/s 1.0s<5.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 16% ━╸────────── 20/125 18.4it/s 1.2s<5.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 18% ━━────────── 23/125 21.0it/s 1.3s<4.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 20% ━━────────── 26/125 22.5it/s 1.4s<4.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 22% ━━╸───────── 28/125 20.0it/s 1.5s<4.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 24% ━━╸───────── 31/125 21.7it/s 1.6s<4.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 27% ━━━───────── 34/125 22.7it/s 1.8s<4.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 28% ━━━───────── 36/125 20.8it/s 1.9s<4.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 31% ━━━╸──────── 39/125 22.5it/s 2.0s<3.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 33% ━━━━──────── 42/125 23.2it/s 2.1s<3.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 35% ━━━━──────── 44/125 20.6it/s 2.3s<3.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 37% ━━━━╸─────── 47/125 22.3it/s 2.4s<3.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 40% ━━━━╸─────── 50/125 22.6it/s 2.5s<3.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 41% ━━━━╸─────── 52/125 20.2it/s 2.6s<3.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 44% ━━━━━─────── 55/125 21.9it/s 2.8s<3.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 46% ━━━━━╸────── 58/125 23.3it/s 2.9s<2.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 48% ━━━━━╸────── 61/125 23.6it/s 3.0s<2.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 51% ━━━━━━────── 64/125 24.5it/s 3.1s<2.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 53% ━━━━━━────── 67/125 25.1it/s 3.2s<2.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 56% ━━━━━━╸───── 70/125 24.9it/s 3.3s<2.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 58% ━━━━━━━───── 73/125 25.3it/s 3.5s<2.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 60% ━━━━━━━───── 76/125 25.3it/s 3.6s<1.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 63% ━━━━━━━╸──── 79/125 25.6it/s 3.7s<1.8s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 65% ━━━━━━━╸──── 82/125 25.8it/s 3.8s<1.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 68% ━━━━━━━━──── 85/125 25.5it/s 3.9s<1.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 70% ━━━━━━━━──── 88/125 25.5it/s 4.0s<1.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 72% ━━━━━━━━╸─── 91/125 25.8it/s 4.2s<1.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 75% ━━━━━━━━━─── 94/125 25.5it/s 4.3s<1.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 77% ━━━━━━━━━─── 97/125 25.5it/s 4.4s<1.1s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 80% ━━━━━━━━━╸── 100/125 25.4it/s 4.5s<1.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 82% ━━━━━━━━━╸── 103/125 25.3it/s 4.6s<0.9s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 84% ━━━━━━━━━━── 106/125 25.3it/s 4.8s<0.7s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 87% ━━━━━━━━━━── 109/125 25.3it/s 4.9s<0.6s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 89% ━━━━━━━━━━╸─ 112/125 25.2it/s 5.0s<0.5s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 92% ━━━━━━━━━━━─ 115/125 25.4it/s 5.1s<0.4s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 94% ━━━━━━━━━━━─ 118/125 25.4it/s 5.2s<0.3s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 96% ━━━━━━━━━━━╸ 121/125 25.1it/s 5.4s<0.2s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 99% ━━━━━━━━━━━╸ 124/125 25.2it/s 5.5s<0.0s[K                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100% ━━━━━━━━━━━━ 125/125 22.7it/s 5.5s
+                   all       2000      10100       0.89      0.682      0.774      0.497
+Speed: 0.3ms preprocess, 0.9ms inference, 0.0ms loss, 0.3ms postprocess per image
+  mAP50=0.774035  mAP50-95=0.496742  P=0.89032  R=0.682195
+[DONE] saved to /root/autodl-tmp/URFusion-main/metrics_save/yolo_det_yolo_test_2000
+[2026-07-16 08:36:53] ========== COMPLETE ==========
+[2026-07-16 08:36:53] fused: /root/autodl-tmp/URFusion-main/datasets/yolo/fusion_results/URFusion/RGB_fused (2000)
+[2026-07-16 08:36:53] det:   /root/autodl-tmp/URFusion-main/metrics_save/yolo_det_yolo_test_2000/detection_comparison.csv
+[2026-07-16 08:36:53]        /root/autodl-tmp/URFusion-main/metrics_save/yolo_det_yolo_test_2000/URFusion_det_metrics.json

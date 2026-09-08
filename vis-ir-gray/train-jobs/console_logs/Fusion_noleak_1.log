@@ -1,0 +1,97 @@
+[START] Fusion_noleak_1 | fusion_model=dual_moe_gray
+  data=/root/autodl-tmp/URFusion-main/datasets/training_noleak/train
+  C_vis=Vis_Content_noleak | C_ir=ir_Content_noleak
+  batch=12 patch=160 epochs=80
+  lambda_int=0.1 lambda_grad=1.0 lambda_branch=0.01 lambda_aux=0.03
+  ckpt=/root/autodl-tmp/URFusion-main/vis-ir-gray/train-jobs/ckpt/Fusion_noleak_1/Fusion_noleak_1_ckpt.pth
+  fixed_dir=/root/autodl-tmp/URFusion-main/vis-ir-gray/train-jobs/fixed_examples/Fusion_noleak_1 (n=3)
+[F_gray ep 1/80] loss=0.0877 L_main=0.0254 L_int=0.0823 L_grad=0.0486 L_branch=0.1578 L_aux=0.0038 hit=[0.501, 0.495, 0.499, 0.505] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.313/0.207 IR μ/σ=0.253/0.190 elapsed=0:01:52
+[F_gray ep 2/80] loss=0.0547 L_main=0.0264 L_int=0.0350 L_grad=0.0209 L_branch=0.0436 L_aux=0.0034 hit=[0.500, 0.489, 0.499, 0.512] p_vis=0.501 p_ir=0.499 Y_vis μ/σ=0.314/0.207 IR μ/σ=0.254/0.193 elapsed=0:03:42
+[F_gray ep 3/80] loss=0.0517 L_main=0.0270 L_int=0.0305 L_grad=0.0176 L_branch=0.0428 L_aux=0.0036 hit=[0.497, 0.491, 0.505, 0.506] p_vis=0.502 p_ir=0.498 Y_vis μ/σ=0.311/0.204 IR μ/σ=0.253/0.191 elapsed=0:05:31
+[F_gray ep 4/80] loss=0.0501 L_main=0.0272 L_int=0.0297 L_grad=0.0159 L_branch=0.0460 L_aux=0.0036 hit=[0.500, 0.487, 0.509, 0.505] p_vis=0.500 p_ir=0.500 Y_vis μ/σ=0.312/0.207 IR μ/σ=0.252/0.190 elapsed=0:07:20
+[F_gray ep 5/80] loss=0.0484 L_main=0.0275 L_int=0.0289 L_grad=0.0141 L_branch=0.0439 L_aux=0.0035 hit=[0.502, 0.481, 0.507, 0.509] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.253/0.191 elapsed=0:09:09
+[F_gray ep 6/80] loss=0.0466 L_main=0.0271 L_int=0.0285 L_grad=0.0129 L_branch=0.0400 L_aux=0.0034 hit=[0.505, 0.478, 0.514, 0.502] p_vis=0.489 p_ir=0.511 Y_vis μ/σ=0.312/0.207 IR μ/σ=0.251/0.191 elapsed=0:10:59
+[F_gray ep 7/80] loss=0.0469 L_main=0.0280 L_int=0.0285 L_grad=0.0123 L_branch=0.0369 L_aux=0.0034 hit=[0.501, 0.483, 0.519, 0.497] p_vis=0.489 p_ir=0.511 Y_vis μ/σ=0.313/0.207 IR μ/σ=0.253/0.192 elapsed=0:12:48
+[F_gray ep 8/80] loss=0.0449 L_main=0.0270 L_int=0.0271 L_grad=0.0114 L_branch=0.0352 L_aux=0.0034 hit=[0.501, 0.484, 0.513, 0.502] p_vis=0.491 p_ir=0.509 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.250/0.189 elapsed=0:14:38
+[F_gray ep 9/80] loss=0.0459 L_main=0.0280 L_int=0.0281 L_grad=0.0113 L_branch=0.0347 L_aux=0.0034 hit=[0.500, 0.485, 0.516, 0.499] p_vis=0.491 p_ir=0.509 Y_vis μ/σ=0.315/0.208 IR μ/σ=0.252/0.190 elapsed=0:16:27
+[F_gray ep 10/80] loss=0.0451 L_main=0.0276 L_int=0.0277 L_grad=0.0108 L_branch=0.0337 L_aux=0.0036 hit=[0.498, 0.481, 0.513, 0.508] p_vis=0.489 p_ir=0.511 Y_vis μ/σ=0.311/0.205 IR μ/σ=0.253/0.191 elapsed=0:18:16
+  saved epoch snapshot: ../train-jobs/ckpt/Fusion_noleak_1/epoch_010/ckpt.pth
+[F_gray ep 11/80] loss=0.0442 L_main=0.0273 L_int=0.0268 L_grad=0.0105 L_branch=0.0329 L_aux=0.0034 hit=[0.497, 0.481, 0.516, 0.506] p_vis=0.491 p_ir=0.509 Y_vis μ/σ=0.312/0.207 IR μ/σ=0.252/0.190 elapsed=0:20:05
+[F_gray ep 12/80] loss=0.0445 L_main=0.0277 L_int=0.0272 L_grad=0.0102 L_branch=0.0319 L_aux=0.0036 hit=[0.500, 0.479, 0.518, 0.503] p_vis=0.490 p_ir=0.510 Y_vis μ/σ=0.313/0.207 IR μ/σ=0.252/0.192 elapsed=0:21:54
+[F_gray ep 13/80] loss=0.0444 L_main=0.0276 L_int=0.0271 L_grad=0.0102 L_branch=0.0315 L_aux=0.0035 hit=[0.498, 0.484, 0.520, 0.498] p_vis=0.491 p_ir=0.509 Y_vis μ/σ=0.311/0.206 IR μ/σ=0.255/0.191 elapsed=0:23:43
+[F_gray ep 14/80] loss=0.0438 L_main=0.0275 L_int=0.0267 L_grad=0.0099 L_branch=0.0306 L_aux=0.0034 hit=[0.498, 0.487, 0.515, 0.500] p_vis=0.493 p_ir=0.507 Y_vis μ/σ=0.313/0.205 IR μ/σ=0.253/0.191 elapsed=0:25:33
+[F_gray ep 15/80] loss=0.0435 L_main=0.0273 L_int=0.0264 L_grad=0.0099 L_branch=0.0302 L_aux=0.0033 hit=[0.501, 0.488, 0.507, 0.505] p_vis=0.493 p_ir=0.507 Y_vis μ/σ=0.313/0.207 IR μ/σ=0.253/0.189 elapsed=0:27:22
+[F_gray ep 16/80] loss=0.0427 L_main=0.0270 L_int=0.0260 L_grad=0.0094 L_branch=0.0291 L_aux=0.0034 hit=[0.495, 0.484, 0.510, 0.511] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.314/0.207 IR μ/σ=0.252/0.189 elapsed=0:29:11
+[F_gray ep 17/80] loss=0.0435 L_main=0.0276 L_int=0.0264 L_grad=0.0096 L_branch=0.0287 L_aux=0.0035 hit=[0.497, 0.484, 0.515, 0.504] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.253/0.189 elapsed=0:31:00
+[F_gray ep 18/80] loss=0.0438 L_main=0.0279 L_int=0.0262 L_grad=0.0095 L_branch=0.0277 L_aux=0.0035 hit=[0.499, 0.481, 0.519, 0.500] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.312/0.206 IR μ/σ=0.249/0.189 elapsed=0:32:49
+[F_gray ep 19/80] loss=0.0433 L_main=0.0276 L_int=0.0262 L_grad=0.0093 L_branch=0.0273 L_aux=0.0035 hit=[0.495, 0.487, 0.516, 0.502] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.315/0.207 IR μ/σ=0.253/0.190 elapsed=0:34:39
+[F_gray ep 20/80] loss=0.0442 L_main=0.0283 L_int=0.0266 L_grad=0.0096 L_branch=0.0269 L_aux=0.0034 hit=[0.498, 0.484, 0.516, 0.502] p_vis=0.492 p_ir=0.508 Y_vis μ/σ=0.311/0.205 IR μ/σ=0.255/0.191 elapsed=0:36:28
+  saved epoch snapshot: ../train-jobs/ckpt/Fusion_noleak_1/epoch_020/ckpt.pth
+[F_gray ep 21/80] loss=0.0433 L_main=0.0278 L_int=0.0260 L_grad=0.0091 L_branch=0.0259 L_aux=0.0036 hit=[0.498, 0.481, 0.520, 0.501] p_vis=0.493 p_ir=0.507 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.254/0.191 elapsed=0:38:20
+[F_gray ep 22/80] loss=0.0430 L_main=0.0278 L_int=0.0256 L_grad=0.0090 L_branch=0.0253 L_aux=0.0035 hit=[0.497, 0.482, 0.513, 0.508] p_vis=0.493 p_ir=0.507 Y_vis μ/σ=0.312/0.207 IR μ/σ=0.253/0.190 elapsed=0:40:10
+[F_gray ep 23/80] loss=0.0422 L_main=0.0275 L_int=0.0255 L_grad=0.0086 L_branch=0.0246 L_aux=0.0033 hit=[0.494, 0.486, 0.511, 0.508] p_vis=0.494 p_ir=0.506 Y_vis μ/σ=0.314/0.207 IR μ/σ=0.250/0.190 elapsed=0:41:59
+[F_gray ep 24/80] loss=0.0433 L_main=0.0279 L_int=0.0255 L_grad=0.0090 L_branch=0.0244 L_aux=0.0036 hit=[0.493, 0.491, 0.506, 0.509] p_vis=0.496 p_ir=0.504 Y_vis μ/σ=0.315/0.207 IR μ/σ=0.251/0.189 elapsed=0:43:48
+[F_gray ep 25/80] loss=0.0425 L_main=0.0276 L_int=0.0253 L_grad=0.0087 L_branch=0.0238 L_aux=0.0035 hit=[0.504, 0.480, 0.513, 0.502] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.252/0.190 elapsed=0:45:37
+[F_gray ep 26/80] loss=0.0425 L_main=0.0275 L_int=0.0253 L_grad=0.0086 L_branch=0.0235 L_aux=0.0036 hit=[0.495, 0.488, 0.516, 0.501] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.311/0.206 IR μ/σ=0.254/0.190 elapsed=0:47:26
+[F_gray ep 27/80] loss=0.0423 L_main=0.0275 L_int=0.0252 L_grad=0.0086 L_branch=0.0229 L_aux=0.0034 hit=[0.499, 0.482, 0.514, 0.505] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.252/0.189 elapsed=0:49:15
+[F_gray ep 28/80] loss=0.0424 L_main=0.0278 L_int=0.0250 L_grad=0.0084 L_branch=0.0226 L_aux=0.0035 hit=[0.492, 0.490, 0.513, 0.505] p_vis=0.494 p_ir=0.506 Y_vis μ/σ=0.311/0.206 IR μ/σ=0.252/0.190 elapsed=0:51:05
+[F_gray ep 29/80] loss=0.0426 L_main=0.0280 L_int=0.0252 L_grad=0.0084 L_branch=0.0223 L_aux=0.0034 hit=[0.505, 0.488, 0.508, 0.498] p_vis=0.493 p_ir=0.507 Y_vis μ/σ=0.315/0.208 IR μ/σ=0.254/0.193 elapsed=0:52:54
+[F_gray ep 30/80] loss=0.0426 L_main=0.0279 L_int=0.0254 L_grad=0.0085 L_branch=0.0222 L_aux=0.0035 hit=[0.494, 0.486, 0.516, 0.503] p_vis=0.494 p_ir=0.506 Y_vis μ/σ=0.313/0.207 IR μ/σ=0.254/0.190 elapsed=0:54:44
+  saved epoch snapshot: ../train-jobs/ckpt/Fusion_noleak_1/epoch_030/ckpt.pth
+[F_gray ep 31/80] loss=0.0422 L_main=0.0276 L_int=0.0247 L_grad=0.0084 L_branch=0.0219 L_aux=0.0036 hit=[0.492, 0.489, 0.515, 0.504] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.315/0.208 IR μ/σ=0.250/0.188 elapsed=0:56:33
+[F_gray ep 32/80] loss=0.0423 L_main=0.0278 L_int=0.0251 L_grad=0.0083 L_branch=0.0215 L_aux=0.0035 hit=[0.497, 0.486, 0.514, 0.503] p_vis=0.494 p_ir=0.506 Y_vis μ/σ=0.310/0.205 IR μ/σ=0.252/0.190 elapsed=0:58:22
+[F_gray ep 33/80] loss=0.0429 L_main=0.0283 L_int=0.0252 L_grad=0.0084 L_branch=0.0213 L_aux=0.0035 hit=[0.496, 0.490, 0.512, 0.502] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.251/0.189 elapsed=1:00:12
+[F_gray ep 34/80] loss=0.0429 L_main=0.0283 L_int=0.0250 L_grad=0.0082 L_branch=0.0212 L_aux=0.0036 hit=[0.503, 0.484, 0.507, 0.505] p_vis=0.496 p_ir=0.504 Y_vis μ/σ=0.317/0.209 IR μ/σ=0.251/0.189 elapsed=1:02:01
+[F_gray ep 35/80] loss=0.0417 L_main=0.0276 L_int=0.0245 L_grad=0.0080 L_branch=0.0208 L_aux=0.0035 hit=[0.499, 0.484, 0.513, 0.504] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.252/0.189 elapsed=1:03:50
+[F_gray ep 36/80] loss=0.0424 L_main=0.0280 L_int=0.0248 L_grad=0.0081 L_branch=0.0207 L_aux=0.0036 hit=[0.499, 0.489, 0.516, 0.496] p_vis=0.494 p_ir=0.506 Y_vis μ/σ=0.314/0.206 IR μ/σ=0.250/0.189 elapsed=1:05:39
+[F_gray ep 37/80] loss=0.0426 L_main=0.0282 L_int=0.0252 L_grad=0.0081 L_branch=0.0207 L_aux=0.0035 hit=[0.499, 0.488, 0.511, 0.502] p_vis=0.493 p_ir=0.507 Y_vis μ/σ=0.313/0.207 IR μ/σ=0.254/0.190 elapsed=1:07:28
+[F_gray ep 38/80] loss=0.0426 L_main=0.0283 L_int=0.0247 L_grad=0.0080 L_branch=0.0204 L_aux=0.0035 hit=[0.497, 0.489, 0.511, 0.503] p_vis=0.493 p_ir=0.507 Y_vis μ/σ=0.312/0.207 IR μ/σ=0.255/0.191 elapsed=1:09:18
+[F_gray ep 39/80] loss=0.0414 L_main=0.0274 L_int=0.0247 L_grad=0.0078 L_branch=0.0201 L_aux=0.0035 hit=[0.494, 0.491, 0.512, 0.502] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.312/0.207 IR μ/σ=0.252/0.189 elapsed=1:11:07
+[F_gray ep 40/80] loss=0.0407 L_main=0.0271 L_int=0.0240 L_grad=0.0076 L_branch=0.0200 L_aux=0.0034 hit=[0.499, 0.486, 0.512, 0.502] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.312/0.206 IR μ/σ=0.254/0.190 elapsed=1:12:56
+  saved epoch snapshot: ../train-jobs/ckpt/Fusion_noleak_1/epoch_040/ckpt.pth
+[F_gray ep 41/80] loss=0.0421 L_main=0.0280 L_int=0.0247 L_grad=0.0079 L_branch=0.0200 L_aux=0.0036 hit=[0.505, 0.480, 0.510, 0.505] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.253/0.191 elapsed=1:14:47
+[F_gray ep 42/80] loss=0.0418 L_main=0.0277 L_int=0.0251 L_grad=0.0079 L_branch=0.0199 L_aux=0.0035 hit=[0.500, 0.493, 0.511, 0.497] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.311/0.207 IR μ/σ=0.253/0.191 elapsed=1:16:36
+[F_gray ep 43/80] loss=0.0413 L_main=0.0276 L_int=0.0238 L_grad=0.0075 L_branch=0.0195 L_aux=0.0036 hit=[0.502, 0.483, 0.510, 0.504] p_vis=0.496 p_ir=0.504 Y_vis μ/σ=0.315/0.205 IR μ/σ=0.252/0.189 elapsed=1:18:25
+[F_gray ep 44/80] loss=0.0417 L_main=0.0278 L_int=0.0243 L_grad=0.0077 L_branch=0.0195 L_aux=0.0035 hit=[0.506, 0.487, 0.504, 0.502] p_vis=0.494 p_ir=0.506 Y_vis μ/σ=0.310/0.205 IR μ/σ=0.255/0.192 elapsed=1:20:15
+[F_gray ep 45/80] loss=0.0417 L_main=0.0277 L_int=0.0246 L_grad=0.0077 L_branch=0.0194 L_aux=0.0036 hit=[0.496, 0.490, 0.507, 0.506] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.314/0.206 IR μ/σ=0.249/0.188 elapsed=1:22:04
+[F_gray ep 46/80] loss=0.0416 L_main=0.0279 L_int=0.0244 L_grad=0.0075 L_branch=0.0194 L_aux=0.0036 hit=[0.499, 0.495, 0.506, 0.500] p_vis=0.496 p_ir=0.504 Y_vis μ/σ=0.311/0.206 IR μ/σ=0.254/0.189 elapsed=1:23:53
+[F_gray ep 47/80] loss=0.0411 L_main=0.0276 L_int=0.0242 L_grad=0.0074 L_branch=0.0194 L_aux=0.0035 hit=[0.498, 0.486, 0.513, 0.503] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.311/0.206 IR μ/σ=0.252/0.190 elapsed=1:25:42
+[F_gray ep 48/80] loss=0.0415 L_main=0.0278 L_int=0.0244 L_grad=0.0075 L_branch=0.0192 L_aux=0.0035 hit=[0.500, 0.493, 0.514, 0.493] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.252/0.191 elapsed=1:27:32
+[F_gray ep 49/80] loss=0.0415 L_main=0.0280 L_int=0.0244 L_grad=0.0075 L_branch=0.0191 L_aux=0.0034 hit=[0.499, 0.490, 0.511, 0.499] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.313/0.207 IR μ/σ=0.254/0.190 elapsed=1:29:21
+[F_gray ep 50/80] loss=0.0418 L_main=0.0280 L_int=0.0246 L_grad=0.0075 L_branch=0.0191 L_aux=0.0036 hit=[0.500, 0.490, 0.507, 0.503] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.312/0.206 IR μ/σ=0.254/0.191 elapsed=1:31:10
+  saved epoch snapshot: ../train-jobs/ckpt/Fusion_noleak_1/epoch_050/ckpt.pth
+[F_gray ep 51/80] loss=0.0408 L_main=0.0272 L_int=0.0238 L_grad=0.0074 L_branch=0.0189 L_aux=0.0036 hit=[0.494, 0.490, 0.504, 0.512] p_vis=0.499 p_ir=0.501 Y_vis μ/σ=0.313/0.207 IR μ/σ=0.251/0.189 elapsed=1:32:59
+[F_gray ep 52/80] loss=0.0414 L_main=0.0278 L_int=0.0239 L_grad=0.0074 L_branch=0.0187 L_aux=0.0036 hit=[0.498, 0.489, 0.508, 0.504] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.312/0.205 IR μ/σ=0.251/0.190 elapsed=1:34:48
+[F_gray ep 53/80] loss=0.0421 L_main=0.0284 L_int=0.0240 L_grad=0.0074 L_branch=0.0188 L_aux=0.0036 hit=[0.501, 0.485, 0.512, 0.502] p_vis=0.499 p_ir=0.501 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.252/0.188 elapsed=1:36:38
+[F_gray ep 54/80] loss=0.0412 L_main=0.0279 L_int=0.0239 L_grad=0.0072 L_branch=0.0185 L_aux=0.0036 hit=[0.501, 0.492, 0.505, 0.502] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.312/0.206 IR μ/σ=0.251/0.189 elapsed=1:38:27
+[F_gray ep 55/80] loss=0.0412 L_main=0.0279 L_int=0.0236 L_grad=0.0071 L_branch=0.0184 L_aux=0.0037 hit=[0.496, 0.493, 0.514, 0.496] p_vis=0.498 p_ir=0.502 Y_vis μ/σ=0.311/0.206 IR μ/σ=0.251/0.190 elapsed=1:40:16
+[F_gray ep 56/80] loss=0.0406 L_main=0.0274 L_int=0.0239 L_grad=0.0071 L_branch=0.0183 L_aux=0.0037 hit=[0.502, 0.490, 0.508, 0.500] p_vis=0.498 p_ir=0.502 Y_vis μ/σ=0.313/0.205 IR μ/σ=0.251/0.190 elapsed=1:42:05
+[F_gray ep 57/80] loss=0.0412 L_main=0.0279 L_int=0.0238 L_grad=0.0071 L_branch=0.0183 L_aux=0.0036 hit=[0.498, 0.493, 0.511, 0.497] p_vis=0.498 p_ir=0.502 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.252/0.189 elapsed=1:43:54
+[F_gray ep 58/80] loss=0.0412 L_main=0.0280 L_int=0.0245 L_grad=0.0072 L_branch=0.0183 L_aux=0.0033 hit=[0.498, 0.490, 0.505, 0.507] p_vis=0.498 p_ir=0.502 Y_vis μ/σ=0.314/0.208 IR μ/σ=0.252/0.190 elapsed=1:45:43
+[F_gray ep 59/80] loss=0.0415 L_main=0.0282 L_int=0.0240 L_grad=0.0071 L_branch=0.0183 L_aux=0.0035 hit=[0.504, 0.488, 0.508, 0.500] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.312/0.206 IR μ/σ=0.253/0.192 elapsed=1:47:33
+[F_gray ep 60/80] loss=0.0408 L_main=0.0277 L_int=0.0238 L_grad=0.0071 L_branch=0.0181 L_aux=0.0035 hit=[0.500, 0.487, 0.513, 0.499] p_vis=0.499 p_ir=0.501 Y_vis μ/σ=0.312/0.206 IR μ/σ=0.253/0.191 elapsed=1:49:22
+  saved epoch snapshot: ../train-jobs/ckpt/Fusion_noleak_1/epoch_060/ckpt.pth
+[F_gray ep 61/80] loss=0.0415 L_main=0.0284 L_int=0.0239 L_grad=0.0070 L_branch=0.0181 L_aux=0.0035 hit=[0.495, 0.488, 0.512, 0.505] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.311/0.205 IR μ/σ=0.253/0.191 elapsed=1:51:13
+[F_gray ep 62/80] loss=0.0404 L_main=0.0275 L_int=0.0233 L_grad=0.0068 L_branch=0.0179 L_aux=0.0036 hit=[0.499, 0.493, 0.506, 0.503] p_vis=0.499 p_ir=0.501 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.252/0.190 elapsed=1:53:02
+[F_gray ep 63/80] loss=0.0404 L_main=0.0275 L_int=0.0235 L_grad=0.0069 L_branch=0.0179 L_aux=0.0035 hit=[0.506, 0.490, 0.502, 0.502] p_vis=0.499 p_ir=0.501 Y_vis μ/σ=0.313/0.207 IR μ/σ=0.252/0.190 elapsed=1:54:51
+[F_gray ep 64/80] loss=0.0405 L_main=0.0276 L_int=0.0236 L_grad=0.0068 L_branch=0.0176 L_aux=0.0036 hit=[0.500, 0.487, 0.507, 0.507] p_vis=0.498 p_ir=0.502 Y_vis μ/σ=0.312/0.207 IR μ/σ=0.251/0.190 elapsed=1:56:41
+[F_gray ep 65/80] loss=0.0406 L_main=0.0277 L_int=0.0237 L_grad=0.0068 L_branch=0.0176 L_aux=0.0036 hit=[0.498, 0.492, 0.508, 0.502] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.311/0.207 IR μ/σ=0.253/0.190 elapsed=1:58:30
+[F_gray ep 66/80] loss=0.0410 L_main=0.0279 L_int=0.0238 L_grad=0.0069 L_branch=0.0177 L_aux=0.0036 hit=[0.498, 0.493, 0.510, 0.499] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.253/0.190 elapsed=2:00:20
+[F_gray ep 67/80] loss=0.0415 L_main=0.0286 L_int=0.0243 L_grad=0.0069 L_branch=0.0178 L_aux=0.0034 hit=[0.496, 0.496, 0.506, 0.502] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.314/0.208 IR μ/σ=0.254/0.192 elapsed=2:02:09
+[F_gray ep 68/80] loss=0.0415 L_main=0.0284 L_int=0.0243 L_grad=0.0069 L_branch=0.0176 L_aux=0.0036 hit=[0.501, 0.493, 0.508, 0.499] p_vis=0.495 p_ir=0.505 Y_vis μ/σ=0.311/0.206 IR μ/σ=0.256/0.192 elapsed=2:03:58
+[F_gray ep 69/80] loss=0.0409 L_main=0.0278 L_int=0.0238 L_grad=0.0068 L_branch=0.0176 L_aux=0.0037 hit=[0.499, 0.492, 0.506, 0.503] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.313/0.207 IR μ/σ=0.254/0.191 elapsed=2:05:48
+[F_gray ep 70/80] loss=0.0407 L_main=0.0277 L_int=0.0237 L_grad=0.0067 L_branch=0.0174 L_aux=0.0037 hit=[0.498, 0.493, 0.505, 0.504] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.313/0.207 IR μ/σ=0.254/0.191 elapsed=2:07:37
+  saved epoch snapshot: ../train-jobs/ckpt/Fusion_noleak_1/epoch_070/ckpt.pth
+[F_gray ep 71/80] loss=0.0409 L_main=0.0280 L_int=0.0237 L_grad=0.0068 L_branch=0.0174 L_aux=0.0036 hit=[0.501, 0.486, 0.512, 0.501] p_vis=0.496 p_ir=0.504 Y_vis μ/σ=0.311/0.206 IR μ/σ=0.254/0.190 elapsed=2:09:27
+[F_gray ep 72/80] loss=0.0408 L_main=0.0281 L_int=0.0236 L_grad=0.0066 L_branch=0.0173 L_aux=0.0036 hit=[0.498, 0.490, 0.510, 0.502] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.314/0.207 IR μ/σ=0.251/0.189 elapsed=2:11:16
+[F_gray ep 73/80] loss=0.0404 L_main=0.0279 L_int=0.0233 L_grad=0.0065 L_branch=0.0172 L_aux=0.0036 hit=[0.499, 0.490, 0.508, 0.503] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.311/0.206 IR μ/σ=0.253/0.190 elapsed=2:13:05
+[F_gray ep 74/80] loss=0.0415 L_main=0.0285 L_int=0.0242 L_grad=0.0068 L_branch=0.0173 L_aux=0.0036 hit=[0.502, 0.494, 0.501, 0.503] p_vis=0.497 p_ir=0.503 Y_vis μ/σ=0.313/0.207 IR μ/σ=0.253/0.190 elapsed=2:14:55
+[F_gray ep 75/80] loss=0.0405 L_main=0.0278 L_int=0.0235 L_grad=0.0065 L_branch=0.0171 L_aux=0.0037 hit=[0.495, 0.490, 0.510, 0.506] p_vis=0.498 p_ir=0.502 Y_vis μ/σ=0.314/0.208 IR μ/σ=0.250/0.190 elapsed=2:16:44
+[F_gray ep 76/80] loss=0.0409 L_main=0.0282 L_int=0.0238 L_grad=0.0067 L_branch=0.0172 L_aux=0.0035 hit=[0.501, 0.489, 0.512, 0.499] p_vis=0.498 p_ir=0.502 Y_vis μ/σ=0.315/0.208 IR μ/σ=0.254/0.192 elapsed=2:18:33
+[F_gray ep 77/80] loss=0.0400 L_main=0.0277 L_int=0.0228 L_grad=0.0062 L_branch=0.0168 L_aux=0.0036 hit=[0.496, 0.493, 0.509, 0.502] p_vis=0.498 p_ir=0.502 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.250/0.189 elapsed=2:20:23
+[F_gray ep 78/80] loss=0.0399 L_main=0.0273 L_int=0.0233 L_grad=0.0064 L_branch=0.0170 L_aux=0.0037 hit=[0.501, 0.490, 0.508, 0.501] p_vis=0.499 p_ir=0.501 Y_vis μ/σ=0.313/0.206 IR μ/σ=0.254/0.190 elapsed=2:22:12
+[F_gray ep 79/80] loss=0.0404 L_main=0.0278 L_int=0.0233 L_grad=0.0064 L_branch=0.0168 L_aux=0.0036 hit=[0.494, 0.494, 0.508, 0.503] p_vis=0.498 p_ir=0.502 Y_vis μ/σ=0.311/0.206 IR μ/σ=0.250/0.188 elapsed=2:24:01
+[F_gray ep 80/80] loss=0.0404 L_main=0.0280 L_int=0.0232 L_grad=0.0063 L_branch=0.0168 L_aux=0.0037 hit=[0.499, 0.490, 0.510, 0.501] p_vis=0.498 p_ir=0.502 Y_vis μ/σ=0.312/0.206 IR μ/σ=0.251/0.191 elapsed=2:25:51
+  saved epoch snapshot: ../train-jobs/ckpt/Fusion_noleak_1/epoch_080/ckpt.pth
+[DONE] Fusion_noleak_1
+[SHUTDOWN] Training finished; shutting down instance via /usr/bin/shutdown

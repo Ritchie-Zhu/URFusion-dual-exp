@@ -1,0 +1,35 @@
+{
+  "weights": "/root/autodl-tmp/URFusion-main/datasets/yolo/runs/yolo11s_iv_det/weights/best.pt",
+  "n_inputs": 1,
+  "metric_descriptions": {
+    "mAP50": "Mean AP @ IoU=0.50. Standard detection metric; higher is better.",
+    "mAP50-95": "Mean AP @ IoU=0.50:0.95 (COCO primary). Stricter; higher is better.",
+    "precision": "Precision = TP/(TP+FP) at default val conf. Higher is better.",
+    "recall": "Recall = TP/(TP+FN). Higher is better.",
+    "f1": "Harmonic mean of precision and recall.",
+    "AP50_person": "Per-class AP50 for person (class 0).",
+    "AP50_car": "Per-class AP50 for car (class 1).",
+    "AP50_bus": "Per-class AP50 for bus (class 2).",
+    "AP50_lamp": "Per-class AP50 for lamp (class 3).",
+    "AP50_motorcycle": "Per-class AP50 for motorcycle (class 4).",
+    "AP50_truck": "Per-class AP50 for truck (class 5)."
+  },
+  "results": [
+    {
+      "input": "Fusion_noleak_1",
+      "n_images": 2000,
+      "mAP50": 0.803094,
+      "mAP50-95": 0.514827,
+      "precision": 0.872592,
+      "recall": 0.731939,
+      "f1": 0.7961,
+      "AP50-95_person": 0.445347,
+      "AP50-95_car": 0.626294,
+      "AP50-95_bus": 0.665793,
+      "AP50-95_lamp": 0.420738,
+      "AP50-95_motorcycle": 0.331671,
+      "AP50-95_truck": 0.599117,
+      "eval_time_s": 10.53
+    }
+  ]
+}

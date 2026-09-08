@@ -1,0 +1,9 @@
+MSRS n=361  Abl_SR_wo_Res vs SpatialResMoE_3 (Full)
+--- 6-col (higher better) ---
+      metric          S1        Full       delta
+         NMI      0.7234      0.7223     +0.0012
+          Qy      0.9497      0.9494     +0.0003
+          MI      4.3318      4.3157     +0.0161
+         VIF      1.0473      1.0266     +0.0207
+        Qabf      0.7052      0.6971     +0.0081
+        VIFF      0.7695      0.7554     +0.0141

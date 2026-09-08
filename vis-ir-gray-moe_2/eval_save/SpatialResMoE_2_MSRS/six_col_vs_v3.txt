@@ -1,0 +1,9 @@
+MSRS n=361  SpatialResMoE_2 vs v3
+--- 6-col (higher better) ---
+      metric  SpatialResMoE_2            v3       delta
+         NMI        0.7071        0.7223     -0.0152
+          Qy        0.9465        0.9494     -0.0028
+          MI        4.2260        4.3157     -0.0897
+         VIF        1.0199        1.0266     -0.0067
+        Qabf        0.6956        0.6971     -0.0014
+        VIFF        0.7479        0.7554     -0.0075

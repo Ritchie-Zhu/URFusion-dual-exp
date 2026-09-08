@@ -1,0 +1,50 @@
+{
+  "n_workers": 8,
+  "n_images": 48,
+  "wall_s": 56.32266018539667,
+  "s_per_img": 1.1733887538624306,
+  "expected_seq_s": 211.23199999999997,
+  "speedup_vs_recorded_seq": 3.7503910380775687,
+  "datasets": {
+    "LLVIP": {
+      "n": 32,
+      "six_max_abs": 0.0,
+      "six_at": null,
+      "all25_max_abs": 5.960464477539063e-08,
+      "all25_at": [
+        "190009.jpg",
+        "MS_SSIM"
+      ],
+      "iqa_max_abs": 0.0,
+      "n_six_mismatch": 0,
+      "ok": true
+    },
+    "MSRS": {
+      "n": 8,
+      "six_max_abs": 0.0,
+      "six_at": null,
+      "all25_max_abs": 2.9802322387695312e-08,
+      "all25_at": [
+        "00004N.png",
+        "SSIM"
+      ],
+      "iqa_max_abs": 0.0,
+      "n_six_mismatch": 0,
+      "ok": true
+    },
+    "M3FD": {
+      "n": 8,
+      "six_max_abs": 0.0,
+      "six_at": null,
+      "all25_max_abs": 5.960464477539063e-08,
+      "all25_at": [
+        "00000.png",
+        "SSIM"
+      ],
+      "iqa_max_abs": 0.0,
+      "n_six_mismatch": 0,
+      "ok": true
+    }
+  },
+  "ok": true
+}

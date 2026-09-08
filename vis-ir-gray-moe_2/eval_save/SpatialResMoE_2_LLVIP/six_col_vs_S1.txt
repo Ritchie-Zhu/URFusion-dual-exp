@@ -1,0 +1,9 @@
+LLVIP n=1000  SpatialResMoE_2 vs S1
+--- 6-col (higher better) ---
+      metric  SpatialResMoE_2            S1       delta
+         NMI        0.5573        0.5536     +0.0037
+          Qy        0.9319        0.9330     -0.0010
+          MI        3.7237        3.7003     +0.0234
+         VIF        0.9493        0.9675     -0.0182
+        Qabf        0.6988        0.7046     -0.0058
+        VIFF        0.6414        0.6573     -0.0159

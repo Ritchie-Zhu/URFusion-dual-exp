@@ -1,0 +1,37 @@
+LLVIP n=1000  SpatialResMoE_2 vs v3
+--- 6-col (higher better) ---
+      metric  SpatialResMoE_2            v3       delta
+         NMI        0.5573        0.5521     +0.0052
+          Qy        0.9319        0.9315     +0.0004
+          MI        3.7237        3.6911     +0.0327
+         VIF        0.9493        0.9451     +0.0042
+        Qabf        0.6988        0.6967     +0.0021
+        VIFF        0.6414        0.6387     +0.0028
+--- 25-col ---
+      metric  SpatialResMoE_2            v3       delta  note
+          CE        0.5631        0.5639     -0.0007  lower better  SpatialResMoE_2
+         NMI        0.5573        0.5521     +0.0052  higher better  SpatialResMoE_2
+       QNCIE        0.8796        0.8793     +0.0002  higher better  SpatialResMoE_2
+          TE        6.0454        6.0325     +0.0129  higher better  SpatialResMoE_2
+          EI       49.4250       49.7087     -0.2838  higher better  v3
+          Qy        0.9319        0.9315     +0.0004  higher better  SpatialResMoE_2
+         Qcb        0.4724        0.4723     +0.0001  higher better  SpatialResMoE_2
+          EN        7.4817        7.4946     -0.0129  higher better  v3
+          MI        3.7237        3.6911     +0.0327  higher better  SpatialResMoE_2
+          SF       16.0208       16.1110     -0.0902  higher better  v3
+          AG        4.6886        4.7133     -0.0247  higher better  v3
+          SD       52.3575       52.6995     -0.3420  higher better  v3
+          CC        0.6630        0.6607     +0.0022  higher better  SpatialResMoE_2
+         SCD        1.4645        1.4402     +0.0243  higher better  SpatialResMoE_2
+         VIF        0.9493        0.9451     +0.0042  higher better  SpatialResMoE_2
+         MSE        0.0411        0.0422     -0.0010  lower better  SpatialResMoE_2
+        PSNR       13.9825       13.8789     +0.1036  higher better  SpatialResMoE_2
+        Qabf        0.6988        0.6967     +0.0021  higher better  SpatialResMoE_2
+        Nabf        0.0163        0.0170     -0.0007  lower better  SpatialResMoE_2
+        SSIM        0.4221        0.4163     +0.0058  higher better  SpatialResMoE_2
+     MS_SSIM        0.4861        0.4813     +0.0048  higher better  SpatialResMoE_2
+        VIFF        0.6414        0.6387     +0.0028  higher better  SpatialResMoE_2
+        NIQE        3.7502        3.7437     +0.0065  lower better  v3
+     BRISQUE       20.8259       21.0037     -0.1778  lower better  SpatialResMoE_2
+       MUSIQ       52.8758       52.8486     +0.0272  higher better  SpatialResMoE_2
+SpatialResMoE_2 better on 19/25 cells

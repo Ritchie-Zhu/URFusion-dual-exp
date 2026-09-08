@@ -1,0 +1,9 @@
+M3FD n=300  SpatialResMoE_2 vs S1
+--- 6-col (higher better) ---
+      metric  SpatialResMoE_2            S1       delta
+         NMI        0.6099        0.6285     -0.0186
+          Qy        0.9544        0.9562     -0.0018
+          MI        4.1879        4.3163     -0.1283
+         VIF        0.8644        0.8857     -0.0213
+        Qabf        0.6902        0.6956     -0.0054
+        VIFF        0.6231        0.6400     -0.0169

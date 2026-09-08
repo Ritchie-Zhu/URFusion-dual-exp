@@ -1,0 +1,6 @@
+ep001 [HEALTH] GATE_FLAT | a_mean=0.933 a_std=0.015 a_vs_mask=0.345 mask=0.678±0.459 | res=0.0755 e_conflict=0.0793 e_base=0.0873 | vis_u=0.0676 ir_u=0.0668 cap=0.1211 diff=0.1324
+ep002 [HEALTH] GATE_ON,GATE_FLAT | a_mean=0.995 a_std=0.004 a_vs_mask=0.324 mask=0.678±0.460 | res=0.0766 e_conflict=0.0770 e_base=0.0821 | vis_u=0.0714 ir_u=0.0694 cap=0.1331 diff=0.1374
+ep003 [HEALTH] GATE_ON,GATE_FLAT | a_mean=0.995 a_std=0.004 a_vs_mask=0.323 mask=0.679±0.459 | res=0.0704 e_conflict=0.0708 e_base=0.0762 | vis_u=0.0655 ir_u=0.0642 cap=0.1219 diff=0.1254
+ep004 [HEALTH] GATE_ON,GATE_FLAT | a_mean=0.997 a_std=0.003 a_vs_mask=0.321 mask=0.680±0.459 | res=0.0653 e_conflict=0.0654 e_base=0.0724 | vis_u=0.0622 ir_u=0.0617 cap=0.1141 diff=0.1190
+ep005 [HEALTH] GATE_ON,GATE_FLAT | a_mean=0.999 a_std=0.002 a_vs_mask=0.323 mask=0.677±0.460 | res=0.0613 e_conflict=0.0614 e_base=0.0691 | vis_u=0.0588 ir_u=0.0605 cap=0.1099 diff=0.1130
+ep006 [HEALTH] GATE_ON,GATE_FLAT | a_mean=0.999 a_std=0.001 a_vs_mask=0.319 mask=0.681±0.459 | res=0.0579 e_conflict=0.0579 e_base=0.0652 | vis_u=0.0561 ir_u=0.0586 cap=0.1047 diff=0.1073

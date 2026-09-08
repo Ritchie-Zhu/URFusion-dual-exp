@@ -1,0 +1,43 @@
+已失败 / 已排除的设计（不要原样重做）
+
+代码、ckpt、log、评测目录的完整路径见同目录 experiments_inventory.txt。
+
+1) 论文骨架 Full = Fusion_noleak_1
+   Dual PreNet + 4 个同构 FusionExpertBlock(concat vis,ir,|diff|) + noisy top-2 + L_aux
+   代码: vis-ir-gray/code/models/dual_moe.py
+   结果: NMI/MI 全面低于单专家 A2。专家 hit 约 0.5，没有真正分工。
+   结论: 同构专家拷贝 + top-2 不能当贡献。
+
+2) A1 Abl_wo_Dual
+   共享 PreNet，MoE 保留。MSRS NMI 0.684 vs Full 0.710。
+   结论: Dual 有效，新模型应保留双编码器，不要退回共享编码。
+
+3) SpatialResMoE v1/v2（vis-ir-gray-moe_update，SpatialResMoE_1 / _2）
+   门控饱和: ep2 起 g_mean=1，GATE_COLLAPSE。不是代码崩溃。
+   v3 才训满: g.detach()、bias 零初始化、门控下限。
+
+4) SpatialResMoE_3（泄漏残差 MoE）
+   E_base(concat(f_cap, |diff|)) + 互斥 vis/ir 残差 + C-mask 路由
+   公平消融 S1（去掉残差专家）主表 18 格全胜 v3。
+   结论: |diff| 已把 unique 喂进 base，残差是重复通路。
+
+5) SpatialResMoE_2（文件夹 vis-ir-gray-moe_2）
+   只改 E_base(f_cap)，保留互斥 + detach + C-mask。
+   训练 HEALTH OK，残差活着；主表 vs S1 为 2 胜 16 负。
+   结论: 堵泄漏但互斥会丢掉另一侧 unique。失败不能用来否定「非互斥的新模块」，只能否定这一捆。
+
+6) ConflictAdd_1（vis-ir-gray-moe_3）
+   F = B(f_cap) + a * R(concat vis,ir,|diff|)，独立 sigmoid，无 detach，无 L_route。
+   ep2 起 a_mean≥0.995 且 GATE_FLAT。人工停于 6/80。
+   结论: 融合损失会把 A2 式 mixer 打满，这不是 MoE，是「A2 + 常开 skip」。不要再加 load-balance 硬拆门。
+
+仍缺、且只有在新假设下才值得做的:
+   融合输入消融 concat(vis,ir) vs concat(vis,ir,|diff|)——这是支撑 mixer 输入的一刀，不是新模型本身。
+   损失 B1–B3 目前建在 Full 上；若主方法更换，应在新方法上重跑。
+
+日志:
+  vis-ir-gray/train-jobs/console_logs/Fusion_noleak_1.log
+  vis-ir-gray-moe_update/train-jobs/console_logs/SpatialResMoE_{1,2,3}.log
+  vis-ir-gray-moe_2/train-jobs/console_logs/SpatialResMoE_2.log
+  vis-ir-gray-moe_3/train-jobs/console_logs/ConflictAdd_1.log
+  ablation_code/S1_wo_Res/train-jobs/console_logs/Abl_SR_wo_Res.log

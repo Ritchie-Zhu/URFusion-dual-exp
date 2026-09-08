@@ -1,0 +1,28 @@
+开源代码
+
+官方论文代码（复现种子）:
+https://github.com/hanna-xu/URFusion
+
+本工作仓（人工复现 + 后续实验，当前 origin / 分支 dev）:
+https://github.com/Ritchie-Zhu/URFusion.git
+
+论文 PDF:
+- 官方: https://github.com/hanna-xu/URFusion/blob/main/paper.pdf
+- 本地: /root/autodl-tmp/URFusion-main/URFusion/paper.pdf
+  （根目录 /root/autodl-tmp/URFusion-main/paper.pdf 为同一份）
+
+BibTeX:
+@article{xu2025urfusion,
+  title={URFusion: Unsupervised Unified Degradation-Robust Image Fusion Network},
+  author={Xu, Han and Yi, Xunpeng and Lu, Chen and Liu, Guangcan and Ma, Jiayi},
+  journal={IEEE Transactions on Image Processing},
+  year={2025},
+  volume={34},
+  pages={5803--5818},
+  publisher={IEEE}
+}
+
+说明:
+AI4R 以官方仓 + TIP 论文为种子。本机工作根目录
+/root/autodl-tmp/URFusion-main
+包含 vis-ir-gray 协议、消融与 MoE 探索。不要覆盖 vis-ir/code 与 Fusion_noleak_1 行为。
