@@ -5,7 +5,7 @@
 
 建议文件名: URFusion-dual-exp_AI4R.zip
 
-URFusion-visir-exp_AI4R/
+URFusion-dual-exp_AI4R/
   00_DIRECTION.txt              <- 意向合作方向（现 AI4R_URFusion/DIRECTION.txt）
   01_LINKS.txt                  <- 仓库 URL + 官方论文仓
   02_paper.pdf                  <- URFusion/paper.pdf（材料 2）
@@ -30,7 +30,7 @@ URFusion-visir-exp_AI4R/
   05_AI4R_prompt.md             <- 人类 idea 引导 prompt（材料 5）
 
 材料 1 仓库链接写在 01_LINKS.txt，同时在提交邮件/表单里单独填：
-  https://github.com/Ritchie-Zhu/URFusion  （分支 dev；若已改名则用新名）
+  https://github.com/Ritchie-Zhu/URFusion-dual-exp  （分支 dev）
 
 不要放进压缩包:
   datasets/
