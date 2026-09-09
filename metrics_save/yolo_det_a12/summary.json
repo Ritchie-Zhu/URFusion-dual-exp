@@ -16,7 +16,7 @@
   },
   "results": [
     {
-      "input": "Abl_wo_Dual",
+      "input": "Abl_DualMoE_wo_Dual",
       "n_images": 2000,
       "mAP50": 0.801097,
       "mAP50-95": 0.515512,
@@ -32,7 +32,7 @@
       "eval_time_s": 12.34
     },
     {
-      "input": "Abl_wo_MoE",
+      "input": "Abl_DualMoE_wo_MoE",
       "n_images": 2000,
       "mAP50": 0.802223,
       "mAP50-95": 0.515802,

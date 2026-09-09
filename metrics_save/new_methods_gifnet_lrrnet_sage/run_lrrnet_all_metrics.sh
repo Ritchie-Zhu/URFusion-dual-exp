@@ -37,7 +37,7 @@ run_metrics() {
 		--methods LRRNet \
 		--datasets "$dataset" \
 		--dataset_roots "$test_dir" \
-		--results_root "$PROJECT/vis-ir-gray/results" \
+		--results_root "$PROJECT/our_model_1_DualMoE/results" \
 		--metrics_save "$PROJECT/metrics_save" \
 		--project_root "$PROJECT" \
 		2>&1 | tee -a "$ORCH/eval_LRRNet_${dataset}.log"

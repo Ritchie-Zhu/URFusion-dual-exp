@@ -17,7 +17,7 @@ from test_msrs import fuse_one
 PROJECT_ROOT = '/root/autodl-tmp/URFusion-main'
 VIS_ROOT = os.path.join(PROJECT_ROOT, 'datasets/DroneVehicle/test/vis')
 IR_ROOT = os.path.join(PROJECT_ROOT, 'datasets/DroneVehicle/test/ir')
-OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'vis-ir-gray/results/EMMA_DroneVehicle/RGB_fused')
+OUTPUT_DIR = os.path.join(PROJECT_ROOT, 'our_model_1_DualMoE/results/EMMA_DroneVehicle/RGB_fused')
 MODEL_PATH = os.path.join(os.path.dirname(__file__), 'model', 'EMMA.pth')
 
 

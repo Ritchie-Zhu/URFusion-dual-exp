@@ -6,7 +6,7 @@ PROJECT=/root/autodl-tmp/URFusion-main
 PYTHON=/root/autodl-tmp/conda/envs/urfusion/bin/python
 LOG_DIR="$PROJECT/metrics_save/dronevehicle_sample1000"
 SAMPLE_TEST="$PROJECT/datasets/DroneVehicle/test_sample1000"
-RESULTS="$PROJECT/vis-ir-gray/results"
+RESULTS="$PROJECT/our_model_1_DualMoE/results"
 
 log() { echo "[$(date '+%F %T')] $*" | tee -a "$LOG_DIR/pipeline.log"; }
 

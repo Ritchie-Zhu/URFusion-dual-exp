@@ -11,7 +11,7 @@ from PIL import Image
 from torchvision import transforms
 
 PROJECT = '/root/autodl-tmp/URFusion-main'
-CODE_DIR = os.path.join(PROJECT, 'vis-ir-gray/code')
+CODE_DIR = os.path.join(PROJECT, 'our_model_1_DualMoE/code')
 sys.path.insert(0, CODE_DIR)
 os.chdir(CODE_DIR)
 
@@ -25,7 +25,7 @@ def parse_args():
 	parser.add_argument('--method', type=str, default='Fusion_training_1')
 	parser.add_argument('--dataset', type=str, default='M3FD')
 	parser.add_argument('--test_dir', type=str, required=True)
-	parser.add_argument('--results_root', type=str, default=os.path.join(PROJECT, 'vis-ir-gray/results'))
+	parser.add_argument('--results_root', type=str, default=os.path.join(PROJECT, 'our_model_1_DualMoE/results'))
 	parser.add_argument('--y_dir', type=str, default=None, help='Override Y_fused input directory')
 	parser.add_argument('--rgb_out_dir', type=str, default=None, help='Override RGB_fused output directory')
 	parser.add_argument('--device', type=int, default=0)

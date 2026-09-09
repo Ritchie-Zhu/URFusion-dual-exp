@@ -32,7 +32,7 @@ def parse_args():
 	parser.add_argument(
 		'--save_path',
 		type=str,
-		default='/root/autodl-tmp/URFusion-main/vis-ir-gray/results/Text-IF_MSRS/RGB_fused',
+		default='/root/autodl-tmp/URFusion-main/our_model_1_DualMoE/results/Text-IF_MSRS/RGB_fused',
 	)
 	parser.add_argument('--input_text', type=str, default=DEFAULT_TEXT)
 	parser.add_argument('--device', type=str, default='cuda')

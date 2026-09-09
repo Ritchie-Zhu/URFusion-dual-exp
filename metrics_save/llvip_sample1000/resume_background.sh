@@ -17,7 +17,7 @@ cd "$LOG_DIR"
 $PYTHON "$RUNNER" \
 	--methods Fusion_training_1 MetaFusion EMMA Text-IF \
 	--datasets LLVIP \
-	--results_root "$PROJECT/vis-ir-gray/results" \
+	--results_root "$PROJECT/our_model_1_DualMoE/results" \
 	--metrics_save "$PROJECT/metrics_save" \
 	--project_root "$PROJECT"
 

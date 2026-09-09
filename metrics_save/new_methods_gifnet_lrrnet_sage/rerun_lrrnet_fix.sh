@@ -14,7 +14,7 @@ log "========== LRRNet FIX START =========="
 
 run_infer() {
 	local dataset=$1 test_dir=$2
-	local out="$PROJECT/vis-ir-gray/results/LRRNet_${dataset}/RGB_fused"
+	local out="$PROJECT/our_model_1_DualMoE/results/LRRNet_${dataset}/RGB_fused"
 	log "Re-infer LRRNet @ ${dataset}"
 	rm -rf "$out"
 	mkdir -p "$out"
@@ -53,7 +53,7 @@ run_metrics() {
 		--methods LRRNet \
 		--datasets "$dataset" \
 		--dataset_roots "$test_dir" \
-		--results_root "$PROJECT/vis-ir-gray/results" \
+		--results_root "$PROJECT/our_model_1_DualMoE/results" \
 		--metrics_save "$PROJECT/metrics_save" \
 		--project_root "$PROJECT" \
 		2>&1 | tee -a "$ORCH/eval_LRRNet_${dataset}.log"

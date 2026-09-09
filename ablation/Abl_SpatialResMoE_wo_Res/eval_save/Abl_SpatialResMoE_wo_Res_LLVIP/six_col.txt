@@ -1,0 +1,9 @@
+LLVIP n=1000  Abl_SpatialResMoE_wo_Res vs SpatialResMoE_3 (Full)
+--- 6-col (higher better) ---
+      metric          S1        Full       delta
+         NMI      0.5536      0.5521     +0.0016
+          Qy      0.9330      0.9315     +0.0015
+          MI      3.7003      3.6911     +0.0092
+         VIF      0.9675      0.9451     +0.0224
+        Qabf      0.7046      0.6967     +0.0078
+        VIFF      0.6573      0.6387     +0.0186

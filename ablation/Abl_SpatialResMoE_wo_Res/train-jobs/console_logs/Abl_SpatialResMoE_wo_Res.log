@@ -1,0 +1,180 @@
+[START] Abl_SpatialResMoE_wo_Res S1 wo residual experts
+  code=/root/autodl-tmp/URFusion-main/ablation/Abl_SpatialResMoE_wo_Res
+  data=/root/autodl-tmp/URFusion-main/datasets/training_noleak/train
+  C=Vis_Content_noleak / ir_Content_noleak
+  fusion=E_base(f_cap, |diff|) only; no E_vis/E_ir/router; L_route=0
+  lambdas int/grad/branch=0.1/1.0/0.01
+  params=547064
+  ckpt=/root/autodl-tmp/URFusion-main/ablation/Abl_SpatialResMoE_wo_Res/train-jobs/ckpt/Abl_SpatialResMoE_wo_Res/Abl_SpatialResMoE_wo_Res_ckpt.pth
+  fixed examples disabled
+  HEALTH: OK | UNIQUE_DEAD both unique L1<1e-3 | BASE_DEAD e_base<1e-6
+[F_gray ep 1/80] loss=0.0808 L_main=0.0245 L_int=0.0731 L_grad=0.0476 L_branch=0.1368 L_route=0.0000 elapsed=0:01:33
+[HEALTH] OK | e_base=0.0583 | vis_u=0.0509 ir_u=0.0507 cap=0.0916 | mask=0.677±0.460 (log only, not in loss)
+[F_gray ep 2/80] loss=0.0572 L_main=0.0274 L_int=0.0444 L_grad=0.0250 L_branch=0.0397 L_route=0.0000 elapsed=0:03:02
+[HEALTH] OK | e_base=0.0586 | vis_u=0.0653 ir_u=0.0629 cap=0.1155 | mask=0.678±0.459 (log only, not in loss)
+[F_gray ep 3/80] loss=0.0545 L_main=0.0282 L_int=0.0425 L_grad=0.0216 L_branch=0.0387 L_route=0.0000 elapsed=0:04:32
+[HEALTH] OK | e_base=0.0568 | vis_u=0.0660 ir_u=0.0619 cap=0.1098 | mask=0.680±0.459 (log only, not in loss)
+[F_gray ep 4/80] loss=0.0528 L_main=0.0294 L_int=0.0431 L_grad=0.0187 L_branch=0.0388 L_route=0.0000 elapsed=0:06:02
+[HEALTH] OK | e_base=0.0550 | vis_u=0.0664 ir_u=0.0610 cap=0.1035 | mask=0.680±0.458 (log only, not in loss)
+[F_gray ep 5/80] loss=0.0509 L_main=0.0300 L_int=0.0429 L_grad=0.0162 L_branch=0.0381 L_route=0.0000 elapsed=0:07:32
+[HEALTH] OK | e_base=0.0525 | vis_u=0.0682 ir_u=0.0601 cap=0.0982 | mask=0.675±0.461 (log only, not in loss)
+[F_gray ep 6/80] loss=0.0493 L_main=0.0298 L_int=0.0423 L_grad=0.0149 L_branch=0.0389 L_route=0.0000 elapsed=0:09:02
+[HEALTH] OK | e_base=0.0490 | vis_u=0.0679 ir_u=0.0577 cap=0.0939 | mask=0.677±0.460 (log only, not in loss)
+[F_gray ep 7/80] loss=0.0485 L_main=0.0302 L_int=0.0428 L_grad=0.0136 L_branch=0.0377 L_route=0.0000 elapsed=0:10:31
+[HEALTH] OK | e_base=0.0467 | vis_u=0.0666 ir_u=0.0557 cap=0.0898 | mask=0.677±0.460 (log only, not in loss)
+[F_gray ep 8/80] loss=0.0484 L_main=0.0308 L_int=0.0437 L_grad=0.0129 L_branch=0.0357 L_route=0.0000 elapsed=0:12:01
+[HEALTH] OK | e_base=0.0447 | vis_u=0.0655 ir_u=0.0544 cap=0.0863 | mask=0.674±0.461 (log only, not in loss)
+[F_gray ep 9/80] loss=0.0457 L_main=0.0294 L_int=0.0408 L_grad=0.0119 L_branch=0.0343 L_route=0.0000 elapsed=0:13:31
+[HEALTH] OK | e_base=0.0429 | vis_u=0.0650 ir_u=0.0535 cap=0.0834 | mask=0.683±0.457 (log only, not in loss)
+[F_gray ep 10/80] loss=0.0464 L_main=0.0301 L_int=0.0417 L_grad=0.0118 L_branch=0.0337 L_route=0.0000 elapsed=0:15:01
+[HEALTH] OK | e_base=0.0420 | vis_u=0.0645 ir_u=0.0528 cap=0.0807 | mask=0.678±0.458 (log only, not in loss)
+  saved epoch snapshot: /root/autodl-tmp/URFusion-main/ablation/Abl_SpatialResMoE_wo_Res/train-jobs/ckpt/Abl_SpatialResMoE_wo_Res/epoch_010/ckpt.pth
+[F_gray ep 11/80] loss=0.0460 L_main=0.0299 L_int=0.0417 L_grad=0.0116 L_branch=0.0336 L_route=0.0000 elapsed=0:16:31
+[HEALTH] OK | e_base=0.0407 | vis_u=0.0637 ir_u=0.0523 cap=0.0781 | mask=0.682±0.458 (log only, not in loss)
+[F_gray ep 12/80] loss=0.0460 L_main=0.0303 L_int=0.0416 L_grad=0.0112 L_branch=0.0329 L_route=0.0000 elapsed=0:18:01
+[HEALTH] OK | e_base=0.0397 | vis_u=0.0631 ir_u=0.0517 cap=0.0755 | mask=0.680±0.459 (log only, not in loss)
+[F_gray ep 13/80] loss=0.0464 L_main=0.0306 L_int=0.0423 L_grad=0.0113 L_branch=0.0323 L_route=0.0000 elapsed=0:19:31
+[HEALTH] OK | e_base=0.0386 | vis_u=0.0626 ir_u=0.0514 cap=0.0735 | mask=0.677±0.459 (log only, not in loss)
+[F_gray ep 14/80] loss=0.0459 L_main=0.0306 L_int=0.0417 L_grad=0.0109 L_branch=0.0317 L_route=0.0000 elapsed=0:21:01
+[HEALTH] OK | e_base=0.0376 | vis_u=0.0624 ir_u=0.0510 cap=0.0718 | mask=0.684±0.457 (log only, not in loss)
+[F_gray ep 15/80] loss=0.0457 L_main=0.0306 L_int=0.0418 L_grad=0.0106 L_branch=0.0311 L_route=0.0000 elapsed=0:22:31
+[HEALTH] OK | e_base=0.0366 | vis_u=0.0618 ir_u=0.0509 cap=0.0699 | mask=0.675±0.461 (log only, not in loss)
+[F_gray ep 16/80] loss=0.0453 L_main=0.0303 L_int=0.0412 L_grad=0.0105 L_branch=0.0309 L_route=0.0000 elapsed=0:24:01
+[HEALTH] OK | e_base=0.0359 | vis_u=0.0619 ir_u=0.0509 cap=0.0682 | mask=0.678±0.459 (log only, not in loss)
+[F_gray ep 17/80] loss=0.0427 L_main=0.0287 L_int=0.0335 L_grad=0.0104 L_branch=0.0309 L_route=0.0000 elapsed=0:25:30
+[HEALTH] OK | e_base=0.0355 | vis_u=0.0624 ir_u=0.0515 cap=0.0674 | mask=0.678±0.459 (log only, not in loss)
+[F_gray ep 18/80] loss=0.0394 L_main=0.0275 L_int=0.0253 L_grad=0.0091 L_branch=0.0306 L_route=0.0000 elapsed=0:27:00
+[HEALTH] OK | e_base=0.0357 | vis_u=0.0631 ir_u=0.0529 cap=0.0670 | mask=0.678±0.460 (log only, not in loss)
+[F_gray ep 19/80] loss=0.0391 L_main=0.0277 L_int=0.0252 L_grad=0.0086 L_branch=0.0297 L_route=0.0000 elapsed=0:28:30
+[HEALTH] OK | e_base=0.0354 | vis_u=0.0625 ir_u=0.0529 cap=0.0654 | mask=0.678±0.459 (log only, not in loss)
+[F_gray ep 20/80] loss=0.0396 L_main=0.0279 L_int=0.0258 L_grad=0.0087 L_branch=0.0296 L_route=0.0000 elapsed=0:30:01
+[HEALTH] OK | e_base=0.0348 | vis_u=0.0613 ir_u=0.0523 cap=0.0629 | mask=0.675±0.460 (log only, not in loss)
+  saved epoch snapshot: /root/autodl-tmp/URFusion-main/ablation/Abl_SpatialResMoE_wo_Res/train-jobs/ckpt/Abl_SpatialResMoE_wo_Res/epoch_020/ckpt.pth
+[F_gray ep 21/80] loss=0.0381 L_main=0.0270 L_int=0.0249 L_grad=0.0083 L_branch=0.0287 L_route=0.0000 elapsed=0:31:31
+[HEALTH] OK | e_base=0.0345 | vis_u=0.0603 ir_u=0.0518 cap=0.0611 | mask=0.683±0.458 (log only, not in loss)
+[F_gray ep 22/80] loss=0.0388 L_main=0.0279 L_int=0.0248 L_grad=0.0082 L_branch=0.0283 L_route=0.0000 elapsed=0:33:02
+[HEALTH] OK | e_base=0.0342 | vis_u=0.0598 ir_u=0.0520 cap=0.0597 | mask=0.678±0.458 (log only, not in loss)
+[F_gray ep 23/80] loss=0.0382 L_main=0.0275 L_int=0.0247 L_grad=0.0080 L_branch=0.0276 L_route=0.0000 elapsed=0:34:32
+[HEALTH] OK | e_base=0.0337 | vis_u=0.0592 ir_u=0.0518 cap=0.0583 | mask=0.678±0.460 (log only, not in loss)
+[F_gray ep 24/80] loss=0.0389 L_main=0.0282 L_int=0.0251 L_grad=0.0079 L_branch=0.0272 L_route=0.0000 elapsed=0:36:03
+[HEALTH] OK | e_base=0.0334 | vis_u=0.0586 ir_u=0.0518 cap=0.0570 | mask=0.681±0.458 (log only, not in loss)
+[F_gray ep 25/80] loss=0.0385 L_main=0.0280 L_int=0.0249 L_grad=0.0077 L_branch=0.0265 L_route=0.0000 elapsed=0:37:33
+[HEALTH] OK | e_base=0.0329 | vis_u=0.0579 ir_u=0.0517 cap=0.0555 | mask=0.679±0.459 (log only, not in loss)
+[F_gray ep 26/80] loss=0.0382 L_main=0.0279 L_int=0.0244 L_grad=0.0076 L_branch=0.0260 L_route=0.0000 elapsed=0:39:03
+[HEALTH] OK | e_base=0.0326 | vis_u=0.0582 ir_u=0.0520 cap=0.0548 | mask=0.683±0.457 (log only, not in loss)
+[F_gray ep 27/80] loss=0.0387 L_main=0.0282 L_int=0.0250 L_grad=0.0078 L_branch=0.0253 L_route=0.0000 elapsed=0:40:33
+[HEALTH] OK | e_base=0.0323 | vis_u=0.0579 ir_u=0.0523 cap=0.0538 | mask=0.681±0.458 (log only, not in loss)
+[F_gray ep 28/80] loss=0.0378 L_main=0.0277 L_int=0.0244 L_grad=0.0074 L_branch=0.0248 L_route=0.0000 elapsed=0:42:03
+[HEALTH] OK | e_base=0.0318 | vis_u=0.0580 ir_u=0.0524 cap=0.0529 | mask=0.682±0.457 (log only, not in loss)
+[F_gray ep 29/80] loss=0.0383 L_main=0.0281 L_int=0.0245 L_grad=0.0075 L_branch=0.0242 L_route=0.0000 elapsed=0:43:33
+[HEALTH] OK | e_base=0.0315 | vis_u=0.0576 ir_u=0.0526 cap=0.0518 | mask=0.676±0.461 (log only, not in loss)
+[F_gray ep 30/80] loss=0.0384 L_main=0.0282 L_int=0.0246 L_grad=0.0075 L_branch=0.0237 L_route=0.0000 elapsed=0:45:03
+[HEALTH] OK | e_base=0.0313 | vis_u=0.0579 ir_u=0.0529 cap=0.0512 | mask=0.678±0.459 (log only, not in loss)
+  saved epoch snapshot: /root/autodl-tmp/URFusion-main/ablation/Abl_SpatialResMoE_wo_Res/train-jobs/ckpt/Abl_SpatialResMoE_wo_Res/epoch_030/ckpt.pth
+[F_gray ep 31/80] loss=0.0382 L_main=0.0284 L_int=0.0246 L_grad=0.0071 L_branch=0.0231 L_route=0.0000 elapsed=0:46:33
+[HEALTH] OK | e_base=0.0311 | vis_u=0.0579 ir_u=0.0532 cap=0.0503 | mask=0.676±0.459 (log only, not in loss)
+[F_gray ep 32/80] loss=0.0376 L_main=0.0279 L_int=0.0241 L_grad=0.0071 L_branch=0.0227 L_route=0.0000 elapsed=0:48:02
+[HEALTH] OK | e_base=0.0306 | vis_u=0.0580 ir_u=0.0532 cap=0.0494 | mask=0.682±0.458 (log only, not in loss)
+[F_gray ep 33/80] loss=0.0374 L_main=0.0278 L_int=0.0240 L_grad=0.0070 L_branch=0.0225 L_route=0.0000 elapsed=0:49:33
+[HEALTH] OK | e_base=0.0304 | vis_u=0.0577 ir_u=0.0535 cap=0.0486 | mask=0.675±0.460 (log only, not in loss)
+[F_gray ep 34/80] loss=0.0379 L_main=0.0282 L_int=0.0246 L_grad=0.0070 L_branch=0.0221 L_route=0.0000 elapsed=0:51:03
+[HEALTH] OK | e_base=0.0302 | vis_u=0.0580 ir_u=0.0538 cap=0.0480 | mask=0.681±0.459 (log only, not in loss)
+[F_gray ep 35/80] loss=0.0381 L_main=0.0284 L_int=0.0247 L_grad=0.0071 L_branch=0.0218 L_route=0.0000 elapsed=0:52:33
+[HEALTH] OK | e_base=0.0300 | vis_u=0.0580 ir_u=0.0540 cap=0.0472 | mask=0.678±0.460 (log only, not in loss)
+[F_gray ep 36/80] loss=0.0379 L_main=0.0281 L_int=0.0247 L_grad=0.0071 L_branch=0.0216 L_route=0.0000 elapsed=0:54:03
+[HEALTH] OK | e_base=0.0297 | vis_u=0.0583 ir_u=0.0543 cap=0.0467 | mask=0.681±0.458 (log only, not in loss)
+[F_gray ep 37/80] loss=0.0368 L_main=0.0274 L_int=0.0241 L_grad=0.0068 L_branch=0.0211 L_route=0.0000 elapsed=0:55:34
+[HEALTH] OK | e_base=0.0294 | vis_u=0.0582 ir_u=0.0544 cap=0.0458 | mask=0.681±0.458 (log only, not in loss)
+[F_gray ep 38/80] loss=0.0374 L_main=0.0276 L_int=0.0244 L_grad=0.0071 L_branch=0.0210 L_route=0.0000 elapsed=0:57:04
+[HEALTH] OK | e_base=0.0291 | vis_u=0.0581 ir_u=0.0543 cap=0.0450 | mask=0.679±0.458 (log only, not in loss)
+[F_gray ep 39/80] loss=0.0377 L_main=0.0283 L_int=0.0242 L_grad=0.0068 L_branch=0.0208 L_route=0.0000 elapsed=0:58:34
+[HEALTH] OK | e_base=0.0288 | vis_u=0.0581 ir_u=0.0547 cap=0.0442 | mask=0.673±0.461 (log only, not in loss)
+[F_gray ep 40/80] loss=0.0371 L_main=0.0278 L_int=0.0236 L_grad=0.0067 L_branch=0.0204 L_route=0.0000 elapsed=1:00:04
+[HEALTH] OK | e_base=0.0286 | vis_u=0.0584 ir_u=0.0548 cap=0.0436 | mask=0.683±0.458 (log only, not in loss)
+  saved epoch snapshot: /root/autodl-tmp/URFusion-main/ablation/Abl_SpatialResMoE_wo_Res/train-jobs/ckpt/Abl_SpatialResMoE_wo_Res/epoch_040/ckpt.pth
+[F_gray ep 41/80] loss=0.0371 L_main=0.0278 L_int=0.0242 L_grad=0.0066 L_branch=0.0203 L_route=0.0000 elapsed=1:01:35
+[HEALTH] OK | e_base=0.0285 | vis_u=0.0586 ir_u=0.0552 cap=0.0431 | mask=0.679±0.459 (log only, not in loss)
+[F_gray ep 42/80] loss=0.0371 L_main=0.0279 L_int=0.0238 L_grad=0.0067 L_branch=0.0203 L_route=0.0000 elapsed=1:03:05
+[HEALTH] OK | e_base=0.0284 | vis_u=0.0587 ir_u=0.0554 cap=0.0426 | mask=0.681±0.459 (log only, not in loss)
+[F_gray ep 43/80] loss=0.0375 L_main=0.0282 L_int=0.0243 L_grad=0.0067 L_branch=0.0201 L_route=0.0000 elapsed=1:04:35
+[HEALTH] OK | e_base=0.0281 | vis_u=0.0586 ir_u=0.0555 cap=0.0420 | mask=0.680±0.459 (log only, not in loss)
+[F_gray ep 44/80] loss=0.0370 L_main=0.0278 L_int=0.0239 L_grad=0.0066 L_branch=0.0198 L_route=0.0000 elapsed=1:06:05
+[HEALTH] OK | e_base=0.0279 | vis_u=0.0585 ir_u=0.0555 cap=0.0413 | mask=0.678±0.459 (log only, not in loss)
+[F_gray ep 45/80] loss=0.0374 L_main=0.0282 L_int=0.0235 L_grad=0.0066 L_branch=0.0197 L_route=0.0000 elapsed=1:07:34
+[HEALTH] OK | e_base=0.0277 | vis_u=0.0586 ir_u=0.0558 cap=0.0408 | mask=0.680±0.458 (log only, not in loss)
+[F_gray ep 46/80] loss=0.0378 L_main=0.0285 L_int=0.0242 L_grad=0.0067 L_branch=0.0197 L_route=0.0000 elapsed=1:09:04
+[HEALTH] OK | e_base=0.0276 | vis_u=0.0587 ir_u=0.0561 cap=0.0403 | mask=0.677±0.459 (log only, not in loss)
+[F_gray ep 47/80] loss=0.0377 L_main=0.0285 L_int=0.0243 L_grad=0.0066 L_branch=0.0195 L_route=0.0000 elapsed=1:10:34
+[HEALTH] OK | e_base=0.0275 | vis_u=0.0587 ir_u=0.0564 cap=0.0399 | mask=0.677±0.459 (log only, not in loss)
+[F_gray ep 48/80] loss=0.0377 L_main=0.0285 L_int=0.0245 L_grad=0.0065 L_branch=0.0194 L_route=0.0000 elapsed=1:12:04
+[HEALTH] OK | e_base=0.0272 | vis_u=0.0587 ir_u=0.0564 cap=0.0392 | mask=0.675±0.461 (log only, not in loss)
+[F_gray ep 49/80] loss=0.0378 L_main=0.0286 L_int=0.0241 L_grad=0.0066 L_branch=0.0193 L_route=0.0000 elapsed=1:13:34
+[HEALTH] OK | e_base=0.0271 | vis_u=0.0588 ir_u=0.0565 cap=0.0386 | mask=0.680±0.458 (log only, not in loss)
+[F_gray ep 50/80] loss=0.0373 L_main=0.0283 L_int=0.0239 L_grad=0.0065 L_branch=0.0191 L_route=0.0000 elapsed=1:15:04
+[HEALTH] OK | e_base=0.0268 | vis_u=0.0591 ir_u=0.0567 cap=0.0382 | mask=0.680±0.458 (log only, not in loss)
+  saved epoch snapshot: /root/autodl-tmp/URFusion-main/ablation/Abl_SpatialResMoE_wo_Res/train-jobs/ckpt/Abl_SpatialResMoE_wo_Res/epoch_050/ckpt.pth
+[F_gray ep 51/80] loss=0.0372 L_main=0.0282 L_int=0.0241 L_grad=0.0065 L_branch=0.0191 L_route=0.0000 elapsed=1:16:34
+[HEALTH] OK | e_base=0.0267 | vis_u=0.0589 ir_u=0.0567 cap=0.0376 | mask=0.676±0.460 (log only, not in loss)
+[F_gray ep 52/80] loss=0.0372 L_main=0.0282 L_int=0.0239 L_grad=0.0064 L_branch=0.0189 L_route=0.0000 elapsed=1:18:04
+[HEALTH] OK | e_base=0.0265 | vis_u=0.0590 ir_u=0.0569 cap=0.0371 | mask=0.675±0.459 (log only, not in loss)
+[F_gray ep 53/80] loss=0.0364 L_main=0.0277 L_int=0.0235 L_grad=0.0062 L_branch=0.0186 L_route=0.0000 elapsed=1:19:34
+[HEALTH] OK | e_base=0.0262 | vis_u=0.0589 ir_u=0.0567 cap=0.0365 | mask=0.683±0.457 (log only, not in loss)
+[F_gray ep 54/80] loss=0.0372 L_main=0.0282 L_int=0.0238 L_grad=0.0064 L_branch=0.0187 L_route=0.0000 elapsed=1:21:04
+[HEALTH] OK | e_base=0.0264 | vis_u=0.0590 ir_u=0.0572 cap=0.0363 | mask=0.676±0.460 (log only, not in loss)
+[F_gray ep 55/80] loss=0.0369 L_main=0.0280 L_int=0.0237 L_grad=0.0063 L_branch=0.0186 L_route=0.0000 elapsed=1:22:34
+[HEALTH] OK | e_base=0.0262 | vis_u=0.0594 ir_u=0.0573 cap=0.0358 | mask=0.676±0.460 (log only, not in loss)
+[F_gray ep 56/80] loss=0.0370 L_main=0.0282 L_int=0.0236 L_grad=0.0062 L_branch=0.0185 L_route=0.0000 elapsed=1:24:05
+[HEALTH] OK | e_base=0.0260 | vis_u=0.0594 ir_u=0.0573 cap=0.0354 | mask=0.678±0.459 (log only, not in loss)
+[F_gray ep 57/80] loss=0.0373 L_main=0.0285 L_int=0.0236 L_grad=0.0063 L_branch=0.0185 L_route=0.0000 elapsed=1:25:35
+[HEALTH] OK | e_base=0.0259 | vis_u=0.0591 ir_u=0.0574 cap=0.0349 | mask=0.674±0.461 (log only, not in loss)
+[F_gray ep 58/80] loss=0.0369 L_main=0.0282 L_int=0.0241 L_grad=0.0061 L_branch=0.0183 L_route=0.0000 elapsed=1:27:06
+[HEALTH] OK | e_base=0.0258 | vis_u=0.0596 ir_u=0.0574 cap=0.0346 | mask=0.678±0.458 (log only, not in loss)
+[F_gray ep 59/80] loss=0.0372 L_main=0.0284 L_int=0.0237 L_grad=0.0063 L_branch=0.0183 L_route=0.0000 elapsed=1:28:36
+[HEALTH] OK | e_base=0.0257 | vis_u=0.0594 ir_u=0.0575 cap=0.0341 | mask=0.680±0.459 (log only, not in loss)
+[F_gray ep 60/80] loss=0.0369 L_main=0.0282 L_int=0.0234 L_grad=0.0061 L_branch=0.0182 L_route=0.0000 elapsed=1:30:07
+[HEALTH] OK | e_base=0.0256 | vis_u=0.0596 ir_u=0.0576 cap=0.0338 | mask=0.678±0.459 (log only, not in loss)
+  saved epoch snapshot: /root/autodl-tmp/URFusion-main/ablation/Abl_SpatialResMoE_wo_Res/train-jobs/ckpt/Abl_SpatialResMoE_wo_Res/epoch_060/ckpt.pth
+[F_gray ep 61/80] loss=0.0365 L_main=0.0280 L_int=0.0228 L_grad=0.0061 L_branch=0.0181 L_route=0.0000 elapsed=1:31:37
+[HEALTH] OK | e_base=0.0254 | vis_u=0.0599 ir_u=0.0575 cap=0.0334 | mask=0.683±0.458 (log only, not in loss)
+[F_gray ep 62/80] loss=0.0367 L_main=0.0282 L_int=0.0235 L_grad=0.0061 L_branch=0.0180 L_route=0.0000 elapsed=1:33:08
+[HEALTH] OK | e_base=0.0254 | vis_u=0.0600 ir_u=0.0578 cap=0.0332 | mask=0.679±0.458 (log only, not in loss)
+[F_gray ep 63/80] loss=0.0360 L_main=0.0275 L_int=0.0228 L_grad=0.0060 L_branch=0.0179 L_route=0.0000 elapsed=1:34:38
+[HEALTH] OK | e_base=0.0252 | vis_u=0.0600 ir_u=0.0576 cap=0.0327 | mask=0.681±0.459 (log only, not in loss)
+[F_gray ep 64/80] loss=0.0366 L_main=0.0280 L_int=0.0234 L_grad=0.0060 L_branch=0.0178 L_route=0.0000 elapsed=1:36:08
+[HEALTH] OK | e_base=0.0252 | vis_u=0.0603 ir_u=0.0580 cap=0.0325 | mask=0.680±0.458 (log only, not in loss)
+[F_gray ep 65/80] loss=0.0368 L_main=0.0282 L_int=0.0235 L_grad=0.0061 L_branch=0.0177 L_route=0.0000 elapsed=1:37:38
+[HEALTH] OK | e_base=0.0250 | vis_u=0.0598 ir_u=0.0580 cap=0.0321 | mask=0.673±0.462 (log only, not in loss)
+[F_gray ep 66/80] loss=0.0362 L_main=0.0277 L_int=0.0231 L_grad=0.0060 L_branch=0.0177 L_route=0.0000 elapsed=1:39:08
+[HEALTH] OK | e_base=0.0249 | vis_u=0.0603 ir_u=0.0576 cap=0.0317 | mask=0.683±0.458 (log only, not in loss)
+[F_gray ep 67/80] loss=0.0363 L_main=0.0279 L_int=0.0233 L_grad=0.0059 L_branch=0.0176 L_route=0.0000 elapsed=1:40:38
+[HEALTH] OK | e_base=0.0248 | vis_u=0.0603 ir_u=0.0579 cap=0.0314 | mask=0.678±0.460 (log only, not in loss)
+[F_gray ep 68/80] loss=0.0367 L_main=0.0282 L_int=0.0234 L_grad=0.0060 L_branch=0.0177 L_route=0.0000 elapsed=1:42:07
+[HEALTH] OK | e_base=0.0248 | vis_u=0.0606 ir_u=0.0580 cap=0.0312 | mask=0.679±0.459 (log only, not in loss)
+[F_gray ep 69/80] loss=0.0368 L_main=0.0282 L_int=0.0234 L_grad=0.0061 L_branch=0.0177 L_route=0.0000 elapsed=1:43:37
+[HEALTH] OK | e_base=0.0247 | vis_u=0.0607 ir_u=0.0581 cap=0.0309 | mask=0.680±0.458 (log only, not in loss)
+[F_gray ep 70/80] loss=0.0363 L_main=0.0279 L_int=0.0228 L_grad=0.0060 L_branch=0.0174 L_route=0.0000 elapsed=1:45:07
+[HEALTH] OK | e_base=0.0245 | vis_u=0.0604 ir_u=0.0582 cap=0.0304 | mask=0.676±0.460 (log only, not in loss)
+  saved epoch snapshot: /root/autodl-tmp/URFusion-main/ablation/Abl_SpatialResMoE_wo_Res/train-jobs/ckpt/Abl_SpatialResMoE_wo_Res/epoch_070/ckpt.pth
+[F_gray ep 71/80] loss=0.0360 L_main=0.0276 L_int=0.0233 L_grad=0.0059 L_branch=0.0174 L_route=0.0000 elapsed=1:46:37
+[HEALTH] OK | e_base=0.0244 | vis_u=0.0605 ir_u=0.0578 cap=0.0301 | mask=0.679±0.459 (log only, not in loss)
+[F_gray ep 72/80] loss=0.0368 L_main=0.0284 L_int=0.0233 L_grad=0.0059 L_branch=0.0173 L_route=0.0000 elapsed=1:48:06
+[HEALTH] OK | e_base=0.0243 | vis_u=0.0607 ir_u=0.0579 cap=0.0298 | mask=0.681±0.458 (log only, not in loss)
+[F_gray ep 73/80] loss=0.0360 L_main=0.0277 L_int=0.0231 L_grad=0.0058 L_branch=0.0173 L_route=0.0000 elapsed=1:49:35
+[HEALTH] OK | e_base=0.0243 | vis_u=0.0606 ir_u=0.0579 cap=0.0295 | mask=0.680±0.459 (log only, not in loss)
+[F_gray ep 74/80] loss=0.0360 L_main=0.0278 L_int=0.0229 L_grad=0.0058 L_branch=0.0171 L_route=0.0000 elapsed=1:51:05
+[HEALTH] OK | e_base=0.0242 | vis_u=0.0608 ir_u=0.0580 cap=0.0293 | mask=0.680±0.458 (log only, not in loss)
+[F_gray ep 75/80] loss=0.0365 L_main=0.0281 L_int=0.0231 L_grad=0.0059 L_branch=0.0172 L_route=0.0000 elapsed=1:52:35
+[HEALTH] OK | e_base=0.0241 | vis_u=0.0610 ir_u=0.0582 cap=0.0291 | mask=0.677±0.460 (log only, not in loss)
+[F_gray ep 76/80] loss=0.0365 L_main=0.0281 L_int=0.0233 L_grad=0.0060 L_branch=0.0171 L_route=0.0000 elapsed=1:54:05
+[HEALTH] OK | e_base=0.0240 | vis_u=0.0611 ir_u=0.0582 cap=0.0289 | mask=0.681±0.458 (log only, not in loss)
+[F_gray ep 77/80] loss=0.0359 L_main=0.0276 L_int=0.0232 L_grad=0.0058 L_branch=0.0171 L_route=0.0000 elapsed=1:55:35
+[HEALTH] OK | e_base=0.0239 | vis_u=0.0613 ir_u=0.0584 cap=0.0286 | mask=0.677±0.460 (log only, not in loss)
+[F_gray ep 78/80] loss=0.0366 L_main=0.0283 L_int=0.0232 L_grad=0.0058 L_branch=0.0170 L_route=0.0000 elapsed=1:57:05
+[HEALTH] OK | e_base=0.0239 | vis_u=0.0614 ir_u=0.0587 cap=0.0285 | mask=0.678±0.459 (log only, not in loss)
+[F_gray ep 79/80] loss=0.0369 L_main=0.0284 L_int=0.0238 L_grad=0.0060 L_branch=0.0170 L_route=0.0000 elapsed=1:58:35
+[HEALTH] OK | e_base=0.0238 | vis_u=0.0611 ir_u=0.0586 cap=0.0281 | mask=0.673±0.461 (log only, not in loss)
+[F_gray ep 80/80] loss=0.0361 L_main=0.0278 L_int=0.0230 L_grad=0.0058 L_branch=0.0168 L_route=0.0000 elapsed=2:00:04
+[HEALTH] OK | e_base=0.0237 | vis_u=0.0615 ir_u=0.0581 cap=0.0278 | mask=0.685±0.458 (log only, not in loss)
+  saved epoch snapshot: /root/autodl-tmp/URFusion-main/ablation/Abl_SpatialResMoE_wo_Res/train-jobs/ckpt/Abl_SpatialResMoE_wo_Res/epoch_080/ckpt.pth
+[DONE] Abl_SpatialResMoE_wo_Res
+[SHUTDOWN] Training finished; shutting down instance via /usr/bin/shutdown

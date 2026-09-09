@@ -13,7 +13,7 @@ log() { echo "[$(date '+%F %T')] $*" | tee -a "$LOG"; }
 
 run_one() {
 	local dataset=$1 test_dir=$2
-	local out="$PROJECT/vis-ir-gray/results/LRRNet_${dataset}/RGB_fused"
+	local out="$PROJECT/our_model_1_DualMoE/results/LRRNet_${dataset}/RGB_fused"
 	log "===== LRRNet @ ${dataset} ====="
 	rm -rf "$out"
 	mkdir -p "$out"

@@ -10,7 +10,7 @@ NEW_ORCH="$PROJECT/metrics_save/new_methods_gifnet_lrrnet_sage"
 EVAL="$LLVIP_ORCH/run_eval_from_cache.py"
 COLOR="$NEW_ORCH/run_color_xlsx.py"
 TEST_DIR="$PROJECT/datasets/M3FD/test"
-RESULTS="$PROJECT/vis-ir-gray/results"
+RESULTS="$PROJECT/our_model_1_DualMoE/results"
 LOG="$ORCH/m3fd_resume.log"
 
 export CUDA_VISIBLE_DEVICES=0

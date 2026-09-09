@@ -5,7 +5,7 @@ set -euo pipefail
 PROJECT=/root/autodl-tmp/URFusion-main
 PYTHON=/root/autodl-tmp/conda/envs/urfusion/bin/python
 TOTAL=8980
-RESULTS="$PROJECT/vis-ir-gray/results"
+RESULTS="$PROJECT/our_model_1_DualMoE/results"
 LOG_DIR="$PROJECT/metrics_save/dronevehicle_inference"
 METRICS_DIR="$PROJECT/metrics_py"
 METHODS=(MUFusion U2Fusion URFusion Fusion_training_1 MetaFusion EMMA Text-IF)

@@ -25,7 +25,7 @@ _et = None
 
 DATASETS = {
     "LLVIP": {
-        "fused": PROJECT / "vis-ir-gray/results/Fusion_noleak_1_LLVIP/RGB_fused",
+        "fused": PROJECT / "our_model_1_DualMoE/results/Fusion_noleak_1_LLVIP/RGB_fused",
         "vis": PROJECT / "datasets/LLVIP/test_sample1000/vis",
         "ir": PROJECT / "datasets/LLVIP/test_sample1000/ir",
         "csv": METRICS_SAVE / "Fusion_noleak_1_LLVIP/metrics_per_image.csv",
@@ -33,7 +33,7 @@ DATASETS = {
         "ref_s_per_img": 5.443,
     },
     "MSRS": {
-        "fused": PROJECT / "vis-ir-gray/results/Fusion_noleak_1_MSRS/RGB_fused",
+        "fused": PROJECT / "our_model_1_DualMoE/results/Fusion_noleak_1_MSRS/RGB_fused",
         "vis": PROJECT / "datasets/MSRS/test/vis",
         "ir": PROJECT / "datasets/MSRS/test/ir",
         "csv": METRICS_SAVE / "Fusion_noleak_1_MSRS/metrics_per_image.csv",
@@ -41,7 +41,7 @@ DATASETS = {
         "ref_s_per_img": 1.354,
     },
     "M3FD": {
-        "fused": PROJECT / "vis-ir-gray/results/Fusion_noleak_1_M3FD/RGB_fused",
+        "fused": PROJECT / "our_model_1_DualMoE/results/Fusion_noleak_1_M3FD/RGB_fused",
         "vis": PROJECT / "datasets/M3FD/test/vis",
         "ir": PROJECT / "datasets/M3FD/test/ir",
         "csv": METRICS_SAVE / "Fusion_noleak_1_M3FD/metrics_per_image.csv",

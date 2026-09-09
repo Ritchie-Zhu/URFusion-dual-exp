@@ -72,7 +72,7 @@ jobs = [
 				'--experiment',
 				'Fusion_training_1',
 			],
-			f'{PROJECT}/vis-ir-gray/code',
+			f'{PROJECT}/our_model_1_DualMoE/code',
 		),
 	),
 	(

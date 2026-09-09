@@ -34,7 +34,7 @@ def parse_args():
 	parser.add_argument(
 		'--results_root',
 		type=str,
-		default='/root/autodl-tmp/URFusion-main/vis-ir-gray/results',
+		default='/root/autodl-tmp/URFusion-main/our_model_1_DualMoE/results',
 	)
 	parser.add_argument(
 		'--metrics_save',

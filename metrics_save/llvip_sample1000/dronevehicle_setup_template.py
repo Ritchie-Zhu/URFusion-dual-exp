@@ -21,7 +21,7 @@ PROJECT = Path('/root/autodl-tmp/URFusion-main')
 TEST_DIR = PROJECT / 'datasets/DroneVehicle/test'
 VIS_DIR = TEST_DIR / 'vis'
 IR_DIR = TEST_DIR / 'ir'
-RESULTS = PROJECT / 'vis-ir-gray/results'
+RESULTS = PROJECT / 'our_model_1_DualMoE/results'
 METRICS_SAVE = PROJECT / 'metrics_save'
 LOG_DIR = METRICS_SAVE / 'dronevehicle_sample1000'
 

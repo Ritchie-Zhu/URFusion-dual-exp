@@ -1007,7 +1007,7 @@ A2V epoch:  30
 260529.jpg
 260535.jpg
 average time:  0.005492270231246948
-[2026-07-09 14:55:46]   LLVIP: 1000/1000 -> /root/autodl-tmp/URFusion-main/vis-ir-gray/results/URFusion_LLVIP/RGB_fused
+[2026-07-09 14:55:46]   LLVIP: 1000/1000 -> /root/autodl-tmp/URFusion-main/our_model_1_DualMoE/results/URFusion_LLVIP/RGB_fused
 [2026-07-09 14:55:46] ===== URFusion @ MSRS =====
 fusion epoch:  80
 A2V epoch:  30
@@ -1375,7 +1375,7 @@ A2V epoch:  30
 01599D.png
 01603D.png
 average time:  0.0045797580497086545
-[2026-07-09 14:57:11]   MSRS: 361/361 -> /root/autodl-tmp/URFusion-main/vis-ir-gray/results/URFusion_MSRS/RGB_fused
+[2026-07-09 14:57:11]   MSRS: 361/361 -> /root/autodl-tmp/URFusion-main/our_model_1_DualMoE/results/URFusion_MSRS/RGB_fused
 [2026-07-09 14:57:11] ===== URFusion @ M3FD =====
 fusion epoch:  80
 A2V epoch:  30
@@ -1682,7 +1682,7 @@ A2V epoch:  30
 04092.png
 04160.png
 average time:  0.00575539509455363
-[2026-07-09 14:59:46]   M3FD: 300/300 -> /root/autodl-tmp/URFusion-main/vis-ir-gray/results/URFusion_M3FD/RGB_fused
+[2026-07-09 14:59:46]   M3FD: 300/300 -> /root/autodl-tmp/URFusion-main/our_model_1_DualMoE/results/URFusion_M3FD/RGB_fused
 [2026-07-09 14:59:46] ========== URFusion INFERENCE COMPLETE ==========
 [2026-07-09 14:59:47]   LLVIP: 1000
 [2026-07-09 14:59:47]   MSRS: 361

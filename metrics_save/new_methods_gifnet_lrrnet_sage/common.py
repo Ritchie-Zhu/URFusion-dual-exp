@@ -4,7 +4,7 @@ import os
 
 PROJECT = '/root/autodl-tmp/URFusion-main'
 PYTHON = '/root/autodl-tmp/conda/envs/urfusion/bin/python'
-RESULTS_ROOT = os.path.join(PROJECT, 'vis-ir-gray/results')
+RESULTS_ROOT = os.path.join(PROJECT, 'our_model_1_DualMoE/results')
 METRICS_SAVE = os.path.join(PROJECT, 'metrics_save')
 ORCH_DIR = os.path.join(METRICS_SAVE, 'new_methods_gifnet_lrrnet_sage')
 

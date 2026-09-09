@@ -32,7 +32,7 @@ PY
 verify_inference() {
 	local dataset=$1 expected=$2
 	local n
-	n=$(find "$PROJECT/vis-ir-gray/results/URFusion_${dataset}/RGB_fused" -type f 2>/dev/null | wc -l)
+	n=$(find "$PROJECT/our_model_1_DualMoE/results/URFusion_${dataset}/RGB_fused" -type f 2>/dev/null | wc -l)
 	if [[ "$n" -lt "$expected" ]]; then
 		log "ERROR: URFusion_${dataset} has ${n}/${expected} fused images"
 		exit 1
@@ -50,7 +50,7 @@ run_metrics() {
 		--methods URFusion \
 		--datasets "$dataset" \
 		--dataset_roots "$test_dir" \
-		--results_root "$PROJECT/vis-ir-gray/results" \
+		--results_root "$PROJECT/our_model_1_DualMoE/results" \
 		--metrics_save "$PROJECT/metrics_save" \
 		--project_root "$PROJECT" \
 		2>&1 | tee -a "$ORCH/eval_URFusion_${dataset}.log"

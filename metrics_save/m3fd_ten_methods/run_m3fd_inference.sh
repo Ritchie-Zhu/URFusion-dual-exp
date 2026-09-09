@@ -8,7 +8,7 @@ ORCH="$PROJECT/metrics_save/m3fd_ten_methods"
 LLVIP_ORCH="$PROJECT/metrics_save/llvip_sample1000"
 NEW_ORCH="$PROJECT/metrics_save/new_methods_gifnet_lrrnet_sage"
 TEST_DIR="$PROJECT/datasets/M3FD/test"
-RESULTS="$PROJECT/vis-ir-gray/results"
+RESULTS="$PROJECT/our_model_1_DualMoE/results"
 LOG="$ORCH/m3fd_inference.log"
 
 export CUDA_VISIBLE_DEVICES=0

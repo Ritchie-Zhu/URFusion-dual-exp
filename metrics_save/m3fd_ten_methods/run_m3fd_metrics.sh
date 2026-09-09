@@ -26,7 +26,7 @@ verify_inference() {
 	local expected=$1
 	for m in "${METHODS[@]}"; do
 		local n
-		n=$(find "$PROJECT/vis-ir-gray/results/${m}_M3FD/RGB_fused" -type f 2>/dev/null | wc -l)
+		n=$(find "$PROJECT/our_model_1_DualMoE/results/${m}_M3FD/RGB_fused" -type f 2>/dev/null | wc -l)
 		if [[ "$n" -lt "$expected" ]]; then
 			log "ERROR: ${m}_M3FD has ${n}/${expected} fused images"
 			exit 1
@@ -46,7 +46,7 @@ $PYTHON "$EVAL" \
 	--methods "${METHODS[@]}" \
 	--datasets M3FD \
 	--dataset_roots "$TEST_DIR" \
-	--results_root "$PROJECT/vis-ir-gray/results" \
+	--results_root "$PROJECT/our_model_1_DualMoE/results" \
 	--metrics_save "$PROJECT/metrics_save" \
 	--project_root "$PROJECT" \
 	2>&1 | tee -a "$ORCH/eval_M3FD.log"

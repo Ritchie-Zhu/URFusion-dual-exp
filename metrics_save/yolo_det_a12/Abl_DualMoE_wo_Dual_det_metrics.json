@@ -1,0 +1,16 @@
+{
+  "input": "Abl_DualMoE_wo_Dual",
+  "n_images": 2000,
+  "mAP50": 0.801097,
+  "mAP50-95": 0.515512,
+  "precision": 0.870444,
+  "recall": 0.736809,
+  "f1": 0.798071,
+  "AP50-95_person": 0.441977,
+  "AP50-95_car": 0.62748,
+  "AP50-95_bus": 0.661872,
+  "AP50-95_lamp": 0.426065,
+  "AP50-95_motorcycle": 0.332669,
+  "AP50-95_truck": 0.603012,
+  "eval_time_s": 12.34
+}

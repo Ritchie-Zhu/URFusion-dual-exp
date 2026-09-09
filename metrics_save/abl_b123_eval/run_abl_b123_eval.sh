@@ -12,7 +12,7 @@ EVAL="$PROJECT/metrics_save/llvip_sample1000/run_eval_mp.py"
 COLOR_XLSX="$PROJECT/metrics_save/new_methods_gifnet_lrrnet_sage/run_color_xlsx.py"
 ORCH="$PROJECT/metrics_save/abl_b123_eval"
 LOG="$ORCH/pipeline.log"
-RESULTS="$PROJECT/vis-ir-gray/results"
+RESULTS="$PROJECT/our_model_1_DualMoE/results"
 SHUTDOWN="${SHUTDOWN:-1}"
 
 export PYTHONUNBUFFERED=1
@@ -22,7 +22,7 @@ export MKL_NUM_THREADS=1
 export OPENBLAS_NUM_THREADS=1
 export NUMEXPR_NUM_THREADS=1
 
-METHODS=(Abl_wo_Lint Abl_wo_Lgrad Abl_wo_Lbranch)
+METHODS=(Abl_DualMoE_wo_Lint Abl_DualMoE_wo_Lgrad Abl_DualMoE_wo_Lbranch)
 DATASET_NAMES=(LLVIP MSRS M3FD)
 TEST_DIRS=(
 	"$PROJECT/datasets/LLVIP/test_sample1000"
@@ -52,7 +52,7 @@ expected_count() {
 
 verify_ckpt() {
 	local exp=$1
-	local ckpt="$PROJECT/vis-ir-gray/train-jobs/ckpt/${exp}/${exp}_ckpt.pth"
+	local ckpt="$PROJECT/our_model_1_DualMoE/train-jobs/ckpt/${exp}/${exp}_ckpt.pth"
 	if [[ ! -f "$ckpt" ]]; then
 		log "ERROR: missing ckpt $ckpt"
 		exit 1
@@ -109,7 +109,7 @@ from pathlib import Path
 import openpyxl
 
 base = Path(sys.argv[1])
-need = ['Abl_wo_Lint', 'Abl_wo_Lgrad', 'Abl_wo_Lbranch']
+need = ['Abl_DualMoE_wo_Lint', 'Abl_DualMoE_wo_Lgrad', 'Abl_DualMoE_wo_Lbranch']
 keep = 'Fusion_noleak_1'
 for ds in ['LLVIP', 'MSRS', 'M3FD']:
 	p = base / f'{ds}.xlsx'

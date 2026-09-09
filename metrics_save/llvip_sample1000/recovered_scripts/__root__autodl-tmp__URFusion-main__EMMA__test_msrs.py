@@ -16,7 +16,7 @@ from utils import image_read_cv2
 
 VIS_ROOT = '/root/autodl-tmp/URFusion-main/datasets/MSRS/test/vis'
 IR_ROOT = '/root/autodl-tmp/URFusion-main/datasets/MSRS/test/ir'
-OUTPUT_DIR = '/root/autodl-tmp/URFusion-main/vis-ir-gray/results/EMMA_MSRS/RGB_fused'
+OUTPUT_DIR = '/root/autodl-tmp/URFusion-main/our_model_1_DualMoE/results/EMMA_MSRS/RGB_fused'
 MODEL_PATH = os.path.join(os.path.dirname(__file__), 'model', 'EMMA.pth')
 
 

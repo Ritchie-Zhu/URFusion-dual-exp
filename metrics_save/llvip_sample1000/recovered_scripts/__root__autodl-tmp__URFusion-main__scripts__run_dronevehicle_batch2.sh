@@ -4,7 +4,7 @@ set -euo pipefail
 PROJECT=/root/autodl-tmp/URFusion-main
 PYTHON=/root/autodl-tmp/conda/envs/urfusion/bin/python
 TEST_DIR="$PROJECT/datasets/DroneVehicle/test"
-RESULTS="$PROJECT/vis-ir-gray/results"
+RESULTS="$PROJECT/our_model_1_DualMoE/results"
 LOG_DIR="$PROJECT/metrics_save/dronevehicle_inference"
 mkdir -p "$LOG_DIR" "$RESULTS"
 
@@ -45,7 +45,7 @@ run_metafusion() {
 
 run_fusion_training_1() {
 	log "===== Fusion_training_1 @ DroneVehicle ====="
-	cd "$PROJECT/vis-ir-gray/code"
+	cd "$PROJECT/our_model_1_DualMoE/code"
 	$PYTHON test_fusion_gray.py \
 		--dataset DroneVehicle \
 		--test_dir "$TEST_DIR" \

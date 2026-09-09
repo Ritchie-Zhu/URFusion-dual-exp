@@ -1,0 +1,14 @@
+[START] SpatialResMoE_2 spatial residual MoE
+  code=/root/autodl-tmp/URFusion-main/our_model_2_SpatialResMoE/code
+  data=/root/autodl-tmp/URFusion-main/datasets/training_noleak/train
+  C=Vis_Content_noleak / ir_Content_noleak
+  lambda_route=0.05 (no L_aux)
+  ckpt=/root/autodl-tmp/URFusion-main/our_model_2_SpatialResMoE/train-jobs/ckpt/SpatialResMoE_2/SpatialResMoE_2_ckpt.pth
+  fixed every 10 ep, n=8: ['00306.png', '02033.png', '00000.png', '00031.png', '01505.png', '01562.png', '03769.png', '04053.png']
+  HEALTH: OK | GATE_COLLAPSE g_mean<0.05|>0.95 | GATE_FLAT g_std<0.02 | UNIQUE_DEAD both unique L1<1e-3 | RESIDUAL_DEAD (res_vis+res_ir)<0.01*e_base
+[F_gray ep 1/80] loss=0.0994 L_main=0.0208 L_int=0.0560 L_grad=0.0548 L_branch=0.1418 L_route=0.3369 elapsed=0:01:50
+[HEALTH] GATE_COLLAPSE,GATE_FLAT | g_mean=0.955 g_std=0.004 mask=0.680 | res_vis=0.1365 res_ir=0.0005 e_base=0.0866 | vis_u=0.0757 ir_u=0.0774 cap=0.1118
+[F_gray ep 2/80] loss=0.0674 L_main=0.0257 L_int=0.0333 L_grad=0.0219 L_branch=0.0416 L_route=0.3209 elapsed=0:03:38
+[HEALTH] GATE_COLLAPSE,GATE_FLAT | g_mean=1.000 g_std=0.000 mask=0.679 | res_vis=0.1843 res_ir=0.0000 e_base=0.0986 | vis_u=0.0924 ir_u=0.0994 cap=0.1566
+[F_gray ep 3/80] loss=0.0629 L_main=0.0265 L_int=0.0306 L_grad=0.0169 L_branch=0.0400 L_route=0.3198 elapsed=0:05:26
+[HEALTH] GATE_COLLAPSE,GATE_FLAT | g_mean=1.000 g_std=0.000 mask=0.680 | res_vis=0.1839 res_ir=0.0000 e_base=0.0978 | vis_u=0.0932 ir_u=0.1016 cap=0.1538

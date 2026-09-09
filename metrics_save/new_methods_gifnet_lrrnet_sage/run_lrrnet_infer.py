@@ -16,7 +16,7 @@ from tqdm import tqdm
 PROJECT = '/root/autodl-tmp/URFusion-main'
 LRRNET_DIR = os.path.join(PROJECT, 'LRRNet')
 ORCH_DIR = os.path.join(PROJECT, 'metrics_save/new_methods_gifnet_lrrnet_sage')
-CODE_DIR = os.path.join(PROJECT, 'vis-ir-gray/code')
+CODE_DIR = os.path.join(PROJECT, 'our_model_1_DualMoE/code')
 
 sys.path.insert(0, LRRNET_DIR)
 os.chdir(LRRNET_DIR)

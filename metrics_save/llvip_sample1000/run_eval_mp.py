@@ -97,7 +97,7 @@ def parse_args():
 	parser.add_argument('--methods', nargs='+', required=True)
 	parser.add_argument('--datasets', nargs='+', required=True)
 	parser.add_argument('--dataset_roots', nargs='+', required=True)
-	parser.add_argument('--results_root', type=str, default=str(PROJECT / 'vis-ir-gray/results'))
+	parser.add_argument('--results_root', type=str, default=str(PROJECT / 'our_model_1_DualMoE/results'))
 	parser.add_argument('--metrics_save', type=str, default=str(PROJECT / 'metrics_save'))
 	parser.add_argument('--project_root', type=str, default=str(PROJECT))
 	parser.add_argument('--num_workers', type=int, default=8)

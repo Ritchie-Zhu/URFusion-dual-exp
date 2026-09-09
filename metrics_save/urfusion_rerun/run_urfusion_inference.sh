@@ -7,7 +7,7 @@ PYTHON=/root/autodl-tmp/conda/envs/urfusion/bin/python
 URFUSION_CODE="$PROJECT/URFusion/vis-ir/code"
 CKPT="$PROJECT/URFusion/vis-ir/train-jobs/ckpt/content-fusion_ckpt.pth"
 VIS_MAT="$PROJECT/URFusion/vis-ir/train-jobs/vis.mat"
-RESULTS="$PROJECT/vis-ir-gray/results"
+RESULTS="$PROJECT/our_model_1_DualMoE/results"
 LOG_DIR="$PROJECT/metrics_save/urfusion_rerun"
 LOG="$LOG_DIR/urfusion_inference.log"
 

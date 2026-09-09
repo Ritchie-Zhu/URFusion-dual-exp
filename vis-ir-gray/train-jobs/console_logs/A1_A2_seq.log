@@ -1,8 +1,0 @@
-[2026-09-04 00:39:58] ========== A1 then A2 START ==========
-[2026-09-04 00:39:58] OMP_NUM_THREADS=1 CUDA_VISIBLE_DEVICES=0
-[2026-09-04 00:39:58] ===== A1 Abl_wo_Dual =====
-[2026-09-04 03:06:10] ===== A1 DONE =====
-[2026-09-04 03:06:10] ===== A2 Abl_wo_MoE =====
-[2026-09-04 04:55:57] ===== A2 DONE =====
-[2026-09-04 04:55:57] ========== A1 then A2 COMPLETE ==========
-[2026-09-04 04:55:57] [SHUTDOWN] both trains succeeded; calling /usr/bin/shutdown

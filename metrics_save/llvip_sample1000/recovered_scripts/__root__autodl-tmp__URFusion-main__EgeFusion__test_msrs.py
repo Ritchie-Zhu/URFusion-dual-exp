@@ -12,7 +12,7 @@ from egefusion_py import fuse_gray
 
 VIS_ROOT = '/root/autodl-tmp/URFusion-main/datasets/MSRS/test/vis'
 IR_ROOT = '/root/autodl-tmp/URFusion-main/datasets/MSRS/test/ir'
-OUTPUT_DIR = '/root/autodl-tmp/URFusion-main/vis-ir-gray/results/EgeFusion_MSRS/RGB_fused'
+OUTPUT_DIR = '/root/autodl-tmp/URFusion-main/our_model_1_DualMoE/results/EgeFusion_MSRS/RGB_fused'
 
 
 def rgb_to_ycbcr(img_bgr: np.ndarray):
