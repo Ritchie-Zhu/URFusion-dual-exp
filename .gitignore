@@ -85,3 +85,16 @@ metrics_save/**/*.jpeg
 # Keep experiment console logs despite generic *.log
 !**/console_logs/*.log
 !**/train-jobs/console_logs/*.log
+
+# AI4R deploy: frozen C finals + official evaluation_one bytecode only
+!our_model_1_DualMoE/train-jobs/ckpt/
+!our_model_1_DualMoE/train-jobs/ckpt/Vis_Content_noleak/
+!our_model_1_DualMoE/train-jobs/ckpt/Vis_Content_noleak/*.pth
+!our_model_1_DualMoE/train-jobs/ckpt/ir_Content_noleak/
+!our_model_1_DualMoE/train-jobs/ckpt/ir_Content_noleak/*.pth
+!metrics_py/__pycache__/
+!metrics_py/__pycache__/eval_torch.cpython-310.pyc
+!metrics_py/__pycache__/Metric_torch.cpython-310.pyc
+!metrics_py/__pycache__/Qabf.cpython-310.pyc
+!metrics_py/__pycache__/Nabf.cpython-310.pyc
+!metrics_py/__pycache__/ssim.cpython-310.pyc
