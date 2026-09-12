@@ -1,4 +1,4 @@
-# AI4R 环境
+# 运行环境：Python、依赖与线程
 
 与本机人工复现时一致。Python 固定为 conda 环境里的解释器，不要用系统 python。
 
@@ -34,12 +34,12 @@ export MKL_NUM_THREADS=1 OPENBLAS_NUM_THREADS=1 NUMEXPR_NUM_THREADS=1
 
 ## 锁定训练协议
 
-- 数据：`datasets/training_noleak`（9987 pairs，见 `01_DEPLOY.md`）
+- 数据：`datasets/training_noleak`（9987 pairs，见 `部署说明_仓库与数据集如何接路径.md`）
 - batch 12，patch 160，80 epoch，Adam 1e-4，seed 1234，`num_workers` 12
 - 冻结 C：`Vis_Content_noleak` / `ir_Content_noleak`
 - 推理：Y 融合 + VIS Cb/Cr；不跑 C
-- 主表 6 列（越高越好）：NMI, Qy, MI, VIF, Qabf, VIFF
-- 评测：`metrics_save/llvip_sample1000/run_eval_mp.py`，8 workers，禁止 `eval_torch_fast`
+- 融合评测：官方 25 项，`run_eval_mp.py`，8 workers，禁止 `eval_torch_fast`（见 `改融合网络指令_融合与检测成功标准.md` / `对照指标_融合25项与目标检测指标.md`）
+- 检测评测：同一 `best.pt`，`test_iv_2000`
 
 单轮 Fusion 约 1.5–2 分钟，80 epoch 约 2–2.5 小时。三测试集官方评测约 34 分钟。
 
