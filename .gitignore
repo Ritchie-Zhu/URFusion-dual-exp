@@ -98,3 +98,6 @@ metrics_save/**/*.jpeg
 !metrics_py/__pycache__/Qabf.cpython-310.pyc
 !metrics_py/__pycache__/Nabf.cpython-310.pyc
 !metrics_py/__pycache__/ssim.cpython-310.pyc
+
+# Handoff markdown stays on the cloud disk, not GitHub
+AI4R_Doc/
